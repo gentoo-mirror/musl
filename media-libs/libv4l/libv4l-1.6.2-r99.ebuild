@@ -3,7 +3,7 @@
 # $Header: /var/cvsroot/gentoo-x86/media-libs/libv4l/libv4l-1.6.2.ebuild,v 1.5 2015/07/16 15:45:55 klausman Exp $
 
 EAPI=5
-inherit eutils linux-info multilib-minimal
+inherit eutils flag-o-matic linux-info multilib-minimal
 
 MY_P=v4l-utils-${PV}
 
@@ -37,7 +37,9 @@ pkg_setup() {
 }
 
 src_prepare() {
-	epatch "${FILESDIR}"/${PN}-1.0.0-off_t.patch
+	epatch "${FILESDIR}"/${P}-off_t.patch
+	epatch "${FILESDIR}"/${P}-musl-open64-mmap64.patch
+	epatch "${FILESDIR}"/${P}-musl-ioctl.patch
 	multilib_copy_sources
 }
 
