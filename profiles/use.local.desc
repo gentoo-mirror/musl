@@ -1,0 +1,306 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml. Please add
+# your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-crypt/gpgme:common-lisp - Install common-lisp files
+app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
+app-editors/emacs:games - Support shared score files for games
+app-editors/emacs:gconf - Use gnome-base/gconf to read the system font name
+app-editors/emacs:gfile - Use gfile (dev-libs/glib) for file notification
+app-editors/emacs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
+app-editors/emacs:gtk3 - Link against version 3 of the GIMP Toolkit instead of version 2 (x11-libs/gtk+)
+app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
+app-editors/emacs:hesiod - Enable support for net-dns/hesiod
+app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
+app-editors/emacs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
+app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
+app-editors/emacs:source - Install C source files and make them available for find-function
+app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
+app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
+app-editors/emacs-vcs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
+app-editors/emacs-vcs:games - Support shared score files for games
+app-editors/emacs-vcs:gconf - Use gnome-base/gconf to read the system font name
+app-editors/emacs-vcs:gfile - Use gfile (dev-libs/glib) for file notification
+app-editors/emacs-vcs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
+app-editors/emacs-vcs:gtk3 - Link against version 3 of the GIMP Toolkit instead of version 2 (x11-libs/gtk+)
+app-editors/emacs-vcs:gzip-el - Compress bundled Emacs Lisp source
+app-editors/emacs-vcs:hesiod - Enable support for net-dns/hesiod
+app-editors/emacs-vcs:imagemagick - Use media-gfx/imagemagick for image processing
+app-editors/emacs-vcs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
+app-editors/emacs-vcs:pax_kernel - Enable building under a PaX enabled kernel
+app-editors/emacs-vcs:source - Install C source files and make them available for find-function
+app-editors/emacs-vcs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
+app-editors/emacs-vcs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
+app-emulation/qemu:accessibility - Adds support for braille displays using brltty
+app-emulation/qemu:aio - Enables support for Linux's Async IO
+app-emulation/qemu:alsa - Enable alsa output for sound emulation
+app-emulation/qemu:curl - Support ISOs / -cdrom directives vis HTTP or HTTPS.
+app-emulation/qemu:fdt - Enables firmware device tree support
+app-emulation/qemu:glusterfs - Enables GlusterFS cluster fileystem via sys-cluster/glusterfs
+app-emulation/qemu:iscsi - Enable direct iSCSI support via net-libs/libiscsi instead of indirectly via the Linux block layer that sys-block/open-iscsi does.
+app-emulation/qemu:jpeg - Enable jpeg image support for the VNC console server
+app-emulation/qemu:ncurses - Enable the ncurses-based console
+app-emulation/qemu:nfs - Enable NFS support
+app-emulation/qemu:numa - Enable NUMA support
+app-emulation/qemu:pin-upstream-blobs - Pin the versions of BIOS firmware to the version included in the upstream release. This is needed to sanely support migration/suspend/resume/snapshotting/etc... of instances. When the blobs are different, random corruption/bugs/crashes/etc... may be observed.
+app-emulation/qemu:png - Enable png image support for the VNC console server
+app-emulation/qemu:pulseaudio - Enable pulseaudio output for sound emulation
+app-emulation/qemu:rbd - Enable rados block device backend support, see http://ceph.newdream.net/wiki/QEMU-RBD
+app-emulation/qemu:sdl - Enable the SDL-based console
+app-emulation/qemu:seccomp - Utilize sys-libs/libseccomp to enable kernel filtering of system calls to prevent malicious guests from doing damage.
+app-emulation/qemu:snappy - Enable support for snappy compression
+app-emulation/qemu:spice - Enable Spice protocol support via app-emulation/spice
+app-emulation/qemu:ssh - Enable SSH based block device support via net-libs/libssh2
+app-emulation/qemu:static - Enables both 'static-softmmu' and 'static-user'
+app-emulation/qemu:static-softmmu - Builds the Software MMU (system) targets as static binaries
+app-emulation/qemu:static-user - Build the User targets as static binaries
+app-emulation/qemu:systemtap - Enable SystemTAP/DTrace tracing
+app-emulation/qemu:tci - Enable the TCG Interpreter which can speed up or slowdown workloads depending on the host and guest CPUs being emulated. In the future it will be a runtime option but for now its compile time.
+app-emulation/qemu:tls - Enable TLS support for the VNC console server. For 1.4 and newer this also enables WebSocket support. For 2.0 and newer this also enables disk quorum support.
+app-emulation/qemu:usb - Enable USB passthrough via dev-libs/libusb
+app-emulation/qemu:usbredir - Use sys-apps/usbredir to redirect USB devices to another machine over TCP
+app-emulation/qemu:uuid - Enable UUID support in the vdi block driver
+app-emulation/qemu:vde - Enable VDE-based networking
+app-emulation/qemu:vhost-net - Enable accelerated networking using vhost-net, see http://www.linux-kvm.org/page/VhostNet
+app-emulation/qemu:virtfs - Enable VirtFS via virtio-9p-pci / fsdev. See http://wiki.qemu.org/Documentation/9psetup
+app-emulation/qemu:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr. Requisite for the virtfs backend.
+app-emulation/qemu:xen - Enables support for Xen backends
+app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
+app-emulation/wine:capi - Enable ISDN support via CAPI
+app-emulation/wine:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine:opencl - Enable OpenCL support
+app-emulation/wine:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine:prelink - Run prelink on DLLs during build -- do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
+app-emulation/wine:udisks - Support dynamic storage devices using sys-fs/udisks
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
+app-office/libreoffice:gltf - Use media-libs/libgltf for inserting 3D models in the glTF format into presentations
+app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
+app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
+app-office/libreoffice:vlc - Use media-video/vlc for video embedding
+app-text/texlive-core:xetex - Add support for XeTeX: a TeX system with Unicode and modern font technologies.
+dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
+dev-lang/ruby:readline - Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
+dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
+dev-lang/ruby:yaml - Use the dev-libs/libyaml library to build the psych extension, available since Ruby 1.9.2_rc2, in alternative to the bundled syck-based parser.
+dev-libs/DirectFB:bmp - build BMP image provider
+dev-libs/DirectFB:divine - enable DiVine
+dev-libs/DirectFB:drmkms - build with DRM/KMS support
+dev-libs/DirectFB:dynload - enable dynload support
+dev-libs/DirectFB:egl - build with EGL support
+dev-libs/DirectFB:fusiondale - enable FusionDale
+dev-libs/DirectFB:fusionsound - enable FusionSound
+dev-libs/DirectFB:gles2 - build gles2 gfxdriver
+dev-libs/DirectFB:imlib2 - build Imlib2 image provider
+dev-libs/DirectFB:input_hub - provides an asynchronous interface to the input devices available and those being added/removed
+dev-libs/DirectFB:mpeg2 - build MPEG2 image provider
+dev-libs/DirectFB:mpeg3 - build Libmpeg3 video provider
+dev-libs/DirectFB:multicore - enable multicore support
+dev-libs/DirectFB:pnm - build PNM (PBM/PGM/PPM) image provider
+dev-libs/DirectFB:sawman - enable SaWMan (window manager and application manager)
+dev-libs/DirectFB:swfdec - build Swfdec (Flash decoder) video provider
+dev-libs/DirectFB:tremor - build Ogg/Vorbis music provider using Tremor
+dev-libs/DirectFB:webp - build WebP image provider
+dev-libs/gmp:pgo - after building gmp, run some tests against to produce faster libraries -- this option will double the compile time
+dev-libs/nss:cacert - Include root certs from CAcert (http://http://www.cacert.org/) and Software in the Public Interest (http://www.spi-inc.org/)
+dev-libs/nss:nss-pem - Add support for libnsspem
+dev-libs/nss:utils - Install utilities included with the library
+dev-qt/qt3support:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
+dev-qt/qtcore:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
+dev-qt/qtcore:glib - Enable dev-libs/glib eventloop support
+dev-qt/qtcore:qt3support - Enable the Qt3Support libraries for Qt4. Note that this does not mean you can compile pure Qt3 programs with Qt4.
+dev-scheme/guile:debug-freelist - Include garbage collector freelist debugging code
+dev-scheme/guile:debug-malloc - Include malloc debugging code
+dev-scheme/guile:deprecated - Enable deprecated features
+dev-scheme/guile:discouraged - (implied by deprecated) enable merely discouraged features
+dev-scheme/guile:networking - Include networking interfaces
+dev-scheme/guile:regex - Include regular expression interfaces
+dev-vcs/cvs:server - Enable server support
+gnome-base/gnome-keyring:ssh-agent - Use GNOME Keyring to unlock SSH keys. Recommended unless you are using ECDSA or Ed25519 keys.
+gnome-base/libgtop:introspection - Use dev-libs/gobject-introspection for introspection
+mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)
+mail-mta/exim:dkim - Adds support for DomainKeys Identified Mail (DKIM)
+mail-mta/exim:dlfunc - Install local_scan.h header to compile separate dlfunc libraries
+mail-mta/exim:dmarc - Adds support for DMARC
+mail-mta/exim:dnsdb - Adds support for a DNS search for a record whose domain name is the supplied query
+mail-mta/exim:dovecot-sasl - Adds support for Dovecot's authentication
+mail-mta/exim:dsn - Adds support for Delivery Status Notifications (DSN)
+mail-mta/exim:exiscan-acl - Patch providing support for content scanning
+mail-mta/exim:lmtp - Adds support for lmtp
+mail-mta/exim:mbx - Adds support for UW's mbx format
+mail-mta/exim:pkcs11 - Require pkcs11 support in net-libs/gnutls with USE=gnutls
+mail-mta/exim:prdr - Adds support for Per-Recipient Data Response
+mail-mta/exim:proxy - Add support for being behind a proxy, such as HAProxy
+mail-mta/exim:redis - Adds support for querying dev-db/redis
+mail-mta/exim:spf - Adds support for Sender Policy Framework
+mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
+mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
+media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
+media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
+media-libs/mesa:classic - Build drivers based on the classic architecture.
+media-libs/mesa:dri3 - Enable DRI3 support.
+media-libs/mesa:egl - Enable EGL support.
+media-libs/mesa:gallium - Build drivers based on Gallium3D, the new architecture for 3D graphics drivers.
+media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
+media-libs/mesa:gles1 - Enable GLESv1 support.
+media-libs/mesa:gles2 - Enable GLESv2 support.
+media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
+media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
+media-libs/mesa:openmax - Enable OpenMAX video decode/encode acceleration for Gallium3D.
+media-libs/mesa:openvg - Enable the OpenVG 2D acceleration API for Gallium3D.
+media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
+media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
+media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
+media-libs/mesa:wayland - Enable support for dev-libs/wayland
+media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
+media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
+media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
+net-dialup/ppp:activefilter - Enables active filter support
+net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support
+net-dialup/ppp:dhcp - Installs PPP DHCP client plugin for IP address allocation by a DHCP server (see http://www.netservers.co.uk/gpl/)
+net-dialup/ppp:eap-tls - Enables support for Extensible Authentication Protocol and Transport Level Security (see http://www.nikhef.nl/~janjust/ppp/index.html)
+net-dialup/ppp:gtk - Installs GTK+ password prompting program that can be used by passprompt.so PPP plugin for reading the password from a X11 input terminal
+net-dialup/ppp:ipv6 - Enables support for IP version 6
+net-dialup/ppp:mppe-mppc - Enables support for MPPC (Microsoft Point-to-Point Compression) - NEEDS A PATCHED KERNEL <=2.6.14 (see http://mppe-mppc.alphacron.de)
+net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
+net-dialup/ppp:radius - Enables RADIUS support
+net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
+net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
+net-fs/cifs-utils:caps - libcap support
+net-fs/cifs-utils:caps-ng - libcap-ng support
+net-fs/cifs-utils:creds - cifs credentials support
+net-libs/webkit-gtk:coverage - Enable code coverage support
+net-libs/webkit-gtk:egl - Enable EGL support.
+net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
+net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
+net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
+net-misc/dhcp:client - Install the dhclient program
+net-misc/dhcp:server - Install the dhcpd and dhcrelay programs
+net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
+net-misc/modemmanager:mbim - Enable MBIM modem protocol
+net-misc/modemmanager:qmi - Enable support for the QMI modem protocol used by devices with Qualcomm chipsets
+net-misc/modemmanager:qmi-newest - Avoid deprecated QMI commands. Warning: may cause incompatibility with older devices.
+net-misc/openssh:X509 - Adds support for X.509 certificate authentication
+net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
+net-misc/openssh:hpn - Enable high performance ssh
+net-misc/openssh:ldap - Add support for storing SSH public keys in LDAP
+net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
+net-misc/openssh:sctp - Support for Stream Control Transmission Protocol
+net-misc/openvpn:down-root - Enable the down-root plugin
+net-misc/openvpn:iproute2 - Enabled iproute2 support instead of net-tools
+net-misc/openvpn:passwordsave - Enables openvpn to save passwords
+net-misc/openvpn:pkcs11 - Enable PKCS#11 smartcard support
+net-misc/openvpn:plugins - Enable the OpenVPN plugin system
+net-misc/openvpn:polarssl - Use PolarSSL instead of OpenSSL
+net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
+net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
+net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
+net-wireless/bluez:hid2hci - The HID proxying makes the keyboard / mouse show up as regular USB HID devices, but needs them to be paired before enabling this, otherwise they won't be detected
+net-wireless/bluez:obex - Enable OBEX transfer support.
+net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
+sys-apps/busybox:make-symlinks - Create all the appropriate symlinks in /bin and /sbin.
+sys-apps/busybox:math - Enable math support in gawk (requires libm)
+sys-apps/busybox:mdev - Create the appropriate symlink in /sbin and install mdev.conf and support files
+sys-apps/busybox:sep-usr - Support a separate /usr without needing an initramfs by booting with init=/ginit
+sys-apps/busybox:static - Make the system rescue shell (/bin/bb) static so you can recover even when glibc is broken
+sys-apps/busybox:systemd - Support systemd
+sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
+sys-apps/iproute2:iptables - include support for iptables filtering
+sys-apps/net-tools:old-output - use old ifconfig output style (useful for when new output breaks scripts)
+sys-apps/pciutils:kmod - Enable sys-apps/kmod support for the -k switch in lspci command
+sys-apps/pciutils:zlib - Support compressed pci.ids database
+sys-apps/shadow:audit - Enable support for sys-process/audit
+sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely need want it)
+sys-apps/util-linux:caps - build setpriv helper (run programs with diff capabilities)
+sys-apps/util-linux:cramfs - build mkfs/fsck helpers for cramfs filesystems
+sys-apps/util-linux:cytune - build cytune for Cyclades-Z multiport serial cards
+sys-apps/util-linux:fdformat - build fdformat (floppy disk format)
+sys-apps/util-linux:suid - install mount/umount as setuid so non-root users may mount/umount devices, and wall/write as setgid so non-root users can notify other users
+sys-apps/util-linux:tty-helpers - install the mesg/wall/write tools for talking to local users
+sys-apps/xinetd:rpc - support RPC services
+sys-auth/polkit:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
+sys-block/parted:debug - Enable debugging as encouraged by upstream: [The default configuration] includes --enable-debug (by default), which contains many assertions. Obviously, these "waste" space, but in the past, they have caught potentially dangerous bugs before they would have done damage, so we think it's worth it. Also, it means we get more bug reports ;)
+sys-block/parted:device-mapper - Enable device-mapper support from sys-fs/lvm2 in parted
+sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
+sys-boot/lilo:minimal - Do not install the dolilo helper script
+sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
+sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
+sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
+sys-devel/gcc:go - Build the GCC Go language frontend.
+sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
+sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
+sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
+sys-devel/gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
+sys-devel/gcc:nopie - Disable PIE support (NOT FOR GENERAL USE)
+sys-devel/gcc:nossp - Disable SSP support (NOT FOR GENERAL USE)
+sys-devel/gcc:objc - Build support for the Objective C code language
+sys-devel/gcc:objc++ - Build support for the Objective C++ language
+sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
+sys-devel/gcc:regression-test - Run the testsuite and install the results (requires FEATURES=test)
+sys-devel/gcc:sanitize - Build support various sanitizer functions (ASAN/TSAN/etc...)
+sys-devel/gdb:client - Install the main "gdb" program (most people want this)
+sys-devel/gdb:multitarget - Support all known targets in one gdb binary
+sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
+sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+sys-devel/llvm:clang - Build the clang C/C++ compiler
+sys-devel/llvm:cmake - Enable cmake support (experimental)
+sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
+sys-devel/llvm:gold - Build the gold linker plugin
+sys-devel/llvm:llvm-gcc - Build LLVM with sys-devel/llvm-gcc
+sys-devel/llvm:multitarget - Build all host targets (default: host only)
+sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
+sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
+sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
+sys-fs/lvm2:clvm - Allow users to build clustered lvm2
+sys-fs/lvm2:cman - Cman support for clustered lvm
+sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
+sys-fs/lvm2:lvm1 - Allow users to build lvm2 with lvm1 support
+sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
+sys-fs/lvm2:thin - Support for thin volumes
+sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
+sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
+sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
+sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1.8 databases into gdbm-1.9
+sys-libs/pam:audit - Enable support for sys-process/audit
+sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
+sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
+sys-libs/talloc:compat - Enable extra compatibility stuff
+sys-process/lsof:rpc - support looking up RPC service info
+sys-process/procps:modern-top - Enables new startup defaults of top. Keeps old defaults if disabled
+sys-process/procps:ncurses - Build programs that use ncurses: top, slabtop, watch
+www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
+www-client/firefox:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/firefox:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/firefox:minimal - Prevent sdk and headers from being installed
+www-client/firefox:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/firefox:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
+www-client/firefox:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+www-client/firefox:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
+www-client/firefox:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
+www-client/firefox:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
+www-client/midori:deprecated - Enable GTK+-2 instead of GTK+-3 because of external plugins like adobe-flash
+www-client/midori:granite - Enable support for the elementary library dev-libs/granite
+www-client/midori:webkit2 - Enable WebKit2 API that splits web content rendering and application UI into separate processes
+www-client/midori:zeitgeist - Add support for Zeitgeist event tracking system
+x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
+x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
+x11-base/xorg-server:kdrive - Build the kdrive X servers
+x11-base/xorg-server:tslib - Build with tslib support for touchscreen devices
+x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
+x11-base/xorg-server:xnest - Build the Xnest server
+x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
+x11-base/xorg-server:xvfb - Build the Xvfb server
+x11-libs/vte:glade - Provide integration with dev-util/glade.
+x11-misc/slim:consolekit - Enable native consolekit support
