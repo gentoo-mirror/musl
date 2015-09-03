@@ -83,7 +83,7 @@ sys-fs/lvm2 2.02.110-r99: User-land utilities for LVM2 (device-mapper) software
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
 sys-fs/xfsdump 3.1.4-r99: xfs dump/restore utilities
 sys-fs/xfsprogs 3.2.2-r99: xfs filesystem utilities
-sys-kernel/linux-headers 3.18-r99: Linux system headers
+sys-kernel/linux-headers 3.16 3.18-r99: Linux system headers
 sys-libs/gdbm 1.11-r99: Standard GNU database libraries
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
 sys-libs/libcap-ng 0.7.3-r99 0.7.4-r99: POSIX 1003.1e capabilities
