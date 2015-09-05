@@ -98,7 +98,7 @@ sys-libs/tevent 0.9.21-r99: Samba tevent library
 sys-process/lsof 4.88-r99: Lists open files for running Unix processes
 sys-process/procps 3.3.8-r99 3.3.9-r99 3.3.10-r99: standard informational utilities and process-handling tools
 sys-process/psmisc 22.21-r99: A set of tools that use the proc filesystem
-www-client/firefox 37.0.1-r99: Firefox Web Browser
+www-client/firefox 40.0.3-r99: Firefox Web Browser
 www-client/midori 0.5.10-r99: A lightweight web browser based on WebKitGTK+
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
