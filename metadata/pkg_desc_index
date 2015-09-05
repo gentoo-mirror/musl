@@ -27,6 +27,7 @@ mail-mta/exim 4.84-r99: A highly configurable, drop-in replacement for sendmail
 media-gfx/fontforge 20150430-r99: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.0.27.1-r99: Advanced Linux Sound Architecture Library
+media-libs/libdvbpsi 1.2.0-r99: library for MPEG TS/DVB PSI tables decoding and generation
 media-libs/libmpdclient 2.9-r99: A library for interfacing Music Player Daemon (media-sound/mpd)
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2-r99: Separate libraries ebuild from upstream v4l-utils package
