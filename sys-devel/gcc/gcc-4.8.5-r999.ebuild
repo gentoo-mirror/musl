@@ -4,11 +4,11 @@
 
 EAPI="4"
 
-PATCH_VER="1.6"
+PATCH_VER="1.3"
 UCLIBC_VER="1.0"
 
 # Hardened gcc 4 stuff
-PIE_VER="0.6.1"
+PIE_VER="0.6.2"
 SPECS_VER="0.2.0"
 SPECS_GCC_VER="4.4.3"
 # arch/libc configurations known to be stable with {PIE,SSP}-by-default
@@ -24,7 +24,7 @@ SSP_MUSL_STABLE="amd64 arm ppc mips"
 
 inherit eutils toolchain
 
-KEYWORDS="amd64 arm ~mips ~ppc x86"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=""
 DEPEND="${RDEPEND}
@@ -56,6 +56,7 @@ src_prepare() {
 		epatch "${FILESDIR}"/${PN}-4.8.3-secure-plt.patch
 		epatch "${FILESDIR}"/${PN}-4.8.3-musl-res_state.patch
 		epatch "${FILESDIR}"/${PN}-4.8.3-musl-fix-libc5-assumption.patch
+		epatch "${FILESDIR}"/${PN}-4.8.5-posix_memalign.patch
 	fi
 
 	use vanilla && return 0
