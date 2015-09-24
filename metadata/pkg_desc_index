@@ -73,7 +73,6 @@ sys-auth/polkit 0.112-r99: Policy framework for controlling privileges for syste
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
-sys-boot/efibootmgr 0.11.0-r99: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999: The GNU Compiler Collection
 sys-devel/gdb 7.9.1-r99: GNU debugger
