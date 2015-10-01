@@ -19,6 +19,7 @@ dev-libs/nspr 4.10.8-r99: Netscape Portable Runtime
 dev-libs/nss 3.19.2-r99: Mozilla's Network Security Services library that implements PKI support
 dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
 dev-qt/qtcore 4.8.6-r99 4.8.7-r99: Cross-platform application development framework
+dev-qt/qtwebkit 5.5.0-r99: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r99: Scheme interpreter
 dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedded scripting language.
 dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision control tools
