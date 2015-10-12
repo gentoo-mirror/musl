@@ -47,7 +47,7 @@ net-libs/webkit-gtk 2.4.9 2.4.9-r200: Open source web browser engine
 net-misc/dhcp 4.3.1-r99 4.3.2-r99: ISC Dynamic Host Configuration Protocol (DHCP) client/server
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/iputils 20121221-r99: Network monitoring tools including ping and ping6
-net-misc/modemmanager 1.4.8-r99 1.4.10-r99: Modem and mobile broadband management libraries
+net-misc/modemmanager 1.4.10-r99: Modem and mobile broadband management libraries
 net-misc/openssh 6.9_p1-r99: Port of OpenBSD's free SSH release
 net-misc/openvpn 2.3.6-r99 9999: Robust and highly flexible tunneling application compatible with many OSes
 net-misc/radvd 2.10-r99 2.11-r99: Linux IPv6 Router Advertisement Daemon
