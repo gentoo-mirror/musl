@@ -1,12 +1,12 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-fs/lvm2/lvm2-2.02.110.ebuild,v 1.3 2014/08/29 07:15:02 ssuominen Exp $
+# $Id$
 
 EAPI=5
 inherit autotools eutils linux-info multilib systemd toolchain-funcs udev flag-o-matic
 
 DESCRIPTION="User-land utilities for LVM2 (device-mapper) software"
-HOMEPAGE="http://sources.redhat.com/lvm2/"
+HOMEPAGE="https://sources.redhat.com/lvm2/"
 SRC_URI="ftp://sources.redhat.com/pub/lvm2/${PN/lvm/LVM}.${PV}.tgz
 	ftp://sources.redhat.com/pub/lvm2/old/${PN/lvm/LVM}.${PV}.tgz"
 
@@ -15,11 +15,10 @@ SLOT="0"
 KEYWORDS="amd64 arm ~mips ppc x86"
 IUSE="readline static static-libs systemd clvm cman lvm1 lvm2create_initrd selinux +udev +thin device-mapper-only"
 REQUIRED_USE="device-mapper-only? ( !clvm !cman !lvm1 !lvm2create_initrd !thin )
-	systemd? ( udev )
-	static? ( !udev )" #520450
+	systemd? ( udev )"
 
 DEPEND_COMMON="clvm? ( cman? ( =sys-cluster/cman-3* ) =sys-cluster/libdlm-3* )
-	readline? ( sys-libs/readline )
+	readline? ( sys-libs/readline:0= )
 	udev? ( >=virtual/libudev-208:=[static-libs?] )"
 # /run is now required for locking during early boot. /var cannot be assumed to
 # be available -- thus, pull in recent enough baselayout for /run.
@@ -34,12 +33,13 @@ RDEPEND="${DEPEND_COMMON}
 	lvm2create_initrd? ( sys-apps/makedev )
 	thin? ( >=sys-block/thin-provisioning-tools-0.3.0 )"
 # note: thin- 0.3.0 is required to avoid --disable-thin_check_needs_check
+# USE 'static' currently only works with eudev, bug 520450
 DEPEND="${DEPEND_COMMON}
 	virtual/pkgconfig
 	>=sys-devel/binutils-2.20.1-r1
 	static? (
 		selinux? ( sys-libs/libselinux[static-libs] )
-		udev? ( >=virtual/libudev-208:=[static-libs] )
+		udev? ( >=sys-fs/eudev-3.1.2[static-libs] )
 		>=sys-apps/util-linux-2.16[static-libs]
 	)"
 
