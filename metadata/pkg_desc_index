@@ -1,6 +1,6 @@
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
 app-crypt/shash 0.2.6-r99: Generate or check digests or MACs of files
-app-editors/emacs 24.4-r99: The extensible, customizable, self-documenting real-time display editor
+app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
 app-editors/emacs-vcs 25.0.9999-r99: The extensible, customizable, self-documenting real-time display editor
 app-emulation/qemu 2.2.1-r99: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine 1.6.2-r99: Free implementation of Windows(tm) on Unix
