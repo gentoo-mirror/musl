@@ -25,6 +25,7 @@ dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedde
 dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision control tools
 gnome-base/gnome-keyring 3.16.0-r99: Password and keyring managing daemon
 gnome-base/libgtop 2.30.0-r99: A library that provides top functionality to applications
+mail-client/thunderbird 38.3.0-r99: Thunderbird Mail Client
 mail-mta/exim 4.84-r99: A highly configurable, drop-in replacement for sendmail
 media-gfx/fontforge 20150430-r99: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
@@ -101,7 +102,7 @@ sys-libs/tevent 0.9.21-r99: Samba tevent library
 sys-process/lsof 4.88-r99: Lists open files for running Unix processes
 sys-process/procps 3.3.8-r99 3.3.9-r99 3.3.10-r99: standard informational utilities and process-handling tools
 sys-process/psmisc 22.21-r99: A set of tools that use the proc filesystem
-www-client/firefox 40.0.3-r99: Firefox Web Browser
+www-client/firefox 41.0.2-r99: Firefox Web Browser
 www-client/midori 0.5.10-r99: A lightweight web browser based on WebKitGTK+
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
