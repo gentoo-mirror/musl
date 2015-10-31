@@ -6,8 +6,8 @@
 Bug 1152176 - xpcom: Define linux kernel BLOCK_SIZE if necessary. r=nfroyd
 
 diff --git a/xpcom/io/nsLocalFileUnix.cpp b/xpcom/io/nsLocalFileUnix.cpp
---- a/xpcom/io/nsLocalFileUnix.cpp
-+++ b/xpcom/io/nsLocalFileUnix.cpp
+--- a/mozilla/xpcom/io/nsLocalFileUnix.cpp
++++ b/mozilla/xpcom/io/nsLocalFileUnix.cpp
 @@ -23,16 +23,19 @@
  #if defined(VMS)
  #include <fabdef.h>
