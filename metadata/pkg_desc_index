@@ -15,7 +15,7 @@ dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collec
 dev-libs/gmp 5.1.3-r99: Library for arithmetic on arbitrary precision integers, rational numbers, and floating-point numbers
 dev-libs/libedit 20130712.3.1-r99: BSD replacement for libreadline
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
-dev-libs/nspr 4.10.8-r99: Netscape Portable Runtime
+dev-libs/nspr 4.10.10-r99: Netscape Portable Runtime
 dev-libs/nss 3.19.2-r99: Mozilla's Network Security Services library that implements PKI support
 dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
 dev-qt/qtcore 4.8.6-r99 4.8.7-r99: Cross-platform application development framework
@@ -63,7 +63,7 @@ sys-apps/hdparm 9.45-r99: Utility to change hard drive performance parameters
 sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99: kernel routing and traffic control utilities
 sys-apps/kbd 1.15.5-r99 2.0.2-r99: Keyboard and console utilities
 sys-apps/keyutils 1.5.9-r99: Linux Key Management Utilities
-sys-apps/net-tools 1.60_p20130513023548-r99 1.60_p20141019041918-r99: Standard Linux networking tools
+sys-apps/net-tools 1.60_p20141019041918-r99: Standard Linux networking tools
 sys-apps/pciutils 3.2.0: Various utilities dealing with the PCI bus
 sys-apps/sandbox 2.6-r999: sandbox'd LD_PRELOAD hack
 sys-apps/shadow 4.1.5.1-r99: Utilities to deal with user accounts
