@@ -1,112 +1,112 @@
-app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
-app-crypt/shash 0.2.6-r99: Generate or check digests or MACs of files
-app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
-app-editors/emacs-vcs 25.0.9999-r99: The extensible, customizable, self-documenting real-time display editor
-app-emulation/qemu 2.2.1-r99: QEMU + Kernel-based Virtual Machine userland tools
-app-emulation/wine 1.6.2-r99: Free implementation of Windows(tm) on Unix
+app-crypt/gpgme 1.5.5-r99: 
+app-crypt/shash 0.2.6-r99: 
+app-editors/emacs 24.5-r99: 
+app-editors/emacs-vcs 25.0.9999-r99: 
+app-emulation/qemu 2.2.1-r99: 
+app-emulation/wine 1.6.2-r99: 
 app-eselect/eselect-opengl 1.2.7-r99: Utility to change the OpenGL interface being used
-app-office/libreoffice 4.4.5.2-r99: LibreOffice, a full office productivity suite
-app-text/hunspell 1.3.3-r99: Hunspell spell checker - an improved replacement for myspell in OOo
-app-text/texlive-core 2014-r99: A complete TeX distribution
-dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
-dev-lang/ruby 1.9.3_p551-r1 2.0.0_p645: An object-oriented scripting language
-dev-libs/DirectFB 1.7.6-r99: Thin library on top of the Linux framebuffer devices
-dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
+app-office/libreoffice 4.4.5.2-r99: 
+app-text/hunspell 1.3.3-r99: 
+app-text/texlive-core 2014-r99: 
+dev-db/libiodbc 3.52.8-r99: 
+dev-lang/ruby 1.9.3_p551-r1 2.0.0_p645: 
+dev-libs/DirectFB 1.7.6-r99: 
+dev-libs/boehm-gc 7.4.2-r99: 
 dev-libs/gmp 5.1.3-r99: Library for arithmetic on arbitrary precision integers, rational numbers, and floating-point numbers
-dev-libs/libedit 20130712.3.1-r99: BSD replacement for libreadline
-dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
-dev-libs/nspr 4.10.8-r99: Netscape Portable Runtime
-dev-libs/nss 3.19.2-r99: Mozilla's Network Security Services library that implements PKI support
-dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
-dev-qt/qtcore 4.8.6-r99 4.8.7-r99: Cross-platform application development framework
-dev-qt/qtwebkit 5.5.0-r99: WebKit rendering library for the Qt5 framework (deprecated)
+dev-libs/libedit 20130712.3.1-r99: 
+dev-libs/libgamin 0.1.10-r99: 
+dev-libs/nspr 4.10.8-r99: 
+dev-libs/nss 3.19.2-r99: 
+dev-qt/qt3support 4.8.6-r99 4.8.7-r99: 
+dev-qt/qtcore 4.8.6-r99 4.8.7-r99: 
+dev-qt/qtwebkit 5.5.0-r99: 
 dev-scheme/guile 1.8.8-r99: Scheme interpreter
-dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedded scripting language.
+dev-tex/luatex 0.70.1-r99: 
 dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision control tools
-gnome-base/gnome-keyring 3.16.0-r99: Password and keyring managing daemon
-gnome-base/libgtop 2.30.0-r99: A library that provides top functionality to applications
-mail-client/thunderbird 38.3.0-r99: Thunderbird Mail Client
-mail-mta/exim 4.84-r99: A highly configurable, drop-in replacement for sendmail
-media-gfx/fontforge 20150430-r99: postscript font editor and converter
-media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
-media-libs/alsa-lib 1.0.27.1-r99: Advanced Linux Sound Architecture Library
+gnome-base/gnome-keyring 3.16.0-r99: 
+gnome-base/libgtop 2.30.0-r99: 
+mail-client/thunderbird 38.3.0-r99: 
+mail-mta/exim 4.84-r99: 
+media-gfx/fontforge 20150430-r99: 
+media-gfx/sane-backends 1.0.24-r99: 
+media-libs/alsa-lib 1.0.27.1-r99: 
 media-libs/libdvbpsi 1.2.0-r99: library for MPEG TS/DVB PSI tables decoding and generation
 media-libs/libmpdclient 2.9-r99: A library for interfacing Music Player Daemon (media-sound/mpd)
-media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/libv4l 1.6.2-r99: Separate libraries ebuild from upstream v4l-utils package
-media-libs/mesa 10.3.7-r99: OpenGL-like graphic library for Linux
+media-libs/libopenraw 0.0.9: 
+media-libs/libv4l 1.6.2-r99: 
+media-libs/mesa 10.3.7-r99: 
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
-net-dialup/linux-atm 2.5.2-r99: Tools for ATM
-net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
-net-firewall/iptables 1.4.21-r99: Linux kernel (2.4+) firewall, NAT and packet mangling tools
-net-fs/cifs-utils 6.1-r99: Tools for Managing Linux CIFS Client Filesystems
+net-dialup/linux-atm 2.5.2-r99: 
+net-dialup/ppp 2.4.7-r99: 
+net-firewall/iptables 1.4.21-r99: 
+net-fs/cifs-utils 6.1-r99: 
 net-libs/liblockfile 1.09-r99: Implements functions designed to lock the standard mailboxes
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
-net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
-net-libs/webkit-gtk 2.4.9 2.4.9-r200: Open source web browser engine
+net-libs/miniupnpc 1.8-r99: 
+net-libs/webkit-gtk 2.4.9 2.4.9-r200: 
 net-misc/dhcp 4.3.1-r99 4.3.2-r99: ISC Dynamic Host Configuration Protocol (DHCP) client/server
-net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
+net-misc/dibbler 1.0.0: 
 net-misc/iputils 20121221-r99: Network monitoring tools including ping and ping6
-net-misc/modemmanager 1.4.10-r99: Modem and mobile broadband management libraries
+net-misc/modemmanager 1.4.10-r99: 
 net-misc/openssh 6.9_p1-r99: Port of OpenBSD's free SSH release
 net-misc/openvpn 2.3.6-r99 9999: Robust and highly flexible tunneling application compatible with many OSes
 net-misc/radvd 2.10-r99 2.11-r99: Linux IPv6 Router Advertisement Daemon
-net-news/newsbeuter 2.8-r99: A RSS/Atom feed reader for the text console
-net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
-net-print/cups-filters 1.0.71-r99: Cups PDF filters
-net-wireless/bluez 5.23-r99: Bluetooth Tools and System Daemons for Linux
+net-news/newsbeuter 2.8-r99: 
+net-p2p/transmission 2.84-r89 2.84-r99: 
+net-print/cups-filters 1.0.71-r99: 
+net-wireless/bluez 5.23-r99: 
 sys-apps/attr 2.4.47-r99: Extended attributes tools
 sys-apps/busybox 1.23.2-r99: Utilities for rescue and embedded systems
-sys-apps/findutils 4.4.2-r99 4.5.12-r99: GNU utilities for finding files
+sys-apps/findutils 4.4.2-r99 4.5.12-r99: 
 sys-apps/hdparm 9.45-r99: Utility to change hard drive performance parameters
-sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99: kernel routing and traffic control utilities
-sys-apps/kbd 1.15.5-r99 2.0.2-r99: Keyboard and console utilities
-sys-apps/keyutils 1.5.9-r99: Linux Key Management Utilities
+sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99: 
+sys-apps/kbd 1.15.5-r99 2.0.2-r99: 
+sys-apps/keyutils 1.5.9-r99: 
 sys-apps/net-tools 1.60_p20130513023548-r99 1.60_p20141019041918-r99: Standard Linux networking tools
-sys-apps/pciutils 3.2.0: Various utilities dealing with the PCI bus
+sys-apps/pciutils 3.2.0: 
 sys-apps/sandbox 2.6-r999: sandbox'd LD_PRELOAD hack
 sys-apps/shadow 4.1.5.1-r99: Utilities to deal with user accounts
 sys-apps/sysvinit 2.88-r999: /sbin/init - parent of all processes
 sys-apps/tcp-wrappers 7.6.22-r99: TCP Wrappers
 sys-apps/util-linux 2.25.2-r99: Various useful Linux utilities
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
-sys-auth/polkit 0.112-r99: Policy framework for controlling privileges for system-wide services
-sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
-sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and file systems
-sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
-sys-boot/lilo 24.1: Standard Linux boot loader
+sys-auth/polkit 0.112-r99: 
+sys-auth/skey 1.1.5-r99: 
+sys-block/parted 3.2-r99: 
+sys-block/thin-provisioning-tools 0.3.2-r99: 
+sys-boot/lilo 24.1: 
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99: The GNU Compiler Collection
-sys-devel/gdb 7.9.1-r99: GNU debugger
-sys-devel/llvm 3.5.0-r99: Low Level Virtual Machine
+sys-devel/gdb 7.9.1-r99: 
+sys-devel/llvm 3.5.0-r99: 
 sys-devel/m4 1.4.16-r99: GNU macro processor
-sys-fs/dosfstools 3.0.28-r99: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
+sys-fs/dosfstools 3.0.28-r99: 
 sys-fs/encfs 1.7.4-r99: An implementation of encrypted filesystem in user-space using FUSE
-sys-fs/lvm2 2.02.116-r99: User-land utilities for LVM2 (device-mapper) software
-sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
+sys-fs/lvm2 2.02.116-r99: 
+sys-fs/squashfs-tools 4.3-r99: 
 sys-fs/xfsdump 3.1.4-r99: xfs dump/restore utilities
 sys-fs/xfsprogs 3.2.2-r99: xfs filesystem utilities
 sys-kernel/linux-headers 3.16 3.18-r99: Linux system headers
 sys-libs/gdbm 1.11-r99: Standard GNU database libraries
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
-sys-libs/libcap-ng 0.7.3-r99 0.7.4-r99: POSIX 1003.1e capabilities
-sys-libs/libcxx 3.7.0-r99: New implementation of the C++ standard library, targeting C++11
+sys-libs/libcap-ng 0.7.3-r99 0.7.4-r99: 
+sys-libs/libcxx 3.7.0-r99: 
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libutempter 1.1.6-r99: Library that allows non-privileged apps to write utmp (login) info, which need root access
-sys-libs/pam 1.1.8-r99: Linux-PAM (Pluggable Authentication Modules)
-sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
-sys-libs/slang 2.2.4-r99: A multi-platform programmer's library designed to allow a developer to create robust software
-sys-libs/talloc 2.0.8-r99 2.1.0-r99: Samba talloc library
-sys-libs/tdb 1.3.0-r99: A simple database API
-sys-libs/tevent 0.9.21-r99: Samba tevent library
+sys-libs/pam 1.1.8-r99: 
+sys-libs/queue 0.1: 
+sys-libs/slang 2.2.4-r99: 
+sys-libs/talloc 2.0.8-r99 2.1.0-r99: 
+sys-libs/tdb 1.3.0-r99: 
+sys-libs/tevent 0.9.21-r99: 
 sys-process/lsof 4.88-r99: Lists open files for running Unix processes
 sys-process/procps 3.3.8-r99 3.3.9-r99 3.3.10-r99: standard informational utilities and process-handling tools
 sys-process/psmisc 22.21-r99: A set of tools that use the proc filesystem
-www-client/firefox 41.0.2-r99: Firefox Web Browser
-www-client/midori 0.5.10-r99: A lightweight web browser based on WebKitGTK+
+www-client/firefox 41.0.2-r99: 
+www-client/midori 0.5.10-r99: 
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
-x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
-x11-base/xorg-server 1.16.4-r99: X.Org X servers
-x11-libs/libpciaccess 0.13.3-r99: Library providing generic access to the PCI bus and devices
-x11-libs/vte 0.28.2-r207: GNOME terminal widget
-x11-misc/slim 1.3.6-r99: Simple Login Manager
+x11-apps/sessreg 1.1.0-r99: 
+x11-base/xorg-server 1.16.4-r99: 
+x11-libs/libpciaccess 0.13.3-r99: 
+x11-libs/vte 0.28.2-r207: 
+x11-misc/slim 1.3.6-r99: 
