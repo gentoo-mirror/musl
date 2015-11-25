@@ -24,7 +24,7 @@ dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision contr
 gnome-base/gnome-keyring 3.16.0-r99: Password and keyring managing daemon
 gnome-base/libgtop 2.30.0-r99: A library that provides top functionality to applications
 mail-client/thunderbird 38.3.0-r99: Thunderbird Mail Client
-mail-mta/exim 4.84-r99: A highly configurable, drop-in replacement for sendmail
+mail-mta/exim 4.85-r99: A highly configurable, drop-in replacement for sendmail
 media-gfx/fontforge 20150430-r99: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.0.27.1-r99: Advanced Linux Sound Architecture Library
