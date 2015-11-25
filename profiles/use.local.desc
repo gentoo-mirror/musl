@@ -110,10 +110,6 @@ dev-libs/DirectFB:sawman - enable SaWMan (window manager and application manager
 dev-libs/DirectFB:swfdec - build Swfdec (Flash decoder) video provider
 dev-libs/DirectFB:tremor - build Ogg/Vorbis music provider using Tremor
 dev-libs/DirectFB:webp - build WebP image provider
-dev-libs/gmp:pgo - after building gmp, run some tests against to produce faster libraries -- this option will double the compile time
-dev-libs/nss:cacert - Include root certs from CAcert (http://http://www.cacert.org/) and Software in the Public Interest (http://www.spi-inc.org/)
-dev-libs/nss:nss-pem - Add support for libnsspem
-dev-libs/nss:utils - Install utilities included with the library
 dev-qt/qt3support:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtcore:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtcore:glib - Enable dev-libs/glib eventloop support
