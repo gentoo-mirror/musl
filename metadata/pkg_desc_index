@@ -53,7 +53,7 @@ net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
 net-print/cups-filters 1.0.71-r99: Cups PDF filters
 net-wireless/bluez 5.23-r99: Bluetooth Tools and System Daemons for Linux
 sys-apps/attr 2.4.47-r99: Extended attributes tools
-sys-apps/busybox 1.23.2-r99: Utilities for rescue and embedded systems
+sys-apps/busybox 1.24.1-r99: Utilities for rescue and embedded systems
 sys-apps/findutils 4.4.2-r99 4.5.12-r99: GNU utilities for finding files
 sys-apps/hdparm 9.45-r99: Utility to change hard drive performance parameters
 sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99: kernel routing and traffic control utilities
