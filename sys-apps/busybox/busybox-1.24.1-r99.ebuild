@@ -1,6 +1,6 @@
 # Copyright 1999-2015 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sys-apps/busybox/busybox-1.23.1-r1.ebuild,v 1.3 2015/02/08 22:35:39 blueness Exp $
+# $Id$
 
 # See `man savedconfig.eclass` for info on how to use USE=savedconfig.
 
@@ -19,9 +19,9 @@ else
 	KEYWORDS="amd64 arm ~mips ppc x86"
 fi
 
-LICENSE="GPL-2"
+LICENSE="GPL-2" # GPL-2 only
 SLOT="0"
-IUSE="debug ipv6 livecd make-symlinks math mdev -pam selinux sep-usr +static syslog systemd"
+IUSE="debug ipv6 livecd make-symlinks math mdev pam selinux sep-usr static syslog systemd"
 RESTRICT="test"
 
 COMMON_DEPEND="!static? ( selinux? ( sys-libs/libselinux ) )
@@ -30,7 +30,7 @@ DEPEND="${COMMON_DEPEND}
 	static? ( selinux? ( sys-libs/libselinux[static-libs(+)] ) )
 	>=sys-kernel/linux-headers-2.6.39"
 RDEPEND="${COMMON_DEPEND}
-mdev? ( !<sys-apps/openrc-0.13 )"
+	mdev? ( !<sys-apps/openrc-0.13 )"
 
 S=${WORKDIR}/${MY_P}
 
@@ -67,9 +67,7 @@ src_prepare() {
 
 	# patches go here!
 	epatch "${FILESDIR}"/${PN}-1.19.0-bb.patch
-	epatch "${FILESDIR}"/${PN}-1.23.1-trylink-flags.patch
-	# No busybox-1.23.2 specific patches ... yet!
-	#epatch "${FILESDIR}"/${P}-*.patch
+	epatch "${FILESDIR}"/${P}-*.patch
 	cp "${FILESDIR}"/ginit.c init/ || die
 
 	# flag cleanup
@@ -121,8 +119,10 @@ src_configure() {
 	busybox_config_option n USE_PORTABLE_CODE
 	busybox_config_option n WERROR
 
-	# causes trouble with musl
-	busybox_config_option n IFPLUGD
+	# These causes trouble with musl.  Since we don't really
+	# depend on busybox for most of the musl work, we'll lazily
+	# just turn them off.
+	busybox_config_option n FEATURE_UTMP
 	busybox_config_option n EXTRA_COMPAT
 	busybox_config_option n FEATURE_VI_REGEX_SEARCH
 
