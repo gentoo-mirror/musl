@@ -317,5 +317,7 @@ x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
+x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
+x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-libs/vte:glade - Provide integration with dev-util/glade.
 x11-misc/slim:consolekit - Enable native consolekit support
