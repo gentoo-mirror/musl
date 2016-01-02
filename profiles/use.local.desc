@@ -207,12 +207,6 @@ net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This
 net-misc/modemmanager:mbim - Enable MBIM modem protocol
 net-misc/modemmanager:qmi - Enable support for the QMI modem protocol used by devices with Qualcomm chipsets
 net-misc/modemmanager:qmi-newest - Avoid deprecated QMI commands. Warning: may cause incompatibility with older devices.
-net-misc/openvpn:down-root - Enable the down-root plugin
-net-misc/openvpn:iproute2 - Enabled iproute2 support instead of net-tools
-net-misc/openvpn:passwordsave - Enables openvpn to save passwords
-net-misc/openvpn:pkcs11 - Enable PKCS#11 smartcard support
-net-misc/openvpn:plugins - Enable the OpenVPN plugin system
-net-misc/openvpn:polarssl - Use PolarSSL instead of OpenSSL
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
