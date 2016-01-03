@@ -15,6 +15,7 @@ dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collec
 dev-libs/libedit 20130712.3.1-r99: BSD replacement for libreadline
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
 dev-libs/nspr 4.10.10-r99: Netscape Portable Runtime
+dev-python/numpy 1.10.1-r1: Fast array and numerical python library
 dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
 dev-qt/qtcore 4.8.6-r99 4.8.7-r99: Cross-platform application development framework
 dev-qt/qtwebkit 5.5.0-r99: WebKit rendering library for the Qt5 framework (deprecated)
@@ -55,7 +56,7 @@ sys-apps/attr 2.4.47-r99: Extended attributes tools
 sys-apps/busybox 1.24.1-r99: Utilities for rescue and embedded systems
 sys-apps/findutils 4.4.2-r99 4.5.12-r99: GNU utilities for finding files
 sys-apps/hdparm 9.45-r99: Utility to change hard drive performance parameters
-sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99: kernel routing and traffic control utilities
+sys-apps/iproute2 3.19.0-r99 4.0.0-r99 4.1.1-r99 4.3.0: kernel routing and traffic control utilities
 sys-apps/kbd 1.15.5-r99 2.0.2-r99: Keyboard and console utilities
 sys-apps/keyutils 1.5.9-r99: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20141019041918-r99: Standard Linux networking tools
@@ -66,7 +67,7 @@ sys-apps/sysvinit 2.88-r999: /sbin/init - parent of all processes
 sys-apps/tcp-wrappers 7.6.22-r99: TCP Wrappers
 sys-apps/util-linux 2.25.2-r99: Various useful Linux utilities
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
-sys-auth/polkit 0.112-r99: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.112-r99 0.113: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
@@ -87,7 +88,9 @@ sys-libs/gdbm 1.11-r99: Standard GNU database libraries
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
 sys-libs/libcap-ng 0.7.3-r99 0.7.4-r99: POSIX 1003.1e capabilities
 sys-libs/libcxx 3.7.0-r99: New implementation of the C++ standard library, targeting C++11
+sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
+sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
 sys-libs/libutempter 1.1.6-r99: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/pam 1.1.8-r99: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
