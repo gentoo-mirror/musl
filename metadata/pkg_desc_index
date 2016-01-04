@@ -9,6 +9,7 @@ app-office/libreoffice 4.4.5.2-r99: LibreOffice, a full office productivity suit
 app-text/hunspell 1.3.3-r99: Hunspell spell checker - an improved replacement for myspell in OOo
 app-text/texlive-core 2014-r99: A complete TeX distribution
 dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
+dev-embedded/u-boot-tools 2015.04: utilities for working with Das U-Boot
 dev-lang/ruby 2.0.0_p647-r1: An object-oriented scripting language
 dev-libs/DirectFB 1.7.6-r99: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
@@ -52,6 +53,7 @@ net-news/newsbeuter 2.8-r99: A RSS/Atom feed reader for the text console
 net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
 net-print/cups-filters 1.0.71-r99: Cups PDF filters
 net-wireless/bluez 5.23-r99: Bluetooth Tools and System Daemons for Linux
+net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/attr 2.4.47-r99: Extended attributes tools
 sys-apps/busybox 1.24.1-r99: Utilities for rescue and embedded systems
 sys-apps/findutils 4.4.2-r99 4.5.12-r99: GNU utilities for finding files
