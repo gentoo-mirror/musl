@@ -82,6 +82,7 @@ sys-fs/dosfstools 3.0.28-r99: DOS filesystem tools - provides mkdosfs, mkfs.msdo
 sys-fs/encfs 1.7.4-r99: An implementation of encrypted filesystem in user-space using FUSE
 sys-fs/lvm2 2.02.116-r99: User-land utilities for LVM2 (device-mapper) software
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
+sys-fs/udisks 2.1.6: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.4-r99: xfs dump/restore utilities
 sys-fs/xfsprogs 3.2.2-r99: xfs filesystem utilities
 sys-kernel/linux-headers 3.16 3.18-r99: Linux system headers
