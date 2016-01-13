@@ -84,7 +84,7 @@ sys-fs/lvm2 2.02.116-r99: User-land utilities for LVM2 (device-mapper) software
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
 sys-fs/udisks 2.1.6: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.4-r99: xfs dump/restore utilities
-sys-fs/xfsprogs 3.2.2-r99: xfs filesystem utilities
+sys-fs/xfsprogs 3.2.4-r99: xfs filesystem utilities
 sys-kernel/linux-headers 3.16 3.18-r99: Linux system headers
 sys-libs/efivar 0.21-r99: Tools and library to manipulate EFI variables
 sys-libs/gdbm 1.11-r99: Standard GNU database libraries
