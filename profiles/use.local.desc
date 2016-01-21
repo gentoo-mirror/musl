@@ -225,6 +225,12 @@ sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/net-tools:old-output - use old ifconfig output style (useful for when new output breaks scripts)
 sys-apps/pciutils:kmod - Enable sys-apps/kmod support for the -k switch in lspci command
 sys-apps/pciutils:zlib - Support compressed pci.ids database
+sys-apps/portage:epydoc - Build html API documentation with epydoc.
+sys-apps/portage:ipc - Use inter-process communication between portage and running ebuilds.
+sys-apps/portage:pypy2_0 - Use pypy-c2.0 as Python interpreter.
+sys-apps/portage:python2 - Use python2 as Python interpreter.
+sys-apps/portage:python3 - Use python3 as Python interpreter.
+sys-apps/portage:xattr - Preserve extended attributes (filesystem-stored metadata) when installing files. Usually only required for hardened systems.
 sys-apps/shadow:audit - Enable support for sys-process/audit
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely need want it)
 sys-apps/util-linux:caps - build setpriv helper (run programs with diff capabilities)
