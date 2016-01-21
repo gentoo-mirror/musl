@@ -64,7 +64,7 @@ sys-apps/keyutils 1.5.9-r99: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20141019041918-r99: Standard Linux networking tools
 sys-apps/pciutils 3.2.0: Various utilities dealing with the PCI bus
 sys-apps/portage 2.2.26-r99: Portage is the package management and distribution system for Gentoo
-sys-apps/sandbox 2.6-r999: sandbox'd LD_PRELOAD hack
+sys-apps/sandbox 2.6-r999 2.10-r99: sandbox'd LD_PRELOAD hack
 sys-apps/shadow 4.1.5.1-r99: Utilities to deal with user accounts
 sys-apps/sysvinit 2.88-r999: /sbin/init - parent of all processes
 sys-apps/tcp-wrappers 7.6.22-r99: TCP Wrappers
