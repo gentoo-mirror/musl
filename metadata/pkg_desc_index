@@ -38,7 +38,7 @@ media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the ne
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
 net-firewall/iptables 1.4.21-r99: Linux kernel (2.4+) firewall, NAT and packet mangling tools
-net-fs/cifs-utils 6.1-r99: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 6.4-r99: Tools for Managing Linux CIFS Client Filesystems
 net-libs/liblockfile 1.09-r99: Implements functions designed to lock the standard mailboxes
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
@@ -76,7 +76,7 @@ sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and fi
 sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99: The GNU Compiler Collection
-sys-devel/gdb 7.9.1-r99: GNU debugger
+sys-devel/gdb 7.10.1-r99: GNU debugger
 sys-devel/llvm 3.5.0-r99: Low Level Virtual Machine
 sys-devel/m4 1.4.16-r99: GNU macro processor
 sys-fs/dosfstools 3.0.28-r99: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
@@ -111,7 +111,7 @@ www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.16.4-r99 1.17.4: X.Org X servers
 x11-libs/libdrm 2.4.65-r99: X.Org libdrm library
-x11-libs/libpciaccess 0.13.3-r99 0.13.4: Library providing generic access to the PCI bus and devices
+x11-libs/libpciaccess 0.13.4-r99: Library providing generic access to the PCI bus and devices
 x11-libs/vte 0.28.2-r207: GNOME terminal widget
 x11-misc/slim 1.3.6-r99: Simple Login Manager
 x11-terms/rxvt-unicode 9.21: rxvt clone with xft and unicode support
