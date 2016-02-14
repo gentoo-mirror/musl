@@ -48,7 +48,6 @@ net-misc/dhcp 4.3.1-r99 4.3.2-r99: ISC Dynamic Host Configuration Protocol (DHCP
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/iputils 20121221-r99: Network monitoring tools including ping and ping6
 net-misc/modemmanager 1.4.12-r99: Modem and mobile broadband management libraries
-net-misc/openssh 7.1_p2-r99: Port of OpenBSD's free SSH release
 net-misc/radvd 2.10-r99 2.11-r99: Linux IPv6 Router Advertisement Daemon
 net-news/newsbeuter 2.8-r99: A RSS/Atom feed reader for the text console
 net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client

@@ -204,17 +204,19 @@ net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/o
 net-misc/dhcp:client - Install the dhclient program
 net-misc/dhcp:server - Install the dhcpd and dhcrelay programs
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
+net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
+net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
+net-misc/iputils:gcrypt - Use dev-libs/libgcrypt for md5 support
+net-misc/iputils:nettle - Use dev-libs/nettle for md5 support
+net-misc/iputils:openssl - Use dev-libs/openssl for md5 support
+net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
+net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
+net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
+net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
+net-misc/iputils:traceroute - Build and install traceroute -- tool for tracing network paths (see also net-analyzer/traceroute)
 net-misc/modemmanager:mbim - Enable MBIM modem protocol
 net-misc/modemmanager:qmi - Enable support for the QMI modem protocol used by devices with Qualcomm chipsets
 net-misc/modemmanager:qmi-newest - Avoid deprecated QMI commands. Warning: may cause incompatibility with older devices.
-net-misc/openssh:X509 - Adds support for X.509 certificate authentication
-net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
-net-misc/openssh:hpn - Enable high performance ssh
-net-misc/openssh:ldap - Add support for storing SSH public keys in LDAP
-net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
-net-misc/openssh:sctp - Support for Stream Control Transmission Protocol
-net-misc/openssh:ssh1 - Support the legacy/weak SSH1 protocol
-net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-p2p/transmission:lightweight - Optimize transmission for low-resource systems (smaller cache size, prefer unencrypted peer connections, etc.)
 net-p2p/transmission:xfs - Enable XFS filesystem capabilities by using sys-fs/xfsprogs headers (in building of fdlimit(.c))
 net-print/cups-filters:foomatic - Build the included foomatic-rip printer driver. Strongly recommended.
