@@ -156,27 +156,6 @@ media-gfx/fontforge:pasteafter - Controls whether fontforge has a paste after co
 media-gfx/fontforge:tilepath - Controls whether fontforge has a tile path command (a variant of expand stroke) This is useful for very decorative fonts, most people won't want it.
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:type3 - Build in support for type3/svg fonts containing multilayered drawing with strokes, fills, images, etc. Type3 fonts are only supported by postscript printers (not by most windowing displays). They are capable of more exotic images than normal fonts but require much more effort to support.
-media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
-media-libs/mesa:classic - Build drivers based on the classic architecture.
-media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
-media-libs/mesa:dri3 - Enable DRI3 support.
-media-libs/mesa:egl - Enable EGL support.
-media-libs/mesa:gallium - Build drivers based on Gallium3D, the new architecture for 3D graphics drivers.
-media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
-media-libs/mesa:gles - Enable GLES (both v1 and v2) support.
-media-libs/mesa:gles1 - Enable GLESv1 support.
-media-libs/mesa:gles2 - Enable GLESv2 support.
-media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
-media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
-media-libs/mesa:openmax - Enable OpenMAX video decode/encode acceleration for Gallium3D.
-media-libs/mesa:openvg - Enable the OpenVG 2D acceleration API for Gallium3D.
-media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
-media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
-media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
-media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
-media-libs/mesa:wayland - Enable support for dev-libs/wayland
-media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
-media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 net-dialup/ppp:activefilter - Enables active filter support
 net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support

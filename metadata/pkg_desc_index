@@ -28,7 +28,6 @@ media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
 media-libs/libdvbpsi 1.2.0-r99: library for MPEG TS/DVB PSI tables decoding and generation
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2-r99: Separate libraries ebuild from upstream v4l-utils package
-media-libs/mesa 10.3.7-r99: OpenGL-like graphic library for Linux
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
