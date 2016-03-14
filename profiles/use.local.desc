@@ -30,7 +30,6 @@ app-editors/emacs-vcs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs-vcs:source - Install C source files and make them available for find-function
 app-editors/emacs-vcs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs-vcs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
-app-editors/emacs-vcs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
 app-emulation/qemu:accessibility - Adds support for braille displays using brltty
 app-emulation/qemu:aio - Enables support for Linux's Async IO
 app-emulation/qemu:alsa - Enable alsa output for sound emulation
@@ -275,7 +274,6 @@ sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1
 sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
-sys-libs/talloc:compat - Enable extra compatibility stuff
 sys-process/lsof:rpc - support looking up RPC service info
 sys-process/procps:kill - Build the kill program
 sys-process/procps:modern-top - Enables new startup defaults of top. Keeps old defaults if disabled
