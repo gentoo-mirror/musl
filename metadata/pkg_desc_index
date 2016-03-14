@@ -1,6 +1,6 @@
 app-crypt/shash 0.2.6-r99: Generate or check digests or MACs of files
 app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
-app-editors/emacs-vcs 25.0.9999-r99 25.1.50_pre20160130-r99: The extensible, customizable, self-documenting real-time display editor
+app-editors/emacs-vcs 25.1.50_pre20160130-r99: The extensible, customizable, self-documenting real-time display editor
 app-emulation/qemu 2.5.0-r99: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-opengl 1.2.7-r99: Utility to change the OpenGL interface being used
 app-office/libreoffice 5.0.3.2-r99: A full office productivity suite
@@ -46,7 +46,6 @@ net-misc/iputils 20121221-r99: Network monitoring tools including ping and ping6
 net-misc/modemmanager 1.4.12-r99: Modem and mobile broadband management libraries
 net-misc/radvd 2.10-r99 2.11-r99: Linux IPv6 Router Advertisement Daemon
 net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
-net-print/cups-filters 1.0.71-r99: Cups PDF filters
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/attr 2.4.47-r99: Extended attributes tools
 sys-apps/busybox 1.24.1-r99: Utilities for rescue and embedded systems
