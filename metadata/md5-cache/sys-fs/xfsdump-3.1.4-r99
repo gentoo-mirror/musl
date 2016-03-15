@@ -3,11 +3,11 @@ DEPEND=sys-fs/e2fsprogs >=sys-fs/xfsprogs-3.2.0 sys-apps/dmapi >=sys-apps/attr-2
 DESCRIPTION=xfs dump/restore utilities
 EAPI=4
 HOMEPAGE=http://oss.sgi.com/projects/xfs
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 -sparc ~x86
+KEYWORDS=amd64 arm ~mips ppc x86
 LICENSE=LGPL-2.1
 RDEPEND=sys-fs/e2fsprogs >=sys-fs/xfsprogs-3.2.0 sys-apps/dmapi >=sys-apps/attr-2.4.19
 SLOT=0
 SRC_URI=ftp://oss.sgi.com/projects/xfs/cmd_tars/xfsdump-3.1.4.tar.gz ftp://oss.sgi.com/projects/xfs/previous/cmd_tars/xfsdump-3.1.4.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:-
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=e3e27da6d69931fbb5d67eaf48661136
+_md5_=e370d4e9c3de32b4a53c8864992c8704
