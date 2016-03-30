@@ -77,7 +77,6 @@ app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 app-text/texlive-core:xetex - Add support for XeTeX: a TeX system with Unicode and modern font technologies.
-dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:readline - Use the sys-libs/readline library to provide the readline extension, used for instance by the irb tool. This flag is meaningful only if the libedit USE flag is disabled. If neither libedit nor readline USE flags are enabled, the readline extension will not be built (and irb will lose line editing functionality).
 dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
@@ -103,7 +102,6 @@ dev-qt/qt3support:exceptions - Add support for exceptions - like catching them i
 dev-qt/qtcore:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtcore:glib - Enable dev-libs/glib eventloop support
 dev-qt/qtcore:qt3support - Enable the Qt3Support libraries for Qt4. Note that this does not mean you can compile pure Qt3 programs with Qt4.
-dev-qt/qtwebkit:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtwebkit:geolocation - Enable physical position determination via dev-qt/qtpositioning
 dev-qt/qtwebkit:gstreamer - Enable HTML5 audio/video support via media-libs/gstreamer:1.0
 dev-qt/qtwebkit:gstreamer010 - Enable HTML5 audio/video support via media-libs/gstreamer:0.10
@@ -134,7 +132,6 @@ mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of
 mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
 mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
-mail-mta/exim:dane - Adds support for DNS-based Authentication of Named Entities
 mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)
 mail-mta/exim:dkim - Adds support for DomainKeys Identified Mail (DKIM)
 mail-mta/exim:dlfunc - Install local_scan.h header to compile separate dlfunc libraries
@@ -152,12 +149,7 @@ mail-mta/exim:redis - Adds support for querying dev-db/redis
 mail-mta/exim:spf - Adds support for Sender Policy Framework
 mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
-media-gfx/fontforge:cjk - Controls whether fontforge understands the gb12345 encoding and installs cidmap package to edit CID-keyed fonts
-media-gfx/fontforge:pango - Enable pango font rendering
-media-gfx/fontforge:pasteafter - Controls whether fontforge has a paste after command (Useful for making words?). This is kind of fun, but it isn't useful for normal fonts.
-media-gfx/fontforge:tilepath - Controls whether fontforge has a tile path command (a variant of expand stroke) This is useful for very decorative fonts, most people won't want it.
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
-media-gfx/fontforge:type3 - Build in support for type3/svg fonts containing multilayered drawing with strokes, fills, images, etc. Type3 fonts are only supported by postscript printers (not by most windowing displays). They are capable of more exotic images than normal fonts but require much more effort to support.
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 net-dialup/ppp:activefilter - Enables active filter support
 net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support
@@ -167,10 +159,7 @@ net-dialup/ppp:gtk - Installs GTK+ password prompting program that can be used b
 net-dialup/ppp:ipv6 - Enables support for IP version 6
 net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
 net-dialup/ppp:radius - Enables RADIUS support
-net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
-net-firewall/iptables:nftables - Support nftables kernel interface
-net-firewall/iptables:pcap - Build against net-libs/libpcap which enables the nfbpf_compile util
 net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
 net-fs/cifs-utils:caps - libcap support
 net-fs/cifs-utils:caps-ng - libcap-ng support
@@ -182,16 +171,6 @@ net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
 net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
-net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
-net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
-net-misc/iputils:gcrypt - Use dev-libs/libgcrypt for md5 support
-net-misc/iputils:nettle - Use dev-libs/nettle for md5 support
-net-misc/iputils:openssl - Use dev-libs/openssl for md5 support
-net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
-net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
-net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
-net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
-net-misc/iputils:traceroute - Build and install traceroute -- tool for tracing network paths (see also net-analyzer/traceroute)
 net-misc/modemmanager:mbim - Enable MBIM modem protocol
 net-misc/modemmanager:qmi - Enable support for the QMI modem protocol used by devices with Qualcomm chipsets
 net-misc/modemmanager:qmi-newest - Avoid deprecated QMI commands. Warning: may cause incompatibility with older devices.
@@ -207,16 +186,9 @@ sys-apps/busybox:systemd - Support systemd
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs
-sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
-sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
 sys-apps/net-tools:old-output - use old ifconfig output style (useful for when new output breaks scripts)
-sys-apps/net-tools:plipconfig - build the plipconfig tool (for working with old PLIP hardware)
-sys-apps/net-tools:slattach - build the slattach tool (for working with old serial ports)
 sys-apps/portage:epydoc - Build html API documentation with epydoc.
 sys-apps/portage:ipc - Use inter-process communication between portage and running ebuilds.
-sys-apps/portage:pypy2_0 - Use pypy-c2.0 as Python interpreter.
-sys-apps/portage:python2 - Use python2 as Python interpreter.
-sys-apps/portage:python3 - Use python3 as Python interpreter.
 sys-apps/portage:xattr - Preserve extended attributes (filesystem-stored metadata) when installing files. Usually only required for hardened systems.
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
@@ -229,11 +201,9 @@ sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
 sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
 sys-devel/gcc:cilk - Support the Cilk Plus language (C/C++ based languages for parallel programming)
-sys-devel/gcc:d - Enable support for the D programming language
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
 sys-devel/gcc:go - Build the GCC Go language frontend.
 sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
-sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
 sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
 sys-devel/gcc:mudflap - Add support for mudflap, a pointer use checking library
 sys-devel/gcc:multislot - Allow for SLOTs to include minor version (3.3.4 instead of just 3.3)
@@ -250,28 +220,22 @@ sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 sys-devel/llvm:clang - Build the clang C/C++ compiler
-sys-devel/llvm:cmake - Enable cmake support (experimental)
 sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
 sys-devel/llvm:gold - Build the gold linker plugin
-sys-devel/llvm:lldb - Build the lldb debugger
 sys-devel/llvm:multitarget - Build all host targets (default: host only)
 sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
 sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
-sys-devel/llvm:udis86 - Enable support for dev-libs/udis86 disassembler library
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
-sys-fs/lvm2:corosync - Corosync support for clustered lvm
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
 sys-fs/lvm2:lvm1 - Allow users to build lvm2 with lvm1 support
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
-sys-fs/lvm2:openais - Openais support for clustered lvm
 sys-fs/lvm2:thin - Support for thin volumes
 sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
 sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
 sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
 sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by partitioning functionality
 sys-fs/udisks:introspection - Use dev-libs/gobject-introspection for introspection
-sys-fs/udisks:remote-access - Control whether connections from other clients over LAN are allowed
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-libs/gdbm:berkdb - enable compatibility layer for UNIX-like dbm and ndbm interfaces
 sys-libs/gdbm:exporter - enable gdbmexport binary for exporting data from gdbm-1.8 databases into gdbm-1.9
@@ -279,7 +243,6 @@ sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's li
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
 sys-process/lsof:rpc - support looking up RPC service info
-sys-process/procps:kill - Build the kill program
 sys-process/procps:modern-top - Enables new startup defaults of top. Keeps old defaults if disabled
 sys-process/procps:ncurses - Build programs that use ncurses: top, slabtop, watch
 www-client/firefox:bindist - Disable official Firefox branding (icons, name) which are not binary-redistributable according to upstream.
