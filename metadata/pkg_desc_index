@@ -83,6 +83,7 @@ sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
 sys-libs/libutempter 1.1.6-r99: Library that allows non-privileged apps to write utmp (login) info, which need root access
+sys-libs/ntdb 1.0-r99: A not-so trivial keyword/data database system
 sys-libs/pam 1.1.8-r99 1.2.1-r99: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.2.4-r99: A multi-platform programmer's library designed to allow a developer to create robust software
