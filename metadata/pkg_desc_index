@@ -20,6 +20,7 @@ dev-qt/qtcore 4.8.6-r99 4.8.7-r99: Cross-platform application development framew
 dev-qt/qtwebkit 5.5.1-r99: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r99: Scheme interpreter
 dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedded scripting language.
+dev-util/strace 4.11-r99: A useful diagnostic, instructional, and debugging tool
 dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision control tools
 gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing daemon
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
