@@ -245,6 +245,8 @@ sys-devel/llvm:gold - Build the gold linker plugin
 sys-devel/llvm:multitarget - Build all host targets (default: host only)
 sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
 sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
+sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
+sys-fs/btrfs-progs:static - Build static binaries in addition to the dynamic ones
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
