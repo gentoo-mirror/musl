@@ -37,6 +37,7 @@ net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
 net-firewall/iptables 1.4.21-r99: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4-r99: Tools for Managing Linux CIFS Client Filesystems
+net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/liblockfile 1.09-r99: Implements functions designed to lock the standard mailboxes
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
