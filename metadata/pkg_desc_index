@@ -28,6 +28,7 @@ gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing da
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
 mail-client/thunderbird 38.3.0-r99: Thunderbird Mail Client
 mail-mta/exim 4.85-r99: A highly configurable, drop-in replacement for sendmail
+media-gfx/exiv2 0.25-r99: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r99: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
 media-libs/libdvbpsi 1.2.0-r99: library for MPEG TS/DVB PSI tables decoding and generation

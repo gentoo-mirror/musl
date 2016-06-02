@@ -152,6 +152,8 @@ mail-mta/exim:redis - Adds support for querying dev-db/redis
 mail-mta/exim:spf - Adds support for Sender Policy Framework
 mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
 mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
+media-gfx/exiv2:contrib - Build additional contrib components
+media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 net-dialup/ppp:activefilter - Enables active filter support
