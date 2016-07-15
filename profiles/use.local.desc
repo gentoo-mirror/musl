@@ -270,8 +270,6 @@ sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's li
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
 sys-process/lsof:rpc - support looking up RPC service info
-sys-process/procps:modern-top - Enables new startup defaults of top. Keeps old defaults if disabled
-sys-process/procps:ncurses - Build programs that use ncurses: top, slabtop, watch
 www-client/midori:deprecated - Enable GTK+-2 instead of GTK+-3 because of external plugins like adobe-flash
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite
 www-client/midori:webkit2 - Enable WebKit2 API that splits web content rendering and application UI into separate processes
