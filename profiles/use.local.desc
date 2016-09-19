@@ -137,24 +137,6 @@ mail-client/thunderbird:system-icu - Use the system-wide dev-libs/icu instead of
 mail-client/thunderbird:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
 mail-client/thunderbird:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
-mail-mta/exim:dane - Adds support for DNS-based Authentication of Named Entities
-mail-mta/exim:dcc - Adds support for Distributed Checksum Clearinghouse (DCC)
-mail-mta/exim:dkim - Adds support for DomainKeys Identified Mail (DKIM)
-mail-mta/exim:dlfunc - Install local_scan.h header to compile separate dlfunc libraries
-mail-mta/exim:dmarc - Adds support for DMARC
-mail-mta/exim:dnsdb - Adds support for a DNS search for a record whose domain name is the supplied query
-mail-mta/exim:dovecot-sasl - Adds support for Dovecot's authentication
-mail-mta/exim:dsn - Adds support for Delivery Status Notifications (DSN)
-mail-mta/exim:exiscan-acl - Patch providing support for content scanning
-mail-mta/exim:lmtp - Adds support for lmtp
-mail-mta/exim:mbx - Adds support for UW's mbx format
-mail-mta/exim:pkcs11 - Require pkcs11 support in net-libs/gnutls with USE=gnutls
-mail-mta/exim:prdr - Adds support for Per-Recipient Data Response
-mail-mta/exim:proxy - Add support for being behind a proxy, such as HAProxy
-mail-mta/exim:redis - Adds support for querying dev-db/redis
-mail-mta/exim:spf - Adds support for Sender Policy Framework
-mail-mta/exim:srs - Adds support for Sender Rewriting Scheme
-mail-mta/exim:tpda - Adds support for Transport Post-Delivery Actions
 media-gfx/exiv2:contrib - Build additional contrib components
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
