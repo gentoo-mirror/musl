@@ -63,7 +63,7 @@ sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 6.1.0: The GNU Compiler Collection
+sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 6.1.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1-r99: GNU debugger
 sys-devel/llvm 3.5.0-r99: Low Level Virtual Machine
 sys-fs/btrfs-progs 4.5.3-r99: Btrfs filesystem utilities
