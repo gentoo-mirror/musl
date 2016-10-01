@@ -1,7 +1,7 @@
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
 app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
 app-editors/emacs-vcs 25.1.50_pre20160130-r99: The extensible, customizable, self-documenting real-time display editor
-app-emulation/qemu 2.5.1-r99: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.7.0-r99: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/tmux 2.1-r99: Terminal multiplexer
 app-office/libreoffice 5.1.4.2-r99: A full office productivity suite
 app-text/hunspell 1.3.3-r99: Hunspell spell checker - an improved replacement for myspell in OOo
@@ -38,7 +38,6 @@ net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
 net-firewall/iptables 1.4.21-r99: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4-r99: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
-net-libs/liblockfile 1.09-r99: Implements functions designed to lock the standard mailboxes
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
 net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
@@ -90,7 +89,7 @@ sys-process/lsof 4.88-r99: Lists open files for running Unix processes
 sys-process/psmisc 22.21-r99: A set of tools that use the proc filesystem
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
-x11-base/xorg-server 1.16.4-r99 1.17.4: X.Org X servers
+x11-base/xorg-server 1.16.4-r99 1.17.4 1.18.3-r99: X.Org X servers
 x11-libs/libdrm 2.4.65-r99: X.Org libdrm library
 x11-libs/libpciaccess 0.13.4-r99: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r99: VDPAU Backend for Video Acceleration (VA) API
