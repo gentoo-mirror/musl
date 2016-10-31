@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
+app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
 app-arch/p7zip:rar - Enable support for non-free rar decoder
 app-crypt/gpgme:common-lisp - Install common-lisp files
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
