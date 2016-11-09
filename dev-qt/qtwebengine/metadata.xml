@@ -6,12 +6,13 @@
 		<name>Gentoo Qt Project</name>
 	</maintainer>
 	<use>
-		<flag name="exceptions">Add support for exceptions - like catching them
-			inside the event loop (recommended by upstream)</flag>
-		<flag name="glib">Enable <pkg>dev-libs/glib</pkg> eventloop support</flag>
-		<flag name="qt3support">Enable the Qt3Support libraries for Qt4. Note that
-			this does not mean you can compile pure Qt3 programs with Qt4.</flag>
-		<flag name="systemd">Enable native journald logging support</flag>
+		<flag name="geolocation">Enable physical position determination
+			via <pkg>dev-qt/qtpositioning</pkg></flag>
+		<flag name="system-ffmpeg">Use the system-wide <pkg>media-video/ffmpeg</pkg>
+			instead of bundled.</flag>
+		<flag name="system-icu">Use the system-wide <pkg>dev-libs/icu</pkg>
+			instead of bundled.</flag>
+		<flag name="widgets">Enable QtWidgets support</flag>
 	</use>
 	<upstream>
 		<bugs-to>https://bugreports.qt.io/</bugs-to>
