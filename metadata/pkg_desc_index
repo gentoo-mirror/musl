@@ -34,6 +34,7 @@ dev-vcs/cvs 1.12.12-r99: Concurrent Versions System - source code revision contr
 dev-vcs/git 2.10.2: stupid content tracker: distributed VCS designed for speed and efficiency
 gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing daemon
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
+lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-client/thunderbird 38.3.0-r99: Thunderbird Mail Client
 media-gfx/exiv2 0.25-r99: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r99: postscript font editor and converter
