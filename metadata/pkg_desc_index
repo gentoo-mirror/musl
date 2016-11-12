@@ -82,7 +82,6 @@ sys-fs/xfsdump 3.1.4-r99: xfs dump/restore utilities
 sys-fs/xfsprogs 3.2.4-r99: xfs filesystem utilities
 sys-kernel/linux-headers 4.3 4.8: Linux system headers
 sys-libs/efivar 0.21-r99: Tools and library to manipulate EFI variables
-sys-libs/gdbm 1.11-r99: Standard GNU database libraries
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
 sys-libs/libcxx 3.7.0-r99: New implementation of the C++ standard library, targeting C++11
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
