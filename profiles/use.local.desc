@@ -276,12 +276,6 @@ sys-devel/gdb:lzma - Support lzma compression in ELF debug info
 sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
-sys-devel/llvm:clang - Build the clang C/C++ compiler
-sys-devel/llvm:doc - Build and install the HTML documentation and regenerate the man pages
-sys-devel/llvm:gold - Build the gold linker plugin
-sys-devel/llvm:multitarget - Build all host targets (default: host only)
-sys-devel/llvm:ncurses - Support querying terminal properties using ncurses' terminfo
-sys-devel/llvm:static-analyzer - Install the Clang static analyzer (requires USE=clang)
 sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
