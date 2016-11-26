@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=elibc_musl? ( sys-libs/queue )
+DESCRIPTION=Tools for Flash-Friendly File System (F2FS)
+EAPI=5
+HOMEPAGE=https://git.kernel.org/?p=linux/kernel/git/jaegeuk/f2fs-tools.git;a=summary
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~x86
+LICENSE=GPL-2
+SLOT=0/0
+SRC_URI=https://dev.gentoo.org/~blueness/f2fs-tools/f2fs-tools-1.6.1.tar.xz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=8349d46c1caf72140dc010e64109e13e

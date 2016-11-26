@@ -53,6 +53,7 @@ net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replaceme
 net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
 net-libs/webkit-gtk 2.4.10 2.4.10-r200 2.10.9: Open source web browser engine
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
+net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop Protocol
 net-misc/iputils 20121221-r99 20151218-r99: Network monitoring tools including ping and ping6
 net-misc/modemmanager 1.4.12 1.4.14: Modem and mobile broadband management libraries
 net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
@@ -75,6 +76,7 @@ sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 6.1.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1-r99: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
+sys-fs/f2fs-tools 1.6.0 1.6.1: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116-r99: User-land utilities for LVM2 (device-mapper) software
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
 sys-fs/udisks 2.1.6-r99: Daemon providing interfaces to work with storage devices
