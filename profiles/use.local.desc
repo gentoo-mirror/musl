@@ -184,6 +184,9 @@ media-gfx/exiv2:contrib - Build additional contrib components
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
+media-sound/ncmpcpp:clock - Enable clock screen
+media-sound/ncmpcpp:outputs - Enable outputs screen
+media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
 net-dialup/ppp:activefilter - Enables active filter support
 net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support
 net-dialup/ppp:dhcp - Installs PPP DHCP client plugin for IP address allocation by a DHCP server (see http://www.netservers.co.uk/gpl/)

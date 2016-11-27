@@ -43,6 +43,7 @@ media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2-r99: Separate libraries ebuild from upstream v4l-utils package
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
 media-plugins/caps-plugins 0.9.15 0.9.15-r1: The CAPS Audio Plugin Suite - LADSPA plugin suite
+media-sound/ncmpcpp 0.7.4 0.7.5 0.7.7: featureful ncurses based MPD client inspired by ncmpc
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
 net-firewall/iptables 1.4.21-r99: Linux kernel (2.4+) firewall, NAT and packet mangling tools
