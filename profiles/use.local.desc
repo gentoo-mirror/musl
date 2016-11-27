@@ -287,9 +287,11 @@ sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remo
 sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
+sys-fs/lvm2:corosync - Corosync support for clustered lvm
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
 sys-fs/lvm2:lvm1 - Allow users to build lvm2 with lvm1 support
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
+sys-fs/lvm2:openais - Openais support for clustered lvm
 sys-fs/lvm2:thin - Support for thin volumes
 sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
 sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
