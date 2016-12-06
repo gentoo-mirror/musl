@@ -130,6 +130,7 @@ dev-qt/qtcore:glib - Enable dev-libs/glib eventloop support
 dev-qt/qtcore:qt3support - Enable the Qt3Support libraries for Qt4. Note that this does not mean you can compile pure Qt3 programs with Qt4.
 dev-qt/qtcore:systemd - Enable native journald logging support
 dev-qt/qtwebengine:geolocation - Enable physical position determination via dev-qt/qtpositioning
+dev-qt/qtwebengine:pax_kernel - Enable building under a PaX enabled kernel
 dev-qt/qtwebengine:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
 dev-qt/qtwebengine:system-icu - Use the system-wide dev-libs/icu instead of bundled.
 dev-qt/qtwebengine:widgets - Enable QtWidgets support
