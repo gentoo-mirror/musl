@@ -188,6 +188,10 @@ media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit
 media-sound/ncmpcpp:clock - Enable clock screen
 media-sound/ncmpcpp:outputs - Enable outputs screen
 media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
+media-sound/sox:amr - Enables Adaptive Multi-Rate Audio support
+media-sound/sox:id3tag - Enables ID3 tagging with id3tag library
+media-sound/sox:opus - Enables reading Ogg Opus files.
+media-sound/sox:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 net-dialup/ppp:activefilter - Enables active filter support
 net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support
 net-dialup/ppp:dhcp - Installs PPP DHCP client plugin for IP address allocation by a DHCP server (see http://www.netservers.co.uk/gpl/)
@@ -222,12 +226,23 @@ net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
 net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
 net-libs/webkit-gtk:libsecret - Enable libsecret support to store login credentials
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
+net-misc/connman:ethernet - Enable ethernet support.
+net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
+net-misc/connman:ofono - Use net-misc/ofono for telephony support.
+net-misc/connman:openconnect - Use net-misc/openconnect for VPN support.
+net-misc/connman:openvpn - Use net-misc/openvpn for openvpn support.
+net-misc/connman:pptp - Use net-dialup/pptpclient for PPTP VPN support.
+net-misc/connman:tools - Enable testing tools.
+net-misc/connman:vpnc - Use net-misc/vpnc for cisco VPN support.
+net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
 net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
 net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
 net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
 net-misc/iputils:gcrypt - Use dev-libs/libgcrypt for md5 support
+net-misc/iputils:nettle - Use dev-libs/nettle for md5 support
+net-misc/iputils:openssl - Use dev-libs/openssl for md5 support
 net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
 net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
@@ -248,6 +263,9 @@ sys-apps/busybox:systemd - Support systemd
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs
+sys-apps/kexec-tools:booke - Include support for Book-E memory management
+sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
+sys-apps/kexec-tools:xen - Enable extended xen support
 sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
 sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
 sys-apps/net-tools:old-output - use old ifconfig output style (useful for when new output breaks scripts)
@@ -285,6 +303,7 @@ sys-devel/gdb:lzma - Support lzma compression in ELF debug info
 sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
