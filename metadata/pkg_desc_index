@@ -17,7 +17,7 @@ dev-lang/ruby 2.0.0_p647-r1 2.0.0_p648: An object-oriented scripting language
 dev-libs/DirectFB 1.7.6-r99: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/glib 2.46.2-r3 2.48.2: The GLib library of C routines
-dev-libs/icu 58.1-r1: International Components for Unicode
+dev-libs/icu 58.1-r1 58.2: International Components for Unicode
 dev-libs/libbsd 0.8.2-r99: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
 dev-libs/pth 2.0.7-r3: GNU Portable Threads
