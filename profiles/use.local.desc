@@ -185,6 +185,7 @@ mail-client/thunderbird:system-sqlite - Use the system-wide dev-db/sqlite instal
 media-gfx/exiv2:contrib - Build additional contrib components
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
 media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 media-sound/ncmpcpp:clock - Enable clock screen
 media-sound/ncmpcpp:outputs - Enable outputs screen
