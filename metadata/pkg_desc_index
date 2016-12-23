@@ -101,6 +101,7 @@ sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 3.9.0 3.9.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
+sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
 sys-libs/pam 1.2.1-r99: Linux-PAM (Pluggable Authentication Modules)
