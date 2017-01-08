@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install prepare setup test
+DEPEND=pam? ( virtual/pam ) sys-devel/bison sys-devel/flex elibc_musl? ( sys-libs/musl-fts ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Tools and libraries to configure and manage kernel control groups
+EAPI=5
+HOMEPAGE=http://libcg.sourceforge.net/
+IUSE=+daemon elibc_musl pam static-libs +tools
+KEYWORDS=amd64 ~ppc ~ppc64 ~x86
+LICENSE=LGPL-2.1
+RDEPEND=pam? ( virtual/pam )
+REQUIRED_USE=daemon? ( tools )
+SLOT=0
+SRC_URI=mirror://sourceforge/project/libcg/libcgroup/v0.41/libcgroup-0.41.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_prepare:- src_configure:- src_test:- src_install:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	017377e73405d964cd0137088cddb9c3	flag-o-matic	7366202dd55cb8f018f5d450d54e7749	libtool	4890219c51da247200223277f993e054	linux-info	af49d8ab3be91bb1d38b7201dc9e5123	multilib	165fc17c38d1b11dac2008280dab6e80	pam	3ecd5b75e39b0bb05a3183c08fcdfdb4	toolchain-funcs	1b1da0c45c555989dc5d832b54880783	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=08ef061234ddd52a259c96733a5cb9e6

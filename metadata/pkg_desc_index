@@ -1,5 +1,6 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
 app-arch/p7zip 9.20.1-r5: Port of 7-Zip archiver for Unix
+app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard archive tool
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
 app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
@@ -18,6 +19,7 @@ dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collec
 dev-libs/glib 2.46.2-r3 2.48.2: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2: International Components for Unicode
 dev-libs/libbsd 0.8.2-r99: An library to provide useful functions commonly found on BSD systems
+dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
 dev-libs/pth 2.0.7-r3: GNU Portable Threads
 dev-libs/wayland 1.11.0: Wayland protocol libraries
@@ -99,8 +101,10 @@ sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 3.9.0 3.9.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
+sys-libs/libselinux 2.6: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
+sys-libs/musl-fts 1.2.5: Implementation of fts(3) functions for musl libc
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
 sys-libs/pam 1.2.1-r99: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
