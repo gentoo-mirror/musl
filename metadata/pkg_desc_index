@@ -19,7 +19,6 @@ dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collec
 dev-libs/glib 2.46.2-r3 2.48.2: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2: International Components for Unicode
 dev-libs/libbsd 0.8.2-r99: An library to provide useful functions commonly found on BSD systems
-dev-libs/libcgroup 0.41-r4: Tools and libraries to configure and manage kernel control groups
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
 dev-libs/pth 2.0.7-r3: GNU Portable Threads
 dev-libs/wayland 1.11.0: Wayland protocol libraries
@@ -105,7 +104,6 @@ sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
 sys-libs/libselinux 2.6: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
-sys-libs/musl-fts 1.2.5: Implementation of fts(3) functions for musl libc
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
 sys-libs/pam 1.2.1-r99: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
