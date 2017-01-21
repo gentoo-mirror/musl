@@ -16,6 +16,7 @@ dev-java/jamvm 2.0.0-r99: An extremely small and specification-compliant virtual
 dev-lang/ruby 2.0.0_p647-r1 2.0.0_p648: An object-oriented scripting language
 dev-libs/DirectFB 1.7.6-r99: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
+dev-libs/elfutils 0.166 0.168: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.46.2-r3 2.48.2: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2: International Components for Unicode
 dev-libs/libbsd 0.8.2-r99: An library to provide useful functions commonly found on BSD systems
@@ -32,6 +33,7 @@ dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedded scripting language.
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/strace 4.11: A useful diagnostic, instructional, and debugging tool
+dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.10.1 3.12.0: An open-source memory debugger for GNU/Linux
 gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing daemon
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
