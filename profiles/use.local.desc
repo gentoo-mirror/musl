@@ -4,6 +4,31 @@
 
 app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
 app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
+app-admin/rsyslog:dbi - Build the general database output module (requires dev-db/libdbi)
+app-admin/rsyslog:elasticsearch - Build the Elasticsearch output module (requires net-misc/curl)
+app-admin/rsyslog:gcrypt - Add support for encrypted log files using dev-libs/libgcrypt
+app-admin/rsyslog:grok - Build the grok modify module (requires dev-libs/grok)
+app-admin/rsyslog:jemalloc - Use dev-libs/jemalloc for allocations.
+app-admin/rsyslog:kafka - Build the Apache Kafka output module (requires dev-libs/librdkafka)
+app-admin/rsyslog:kerberos - Build the GSSAPI input and output module (requires virtual/krb5)
+app-admin/rsyslog:libressl - Use dev-libs/libressl for building the rfc5424hmac modify module (requires rfc5424hmac USE flag)
+app-admin/rsyslog:mongodb - Build the MongoDB output module (requires dev-libs/libmongo-client)
+app-admin/rsyslog:mysql - Build the MySQL database output module (requires virtual/mysql)
+app-admin/rsyslog:normalize - Build the normalize modify module (requires dev-libs/libee and dev-libs/liblognorm)
+app-admin/rsyslog:omhttpfs - Build the httpfs output module (requires net-misc/curl)
+app-admin/rsyslog:omudpspoof - Build the udpspoof output module (requires net-libs/libnet)
+app-admin/rsyslog:postgres - Build the PostgreSQL database output module (requires dev-db/postgresql)
+app-admin/rsyslog:rabbitmq - Build the RabbitMQ output module (requires net-libs/rabbitmq-c)
+app-admin/rsyslog:redis - Build the Redis output module using (requires dev-libs/hiredis)
+app-admin/rsyslog:relp - Build the Reliable Event Logging Protocol (RELP) output module (requires dev-libs/librelp)
+app-admin/rsyslog:rfc3195 - Build the rfc3195 input module (requires dev-libs/liblogging)
+app-admin/rsyslog:rfc5424hmac - Build the rfc5424hmac modify module (requires dev-libs/openssl or dev-libs/libressl)
+app-admin/rsyslog:snmp - Build the snmp modify and output module (requires net-analyzer/net-snmp)
+app-admin/rsyslog:ssl - Add support for encrypted client/server communication (requires net-libs/gnutls)
+app-admin/rsyslog:systemd - Build the journal input and output module (requires sys-apps/systemd)
+app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) corresponding to the set USE flags
+app-admin/rsyslog:uuid - Include UUIDs in messages (requires sys-apps/util-linux)
+app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/czmq)
 app-arch/p7zip:rar - Enable support for non-free rar decoder
 app-crypt/gpgme:common-lisp - Install common-lisp files
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
@@ -181,6 +206,23 @@ media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit
 media-sound/ncmpcpp:clock - Enable clock screen
 media-sound/ncmpcpp:outputs - Enable outputs screen
 media-sound/ncmpcpp:visualizer - Enable visualizer screen with sound wave/frequency spectrum modes
+media-sound/pulseaudio:X - Build the X11 publish module to export PulseAudio information through X11 protocol for clients to make use. Don't enable this flag if you want to use a system wide instance. If unsure, enable this flag.
+media-sound/pulseaudio:alsa-plugin - Request installing media-plugins/alsa-plugins with PulseAudio plugin enabled. This ensures that clients supporting ALSA only will use PulseAudio.
+media-sound/pulseaudio:asyncns - Use libasyncns for asynchronous name resolution.
+media-sound/pulseaudio:doc - Build the doxygen-described API documentation.
+media-sound/pulseaudio:equalizer - Enable the equalizer module (requires sci-libs/fftw).
+media-sound/pulseaudio:gdbm - Use sys-libs/gdbm to store PulseAudio databases. Recommended for desktop usage. This flag causes the whole package to be licensed under GPL-2 or later.
+media-sound/pulseaudio:glib - Add support to dev-libs/glib-based mainloop for the libpulse client library, to allow using libpulse on glib-based programs.
+media-sound/pulseaudio:gnome - Use GConf to store user preferences on streams and so on. Don't enable this flag if you want to use a system wide instance. If unsure, enable this flag.
+media-sound/pulseaudio:native-headset - Build with native HSP backend for bluez 5.
+media-sound/pulseaudio:ofono-headset - Build with oFono HFP backend for bluez 5, requires net-misc/ofono.
+media-sound/pulseaudio:oss - Enable OSS sink/source (output/input). Deprecated, upstream does not support this on systems where other sink/source systems are available (i.e.: Linux). The padsp wrapper is now always build if the system supports OSS at all.
+media-sound/pulseaudio:realtime - Makes PulseAudio use RealtimeKit (sys-auth/rtkit) to get real-time priority while running.
+media-sound/pulseaudio:ssl - Use dev-libs/openssl to provide support for RAOP (AirPort) streaming.
+media-sound/pulseaudio:system-wide - Allow preparation and installation of the system-wide init script for PulseAudio. Since this support is only supported for embedded situations, do not enable without reading the upstream instructions at http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ .
+media-sound/pulseaudio:systemd - Build with sys-apps/systemd support to replace standalone ConsoleKit.
+media-sound/pulseaudio:webrtc-aec - Uses the webrtc.org AudioProcessing library for enhancing VoIP calls greatly in applications that support it by performing acoustic echo cancellation, analog gain control, noise suppression and other processing.
+media-sound/pulseaudio:xen - Builds a special paravirtualized module for running in a Xen guest.
 media-sound/sox:amr - Enables Adaptive Multi-Rate Audio support
 media-sound/sox:id3tag - Enables ID3 tagging with id3tag library
 media-sound/sox:opus - Enables reading Ogg Opus files.
@@ -334,6 +376,8 @@ x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-libs/vte:glade - Provide integration with dev-util/glade.
+x11-misc/lightdm:gtk - Pull in the gtk+ greeter
+x11-misc/lightdm:kde - Pull in the kde greeter
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-terms/rxvt-unicode:256-color - Enable 256 color support
 x11-terms/rxvt-unicode:alt-font-width - Calculate the font width using a different method
