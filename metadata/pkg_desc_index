@@ -57,7 +57,7 @@ media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.4: GTK+ UVC Viewer
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
-net-firewall/iptables 1.4.21-r1 1.6.1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
+net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4-r99: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
