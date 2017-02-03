@@ -29,7 +29,6 @@ app-admin/rsyslog:systemd - Build the journal input and output module (requires 
 app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) corresponding to the set USE flags
 app-admin/rsyslog:uuid - Include UUIDs in messages (requires sys-apps/util-linux)
 app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/czmq)
-app-arch/p7zip:rar - Enable support for non-free rar decoder
 app-crypt/gpgme:common-lisp - Install common-lisp files
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
 app-editors/emacs:games - Support shared score files for games
