@@ -251,9 +251,10 @@ net-fs/samba:server - Enables the server part
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
 net-libs/webkit-gtk:coverage - Enable code coverage support
-net-libs/webkit-gtk:egl - Enable EGL support.
+net-libs/webkit-gtk:egl - Enable EGL support
 net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
-net-libs/webkit-gtk:gles2 - Enable GLESv2 support.
+net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:gles2 - Enable GLESv2 support
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
 net-misc/connman:ethernet - Enable ethernet support.
 net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
