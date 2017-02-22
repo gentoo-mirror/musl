@@ -49,7 +49,7 @@ media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.15-r1: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/ncmpcpp 0.7.4 0.7.5 0.7.7: featureful ncurses based MPD client inspired by ncmpc
-media-sound/pulseaudio 9.0: A networked sound server with an advanced plugin system
+media-sound/pulseaudio 10.0: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
