@@ -5,7 +5,7 @@ app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
 app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
 app-editors/emacs-vcs 25.1.50_pre20160130-r99: The extensible, customizable, self-documenting real-time display editor
-app-emulation/qemu 2.8.0-r1 2.8.0-r3: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.8.0-r3: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.3.3-r1 5.2.4.2: A full office productivity suite
 app-text/hunspell 1.3.3-r99: Hunspell spell checker - an improved replacement for myspell in OOo
@@ -42,7 +42,7 @@ media-gfx/fontforge 20150612-r99: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.3: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/libv4l 1.6.2-r99: Separate libraries ebuild from upstream v4l-utils package
+media-libs/libv4l 1.6.2: Separate libraries ebuild from upstream v4l-utils package
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
@@ -101,7 +101,6 @@ sys-libs/libcxx 3.7.0-r99: New implementation of the C++ standard library, targe
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 3.9.0 3.9.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
-sys-libs/libseccomp 2.2.3: high level interface to Linux seccomp filter
 sys-libs/libselinux 2.6: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
@@ -109,7 +108,6 @@ sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
 sys-libs/pam 1.2.1-r99 1.3.0: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.2.4-r99: A multi-platform programmer's library designed to allow a developer to create robust software
-sys-power/acpid 2.0.23: Daemon for Advanced Configuration and Power Interface
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0-r99: manage utmp/wtmp entries for non-init clients
