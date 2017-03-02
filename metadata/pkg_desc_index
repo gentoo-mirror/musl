@@ -28,7 +28,7 @@ dev-qt/qtcore 4.8.6-r2 4.8.7-r2 5.6.1 5.6.2-r1 5.7.1-r1: Cross-platform applicat
 dev-qt/qtwebengine 5.6.1 5.6.2 5.7.1-r1: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.6.1 5.6.2 5.7.1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
-dev-tex/luatex 0.70.1-r99: An extended version of pdfTeX using Lua as an embedded scripting language.
+dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/strace 4.11: A useful diagnostic, instructional, and debugging tool
 dev-util/systemtap 2.9: A linux trace/probe tool
@@ -81,7 +81,7 @@ sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/polkit 0.113 0.113-r2: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
-sys-block/parted 3.2-r99: Create, destroy, resize, check, copy partitions and file systems
+sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0: The GNU Compiler Collection
@@ -104,9 +104,9 @@ sys-libs/libselinux 2.6: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
-sys-libs/pam 1.2.1-r99 1.3.0: Linux-PAM (Pluggable Authentication Modules)
+sys-libs/pam 1.2.1 1.3.0: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
-sys-libs/slang 2.2.4-r99: A multi-platform programmer's library designed to allow a developer to create robust software
+sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0 1.1.1: manage utmp/wtmp entries for non-init clients
