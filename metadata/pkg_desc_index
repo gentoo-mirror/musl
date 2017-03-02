@@ -13,7 +13,7 @@ app-text/texlive-core 2014-r99: A complete TeX distribution
 dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r99: An extremely small and specification-compliant virtual machine
-dev-libs/DirectFB 1.7.6-r99: Thin library on top of the Linux framebuffer devices
+dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.166 0.168: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.48.2: The GLib library of C routines
@@ -38,7 +38,7 @@ gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functional
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 media-gfx/exiv2 0.25-r2: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
-media-gfx/sane-backends 1.0.24-r99: Scanner Access Now Easy - Backends
+media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.3: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2: Separate libraries ebuild from upstream v4l-utils package
