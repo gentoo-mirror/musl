@@ -108,7 +108,6 @@ app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:quickstarter - Build the system tray quickstarter
 app-office/libreoffice:telepathy - Enable document colaboration features using telepathy communication framework.
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
-app-text/texlive-core:xetex - Add support for XeTeX: a TeX system with Unicode and modern font technologies.
 dev-libs/DirectFB:bmp - build BMP image provider
 dev-libs/DirectFB:divine - enable DiVine
 dev-libs/DirectFB:drmkms - build with DRM/KMS support
