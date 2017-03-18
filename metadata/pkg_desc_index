@@ -54,7 +54,7 @@ media-video/guvcview 2.0.5: GTK+ UVC Viewer
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
-net-fs/cifs-utils 6.4-r99: Tools for Managing Linux CIFS Client Filesystems
+net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
@@ -82,7 +82,6 @@ sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/polkit 0.113 0.113-r2: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
-sys-block/thin-provisioning-tools 0.3.2-r99: A suite of tools for thin provisioning on Linux
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1: GNU debugger
@@ -96,7 +95,6 @@ sys-fs/xfsprogs 4.5.0 4.9.0: xfs filesystem utilities
 sys-kernel/linux-headers 4.4 4.8 4.9 4.10: Linux system headers
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
-sys-libs/libcxx 3.7.0-r99: New implementation of the C++ standard library, targeting C++11
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 4.0.0: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
@@ -112,7 +110,7 @@ www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
 x11-apps/sessreg 1.1.0 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.16.4 1.17.4 1.18.4 1.19.1: X.Org X servers
 x11-libs/libdrm 2.4.65-r99: X.Org libdrm library
-x11-libs/libpciaccess 0.13.4-r99: Library providing generic access to the PCI bus and devices
+x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r4: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.28.2-r207 0.28.2-r208: GNOME terminal widget
 x11-misc/lightdm 1.21.3-r1: A lightweight display manager

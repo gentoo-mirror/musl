@@ -243,11 +243,11 @@ net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/o
 net-misc/connman:ethernet - Enable ethernet support.
 net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
 net-misc/connman:ofono - Use net-misc/ofono for telephony support.
-net-misc/connman:openconnect - Use net-misc/openconnect for VPN support.
-net-misc/connman:openvpn - Use net-misc/openvpn for openvpn support.
+net-misc/connman:openconnect - Use net-vpn/openconnect for VPN support.
+net-misc/connman:openvpn - Use net-vpn/openvpn for openvpn support.
 net-misc/connman:pptp - Use net-dialup/pptpclient for PPTP VPN support.
 net-misc/connman:tools - Enable testing tools.
-net-misc/connman:vpnc - Use net-misc/vpnc for cisco VPN support.
+net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
@@ -337,7 +337,6 @@ sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
 sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by partitioning functionality
 sys-fs/udisks:introspection - Use dev-libs/gobject-introspection for introspection
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
-sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libomp:hwloc - Enable CPU affinity support via hwloc
 sys-libs/libomp:ompt - Enable OpenMP Tools Interface support
 sys-libs/libselinux:pcre2 - Use dev-libs/libpcre2 for fcontext regexes
