@@ -30,7 +30,6 @@ dev-qt/qtwebkit 5.6.1 5.6.2 5.7.1: WebKit rendering library for the Qt5 framewor
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
-dev-util/strace 4.11: A useful diagnostic, instructional, and debugging tool
 dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.10.1 3.12.0: An open-source memory debugger for GNU/Linux
 gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing daemon
@@ -82,6 +81,7 @@ sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/polkit 0.113 0.113-r2: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
+sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1: GNU debugger
