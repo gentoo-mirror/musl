@@ -5,6 +5,7 @@ app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
 app-editors/emacs 24.5-r99: The extensible, customizable, self-documenting real-time display editor
 app-editors/emacs-vcs 25.1.50_pre20160130-r99: The extensible, customizable, self-documenting real-time display editor
+app-emulation/libvirt 3.1.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.8.0-r3 2.8.0-r9: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.3.3-r1: A full office productivity suite
@@ -32,7 +33,8 @@ dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.10.1 3.12.0: An open-source memory debugger for GNU/Linux
-gnome-base/gnome-keyring 3.16.0-r99 3.18.3-r99: Password and keyring managing daemon
+gnome-base/gnome-keyring 3.20.0: Password and keyring managing daemon
+gnome-base/gnome-session 3.20.2: Gnome session manager
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 media-gfx/exiv2 0.25-r2: EXIF, IPTC and XMP metadata C++ library and command line utility
@@ -47,17 +49,19 @@ media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.15-r1: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
+media-sound/mpd 0.19.19: The Music Player Daemon (mpd)
 media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pulseaudio 10.0: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
 net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
+net-firewall/ebtables 2.0.10.4 2.0.10.4-r1: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
-net-libs/libtirpc 0.2.5-r99: Transport Independent RPC library (SunRPC replacement)
+net-libs/libtirpc 0.2.5 1.0.1: Transport Independent RPC library (SunRPC replacement)
 net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.14.5: Open source web browser engine
 net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
@@ -67,6 +71,7 @@ net-misc/iputils 20121221-r1 20151218 20160308: Network monitoring tools includi
 net-misc/modemmanager 1.4.12 1.4.14: Modem and mobile broadband management libraries
 net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
+sys-apps/accountsservice 0.6.43: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/busybox 1.25.1 1.26.0 1.26.2: Utilities for rescue and embedded systems
 sys-apps/iproute2 4.4.0 4.10.0: kernel routing and traffic control utilities
@@ -79,6 +84,7 @@ sys-apps/shadow 4.1.5.1-r99: Utilities to deal with user accounts
 sys-apps/tcp-wrappers 7.6.22-r99: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
+sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.113 0.113-r2: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
@@ -108,7 +114,7 @@ sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 www-misc/htdig 3.2.0_beta6-r99: HTTP/HTML indexing and searching system
-x11-apps/sessreg 1.1.0 1.1.1: manage utmp/wtmp entries for non-init clients
+x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.16.4 1.17.4 1.18.4 1.19.1: X.Org X servers
 x11-libs/libdrm 2.4.65-r99: X.Org libdrm library
 x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices
