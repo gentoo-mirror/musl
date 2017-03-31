@@ -1,5 +1,5 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
-app-admin/rsyslog 8.25.0: An enhanced multi-threaded syslogd with database support and more
+app-admin/rsyslog 8.25.0-r1: An enhanced multi-threaded syslogd with database support and more
 app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard archive tool
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-crypt/gpgme 1.5.5-r99: GnuPG Made Easy is a library for making GnuPG easier to use
@@ -14,7 +14,7 @@ dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r99: An extremely small and specification-compliant virtual machine
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
-dev-libs/boehm-gc 7.4.2-r99: The Boehm-Demers-Weiser conservative garbage collector
+dev-libs/boehm-gc 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.166 0.168: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.48.2: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2: International Components for Unicode
