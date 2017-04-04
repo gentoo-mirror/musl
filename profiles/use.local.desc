@@ -428,8 +428,6 @@ x11-base/xorg-server:xephyr - Build the Xephyr server
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
-x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
-x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-misc/lightdm:gtk - Pull in the gtk+ greeter
 x11-misc/lightdm:kde - Pull in the kde greeter
 x11-misc/slim:consolekit - Enable native consolekit support
