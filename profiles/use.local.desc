@@ -31,6 +31,7 @@ app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) c
 app-admin/rsyslog:uuid - Include UUIDs in messages (requires sys-apps/util-linux)
 app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/czmq)
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
+app-editors/emacs:dynamic-loading - Enable loading of dynamic libraries at runtime
 app-editors/emacs:games - Support shared score files for games
 app-editors/emacs:gconf - Use gnome-base/gconf to read the system font name
 app-editors/emacs:gfile - Use gfile (dev-libs/glib) for file notification
@@ -44,20 +45,7 @@ app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs:source - Install C source files and make them available for find-function
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
-app-editors/emacs-vcs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
-app-editors/emacs-vcs:games - Support shared score files for games
-app-editors/emacs-vcs:gconf - Use gnome-base/gconf to read the system font name
-app-editors/emacs-vcs:gfile - Use gfile (dev-libs/glib) for file notification
-app-editors/emacs-vcs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
-app-editors/emacs-vcs:gtk3 - Prefer version 3 of the GIMP Toolkit to version 2 (x11-libs/gtk+)
-app-editors/emacs-vcs:gzip-el - Compress bundled Emacs Lisp source
-app-editors/emacs-vcs:hesiod - Enable support for net-dns/hesiod
-app-editors/emacs-vcs:imagemagick - Use media-gfx/imagemagick for image processing
-app-editors/emacs-vcs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
-app-editors/emacs-vcs:pax_kernel - Enable building under a PaX enabled kernel
-app-editors/emacs-vcs:source - Install C source files and make them available for find-function
-app-editors/emacs-vcs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
-app-editors/emacs-vcs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
+app-editors/emacs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
 app-emulation/libvirt:apparmor - Enable AppArmor support
 app-emulation/libvirt:firewalld - DBus interface to iptables/ebtables allowing for better runtime management of your firewall.
 app-emulation/libvirt:fuse - Allow LXC to use sys-fs/fuse for mount points
