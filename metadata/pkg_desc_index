@@ -4,7 +4,7 @@ app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard arc
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-editors/emacs 24.5-r3 25.2_rc2: The extensible, customizable, self-documenting real-time display editor
 app-emulation/libvirt 3.1.0: C toolkit to manipulate virtual machines
-app-emulation/qemu 2.8.0-r3 2.8.0-r9: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.8.0-r9 2.8.1: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.3.3-r1 5.2.6.2: A full office productivity suite
 app-text/hunspell 1.3.3: Hunspell spell checker - an improved replacement for myspell in OOo
@@ -12,7 +12,7 @@ dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r99: An extremely small and specification-compliant virtual machine
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
-dev-libs/boehm-gc 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
+dev-libs/boehm-gc 7.4.2 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.166 0.168: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.48.2: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2: International Components for Unicode
