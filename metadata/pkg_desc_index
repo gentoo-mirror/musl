@@ -4,7 +4,7 @@ app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard arc
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-editors/emacs 24.5-r3 25.2: The extensible, customizable, self-documenting real-time display editor
 app-emulation/libvirt 3.1.0 3.2.0: C toolkit to manipulate virtual machines
-app-emulation/qemu 2.8.0-r10 2.8.1-r1: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.8.0-r10 2.8.1-r2 2.9.0: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.3.3-r1 5.2.6.2: A full office productivity suite
 app-text/hunspell 1.3.3: Hunspell spell checker - an improved replacement for myspell in OOo
