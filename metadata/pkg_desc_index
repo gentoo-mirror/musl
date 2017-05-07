@@ -90,7 +90,7 @@ sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0: The GNU Compiler Collection
+sys-devel/gcc 4.7.4-r99 4.8.5-r99 4.8.5-r999 4.9.3-r99 4.9.3-r999 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0 7.1.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/f2fs-tools 1.6.1 1.7.0-r1: Tools for Flash-Friendly File System (F2FS)
