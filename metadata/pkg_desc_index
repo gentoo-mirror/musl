@@ -60,7 +60,7 @@ net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet ma
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
-net-libs/libtirpc 0.2.5 1.0.1: Transport Independent RPC library (SunRPC replacement)
+net-libs/libtirpc 0.2.5 1.0.1 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
 net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.14.5 2.16.1: Open source web browser engine
 net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
