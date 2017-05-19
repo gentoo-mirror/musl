@@ -47,7 +47,7 @@ media-libs/mesa 13.0.5 13.0.6 17.0.6 17.1.0: OpenGL-like graphic library for Lin
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
-media-plugins/caps-plugins 0.9.15 0.9.15-r1: The CAPS Audio Plugin Suite - LADSPA plugin suite
+media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/mpd 0.19.19: The Music Player Daemon (mpd)
 media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
@@ -99,7 +99,7 @@ sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2 2.02.171: User-land utilities for L
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
 sys-fs/udisks 2.1.6-r99: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
-sys-fs/xfsprogs 4.5.0 4.10.0: xfs filesystem utilities
+sys-fs/xfsprogs 4.5.0 4.11.0: xfs filesystem utilities
 sys-kernel/linux-headers 4.4 4.8 4.9 4.10: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.0: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
