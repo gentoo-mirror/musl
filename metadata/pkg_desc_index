@@ -40,7 +40,7 @@ lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 media-gfx/exiv2 0.25-r2: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
-media-libs/alsa-lib 1.1.4: Advanced Linux Sound Architecture Library
+media-libs/alsa-lib 1.1.4.1: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2: Separate libraries ebuild from upstream v4l-utils package
 media-libs/mesa 13.0.5 13.0.6 17.0.6 17.1.0 17.1.1: OpenGL-like graphic library for Linux
