@@ -30,6 +30,10 @@ app-admin/rsyslog:systemd - Build the journal input and output module (requires 
 app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) corresponding to the set USE flags
 app-admin/rsyslog:uuid - Include UUIDs in messages (requires sys-apps/util-linux)
 app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/czmq)
+app-admin/sudo:gcrypt - Use SHA2 from dev-libs/libgcrypt instead of sudo's internal SHA2.
+app-admin/sudo:offensive - Let sudo print insults when the user types the wrong password.
+app-admin/sudo:openssl - Use SHA2 from dev-libs/openssl instead of sudo's internal SHA2.
+app-admin/sudo:sendmail - Allow sudo to send emails with sendmail.
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
 app-editors/emacs:dynamic-loading - Enable loading of dynamic libraries at runtime
 app-editors/emacs:games - Support shared score files for games
