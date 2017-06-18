@@ -38,6 +38,7 @@ gnome-base/gnome-keyring 3.20.0: Password and keyring managing daemon
 gnome-base/gnome-session 3.20.2: Gnome session manager
 gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
+mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.25-r2 0.26: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends

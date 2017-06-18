@@ -198,6 +198,11 @@ dev-scheme/guile:regex - Include regular expression interfaces
 gnome-base/gnome-keyring:ssh-agent - Use GNOME Keyring to unlock SSH keys. Recommended unless you are using ECDSA or Ed25519 keys.
 lxde-base/lxdm:consolekit - Enables support for authorization using consolekit
 lxde-base/lxdm:gtk3 - Use GTK+3 instead of 2
+mail-mta/postfix:dovecot-sasl - Enable net-mail/dovecot protocol version 1 (server only) SASL implementation
+mail-mta/postfix:eai - Add support for SMTPUTF8
+mail-mta/postfix:ldap-bind - Add support for binding to LDAP backend using dev-libs/cyrus-sasl
+mail-mta/postfix:lmdb - Add support for using dev-db/lmdb for lookup tables
+mail-mta/postfix:memcached - Add support for using net-misc/memcached for lookup tables
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
