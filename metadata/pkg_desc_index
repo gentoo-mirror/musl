@@ -66,7 +66,7 @@ net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5 1.0.1 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
 net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
-net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.3 2.16.4: Open source web browser engine
+net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.3 2.16.4 2.16.5: Open source web browser engine
 net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop Protocol
