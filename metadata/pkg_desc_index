@@ -105,13 +105,13 @@ sys-fs/udisks 2.1.6-r99: Daemon providing interfaces to work with storage device
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-fs/xfsprogs 4.5.0 4.11.0: xfs filesystem utilities
 sys-kernel/linux-headers 4.4 4.8 4.9 4.10: Linux system headers
-sys-libs/compiler-rt-sanitizers 4.0.0: Compiler runtime libraries for clang (sanitizers & xray)
+sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r99: Console-based mouse driver
-sys-libs/libcxx 4.0.0: New implementation of the C++ standard library, targeting C++11
-sys-libs/libcxxabi 4.0.0: Low level support for a standard C++ library
+sys-libs/libcxx 4.0.1: New implementation of the C++ standard library, targeting C++11
+sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
-sys-libs/libomp 3.9.1 4.0.0: OpenMP runtime library for LLVM/clang compiler
+sys-libs/libomp 3.9.1 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7_rc1: SELinux userland library
 sys-libs/libsepol 2.6 2.7_rc1: SELinux binary policy representation library
