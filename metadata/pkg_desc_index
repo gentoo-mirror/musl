@@ -8,7 +8,7 @@ app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.2.0 3.3.0 3.4.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.8.1-r2 2.9.0-r2 2.9.0-r54: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2: ELF utils that can check files for security relevant properties
-app-office/libreoffice 5.2.7.2 5.3.3.2: A full office productivity suite
+app-office/libreoffice 5.2.7.2 5.3.3.2 5.3.4.2: A full office productivity suite
 app-text/hunspell 1.3.3: Hunspell spell checker - an improved replacement for myspell in OOo
 dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
@@ -45,7 +45,7 @@ media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.4.1: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/libv4l 1.6.2: Separate libraries ebuild from upstream v4l-utils package
-media-libs/mesa 13.0.5 13.0.6 17.0.6 17.0.7 17.1.0 17.1.1 17.1.2 17.1.3: OpenGL-like graphic library for Linux
+media-libs/mesa 13.0.5 13.0.6 17.0.6 17.0.7 17.1.0 17.1.1 17.1.2 17.1.3 17.1.4: OpenGL-like graphic library for Linux
 media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
