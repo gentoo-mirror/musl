@@ -9,4 +9,4 @@ RDEPEND=sys-apps/util-linux sys-libs/libselinux elibc_musl? ( sys-libs/queue )
 SLOT=0/1
 SRC_URI=https://dev.gentoo.org/~blueness/f2fs-tools/f2fs-tools-1.7.0.tar.xz
 _eclass_exported_funcs=src_configure:- src_install:-
-_md5_=383f5f07ceaebe9dc862b470c2aa9d68
+_md5_=78ecbe068096342becee2c43dbae611a
