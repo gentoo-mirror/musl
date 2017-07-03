@@ -421,6 +421,7 @@ sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
 sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by partitioning functionality
 sys-fs/udisks:introspection - Use dev-libs/gobject-introspection for introspection
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
+sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
 sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
 sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.

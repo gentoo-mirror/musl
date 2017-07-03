@@ -104,6 +104,7 @@ sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squa
 sys-fs/udisks 2.1.6-r99: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-fs/xfsprogs 4.5.0 4.11.0: xfs filesystem utilities
+sys-kernel/dracut 045: Generic initramfs generation tool
 sys-kernel/linux-headers 4.4 4.8 4.9 4.10: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
