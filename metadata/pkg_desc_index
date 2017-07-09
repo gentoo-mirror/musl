@@ -90,7 +90,7 @@ sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
-sys-auth/polkit 0.113 0.113-r3: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.113 0.113-r4: Policy framework for controlling privileges for system-wide services
 sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r1: Create, destroy, resize, check, copy partitions and file systems
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
@@ -114,7 +114,7 @@ sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 3.9.1 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
-sys-libs/libselinux 2.6 2.7_rc1: SELinux userland library
+sys-libs/libselinux 2.6 2.7_rc1 2.7_rc4: SELinux userland library
 sys-libs/libsepol 2.6 2.7_rc1: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
