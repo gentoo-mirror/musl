@@ -114,7 +114,7 @@ sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 3.9.1 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
-sys-libs/libselinux 2.6 2.7_rc1 2.7_rc4: SELinux userland library
+sys-libs/libselinux 2.6 2.7_rc1 2.7_rc4 2.7_rc5: SELinux userland library
 sys-libs/libsepol 2.6 2.7_rc1: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r1 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
