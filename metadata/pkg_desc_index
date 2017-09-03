@@ -120,7 +120,7 @@ sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
-x11-base/xorg-server 1.16.4 1.17.4 1.18.4 1.19.1: X.Org X servers
+x11-base/xorg-server 1.19.3: X.Org X servers
 x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r4: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.28.2-r208: GNOME terminal widget
