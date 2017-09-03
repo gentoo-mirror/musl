@@ -8,15 +8,14 @@ app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.2.0 3.3.0 3.4.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.9.0-r56 2.10.0: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1: ELF utils that can check files for security relevant properties
-app-office/libreoffice 5.2.7.2 5.3.3.2 5.3.4.2: A full office productivity suite
-app-text/hunspell 1.3.3: Hunspell spell checker - an improved replacement for myspell in OOo
-dev-db/libiodbc 3.52.8-r99: ODBC Interface for Linux
+app-office/libreoffice 5.2.7.2 5.3.4.2: A full office productivity suite
+dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
-dev-java/jamvm 2.0.0-r99: An extremely small and specification-compliant virtual machine
+dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.166 0.169-r1 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/glib 2.48.2: The GLib library of C routines
+dev-libs/glib 2.50.3-r1: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2-r1 59.1: International Components for Unicode
 dev-libs/libbsd 0.8.3 0.8.5 0.8.6: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
@@ -25,7 +24,7 @@ dev-libs/wayland 1.11.0: Wayland protocol libraries
 dev-libs/weston 1.11.0 1.12.0: Wayland reference compositor
 dev-python/numpy 1.10.4 1.12.1: Fast array and numerical python library
 dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
-dev-qt/qtcore 4.8.6-r2 4.8.7-r2 5.6.2-r1 5.7.1-r2 5.7.1-r3: Cross-platform application development framework
+dev-qt/qtcore 4.8.6-r2 4.8.7-r2 5.6.2-r1 5.7.1-r3: Cross-platform application development framework
 dev-qt/qtwebengine 5.6.2-r1 5.7.1-r2: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.6.2 5.7.1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
@@ -65,17 +64,14 @@ net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.3.9-r99: Samba Suite Version 4
 net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5 1.0.1 1.0.1-r1 1.0.1-r2: Transport Independent RPC library (SunRPC replacement)
-net-libs/miniupnpc 1.8-r99: UPnP client library and a simple UPnP client
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.5 2.16.6: Open source web browser engine
 net-misc/chrony 3.2_pre1 3.2_pre2: NTP client and server programs
 net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop Protocol
 net-misc/iputils 20121221-r1 20151218 20160308: Network monitoring tools including ping and ping6
-net-misc/modemmanager 1.4.12 1.4.14: Modem and mobile broadband management libraries
 net-misc/networkmanager 1.8.2: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 7.3_p1-r7 7.5_p1-r1: Port of OpenBSD's free SSH release
-net-p2p/transmission 2.84-r89 2.84-r99: A Fast, Easy and Free BitTorrent client
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/accountsservice 0.6.43: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
@@ -85,9 +81,7 @@ sys-apps/iproute2 4.4.0 4.12.0: kernel routing and traffic control utilities
 sys-apps/kexec-tools 2.0.14: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.5.9-r1: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
-sys-apps/portage 2.3.5: Portage is the package management and distribution system for Gentoo
 sys-apps/sandbox 2.10-r3 2.10-r4 2.11-r5: sandbox'd LD_PRELOAD hack
-sys-apps/shadow 4.1.5.1-r99: Utilities to deal with user accounts
 sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
@@ -98,13 +92,13 @@ sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and
 sys-block/thin-provisioning-tools 0.7.0: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-devel/gcc 4.9.4-r99 4.9.4-r100 5.4.0-r3 5.4.0-r4 6.3.0 6.4.0 7.1.0-r1 7.2.0: The GNU Compiler Collection
+sys-devel/gcc 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.3.0 6.4.0 7.1.0-r1 7.2.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1 8.0: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/f2fs-tools 1.6.1 1.8.0: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2 2.02.166-r2 2.02.171: User-land utilities for LVM2 (device-mapper) software
 sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
-sys-fs/udisks 2.1.6-r99: Daemon providing interfaces to work with storage devices
+sys-fs/udisks 2.1.6: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-fs/xfsprogs 4.5.0 4.11.0 4.12.0: xfs filesystem utilities
 sys-kernel/dracut 045-r2: Generic initramfs generation tool
