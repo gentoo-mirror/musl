@@ -5,7 +5,7 @@ app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard arc
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-editors/emacs 24.5-r3 25.2: The extensible, customizable, self-documenting real-time display editor
 app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
-app-emulation/libvirt 3.2.0 3.3.0 3.4.0: C toolkit to manipulate virtual machines
+app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.9.0-r56 2.10.0: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.7.2 5.3.4.2: A full office productivity suite
@@ -18,12 +18,12 @@ dev-libs/elfutils 0.166 0.169-r1 0.170-r1: Libraries/utilities to handle ELF obj
 dev-libs/glib 2.50.3-r1: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2-r1 59.1: International Components for Unicode
 dev-libs/libbsd 0.8.3 0.8.5 0.8.6: An library to provide useful functions commonly found on BSD systems
-dev-libs/libgamin 0.1.10-r99: Library providing the FAM File Alteration Monitor API
+dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.3.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/wayland 1.11.0: Wayland protocol libraries
 dev-libs/weston 1.11.0 1.12.0: Wayland reference compositor
 dev-python/numpy 1.10.4 1.12.1: Fast array and numerical python library
-dev-qt/qt3support 4.8.6-r99 4.8.7-r99: The Qt3Support module for the Qt toolkit
+dev-qt/qt3support 4.8.6-r1 4.8.7: The Qt3Support module for the Qt toolkit
 dev-qt/qtcore 4.8.6-r2 4.8.7-r2 5.6.2-r1 5.7.1-r3: Cross-platform application development framework
 dev-qt/qtwebengine 5.6.2-r1 5.7.1-r2: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-qt/qtwebkit 5.6.2 5.7.1: WebKit rendering library for the Qt5 framework (deprecated)
@@ -34,8 +34,7 @@ dev-util/kbuild 0.1.9998_pre20131130 0.1.9998_pre20131130-r1: A makefile framewo
 dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 gnome-base/gnome-keyring 3.20.1: Password and keyring managing daemon
-gnome-base/gnome-session 3.20.2: Gnome session manager
-gnome-base/libgtop 2.30.0-r99 2.32.0-r99: A library that provides top functionality to applications
+gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.25-r2 0.26: EXIF, IPTC and XMP metadata C++ library and command line utility
@@ -43,9 +42,7 @@ media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.4.1: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/libv4l 1.6.2: Separate libraries ebuild from upstream v4l-utils package
-media-libs/mesa 13.0.5 13.0.6 17.0.6 17.0.7 17.1.0 17.1.1 17.1.2 17.1.3 17.1.4 17.1.5 17.1.6 17.1.7 17.2.0_rc6: OpenGL-like graphic library for Linux
-media-libs/netpbm 10.66.00-r99: A set of utilities for converting to/from the netpbm (and related) formats
+media-libs/mesa 13.0.5 13.0.6 17.0.6 17.0.7 17.1.8 17.2.0: OpenGL-like graphic library for Linux
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
@@ -57,12 +54,12 @@ media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
 net-analyzer/openbsd-netcat 1.105-r1: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2-r99: Tools for ATM
-net-dialup/ppp 2.4.7-r99: Point-to-Point Protocol (PPP)
+net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
 net-firewall/ebtables 2.0.10.4 2.0.10.4-r1: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
-net-fs/samba 4.3.9-r99: Samba Suite Version 4
-net-libs/libnfsidmap 0.24-r99: NFSv4 ID <-> name mapping library
+net-fs/samba 4.5.10-r1: Samba Suite Version 4
+net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 0.2.5 1.0.1 1.0.1-r1 1.0.1-r2: Transport Independent RPC library (SunRPC replacement)
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.5 2.16.6: Open source web browser engine
 net-misc/chrony 3.2_pre1 3.2_pre2: NTP client and server programs
@@ -73,7 +70,7 @@ net-misc/iputils 20121221-r1 20151218 20160308: Network monitoring tools includi
 net-misc/networkmanager 1.8.2: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 7.3_p1-r7 7.5_p1-r1: Port of OpenBSD's free SSH release
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
-sys-apps/accountsservice 0.6.43: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/busybox 1.25.1 1.26.2-r1 1.27.2: Utilities for rescue and embedded systems
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
@@ -87,7 +84,6 @@ sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.113 0.113-r4: Policy framework for controlling privileges for system-wide services
-sys-auth/skey 1.1.5-r99: Linux Port of OpenBSD Single-key Password System
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.7.0: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
@@ -97,7 +93,6 @@ sys-devel/gdb 7.10.1 7.12.1 8.0: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/f2fs-tools 1.6.1 1.8.0: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2 2.02.166-r2 2.02.171: User-land utilities for LVM2 (device-mapper) software
-sys-fs/squashfs-tools 4.3-r99: Tool for creating compressed filesystem type squashfs
 sys-fs/udisks 2.1.6: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-fs/xfsprogs 4.5.0 4.11.0 4.12.0: xfs filesystem utilities
@@ -105,7 +100,7 @@ sys-kernel/dracut 045-r2: Generic initramfs generation tool
 sys-kernel/linux-headers 4.4 4.8 4.9 4.10 4.11: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
-sys-libs/gpm 1.20.7-r99: Console-based mouse driver
+sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libcxx 4.0.1: New implementation of the C++ standard library, targeting C++11
 sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
@@ -125,7 +120,7 @@ x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus an
 x11-libs/libva-vdpau-driver 0.7.4-r4: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.28.2-r208: GNOME terminal widget
 x11-libs/xcb-util-xrm 1.0 1.2: X C-language Bindings sample implementations
-x11-misc/lightdm 1.21.3-r1: A lightweight display manager
+x11-misc/lightdm 1.21.5: A lightweight display manager
 x11-misc/slim 1.3.6-r5: Simple Login Manager
 x11-terms/rxvt-unicode 9.21-r99: rxvt clone with xft and unicode support
 x11-wm/i3 4.13-r1: An improved dynamic tiling window manager

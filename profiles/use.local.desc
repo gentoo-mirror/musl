@@ -232,7 +232,6 @@ media-libs/mesa:vulkan - Enable Vulkan drivers
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
-media-libs/netpbm:rle - Build converters for the RLE format (utah raster toolkit)
 media-sound/mpd:adplug - Enable the AdPlug decoder plugin
 media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
 media-sound/mpd:curl - Support for web stream listening
@@ -305,8 +304,10 @@ net-fs/samba:aio - Enable asynchronous IO support
 net-fs/samba:client - Enables the client part
 net-fs/samba:cluster - Enable support for clustering
 net-fs/samba:dmapi - Enable support for DMAPI. This currently works only in combination with XFS.
+net-fs/samba:gpg - Use app-crypt/gpgme for AD DC
 net-fs/samba:iprint - Enabling iPrint technology by Novell
 net-fs/samba:quota - Enables support for user quotas
+net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
 net-libs/webkit-gtk:coverage - Enable code coverage support
@@ -427,8 +428,6 @@ sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys
 sys-fs/lvm2:openais - Openais support for clustered lvm
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
 sys-fs/lvm2:thin - Support for thin volumes
-sys-fs/squashfs-tools:lz4 - Enable support for LZ4 compression using app-arch/lz4
-sys-fs/squashfs-tools:xz - Enable support for XZ ("LZMA2") compression using app-arch/xz-utils
 sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
 sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by partitioning functionality
 sys-fs/udisks:introspection - Use dev-libs/gobject-introspection for introspection
@@ -454,7 +453,6 @@ x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-misc/lightdm:gtk - Pull in the gtk+ greeter
-x11-misc/lightdm:kde - Pull in the kde greeter
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-terms/rxvt-unicode:256-color - Enable 256 color support
 x11-terms/rxvt-unicode:alt-font-width - Calculate the font width using a different method
