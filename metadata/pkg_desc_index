@@ -1,5 +1,5 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
-app-admin/rsyslog 8.24.0-r2 8.27.0: An enhanced multi-threaded syslogd with database support and more
+app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0 8.29.0: An enhanced multi-threaded syslogd with database support and more
 app-admin/sudo 1.8.20_p2: Allows users or groups to run commands as other users
 app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard archive tool
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
@@ -20,7 +20,6 @@ dev-libs/icu 58.1-r1 58.2-r1 59.1: International Components for Unicode
 dev-libs/libbsd 0.8.3 0.8.5 0.8.6: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.3.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
-dev-libs/wayland 1.11.0: Wayland protocol libraries
 dev-libs/weston 1.11.0 1.12.0: Wayland reference compositor
 dev-python/numpy 1.10.4 1.12.1: Fast array and numerical python library
 dev-qt/qt3support 4.8.6-r1 4.8.7: The Qt3Support module for the Qt toolkit
@@ -42,7 +41,7 @@ media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.4.1: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 13.0.5 13.0.6 17.0.6 17.0.7 17.1.8 17.2.0: OpenGL-like graphic library for Linux
+media-libs/mesa 13.0.5 13.0.6 17.0.6 17.1.8 17.2.0: OpenGL-like graphic library for Linux
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
