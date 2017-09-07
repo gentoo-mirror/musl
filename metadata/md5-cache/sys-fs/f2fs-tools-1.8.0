@@ -9,5 +9,4 @@ LICENSE=GPL-2
 RDEPEND=sys-apps/util-linux selinux? ( sys-libs/libselinux ) elibc_musl? ( sys-libs/queue )
 SLOT=0/2
 SRC_URI=https://dev.gentoo.org/~blueness/f2fs-tools/f2fs-tools-1.8.0.tar.xz
-_eclass_exported_funcs=src_configure:- src_install:-
 _md5_=5815beb44d80fd9c515b2d77994ae779
