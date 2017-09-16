@@ -59,6 +59,7 @@ net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet ma
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.5.10-r1: Samba Suite Version 4
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
+net-libs/libnsl 1.1.0: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
 net-libs/libtirpc 0.2.5 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.5 2.16.6: Open source web browser engine
 net-misc/chrony 3.2: NTP client and server programs
