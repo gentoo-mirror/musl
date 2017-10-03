@@ -20,7 +20,7 @@ dev-libs/glib 2.50.3-r1: The GLib library of C routines
 dev-libs/icu 58.1-r1 58.2-r1 59.1: International Components for Unicode
 dev-libs/libbsd 0.8.3 0.8.5 0.8.6: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
-dev-libs/libnl 3.3.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
+dev-libs/libnl 3.3.0 3.4.0_rc1: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/weston 1.11.0 3.0.0: Wayland reference compositor
 dev-python/numpy 1.10.4 1.12.1: Fast array and numerical python library
 dev-qt/qt3support 4.8.6-r1 4.8.7: The Qt3Support module for the Qt toolkit
