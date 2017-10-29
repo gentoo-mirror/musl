@@ -6,7 +6,7 @@ app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-editors/emacs 24.5-r3 24.5-r4 25.2 25.2-r1 25.3: The extensible, customizable, self-documenting real-time display editor
 app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
-app-emulation/qemu 2.9.0-r56 2.10.0: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.9.0-r56 2.9.0-r57 2.10.0 2.10.0-r1: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1 1.2.2-r2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.2.7.2 5.3.4.2: A full office productivity suite
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
@@ -62,7 +62,7 @@ net-fs/samba 4.5.10-r1: Samba Suite Version 4
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
 net-libs/libnsl 1.1.0: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
 net-libs/libtirpc 0.2.5 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
-net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.6 2.18.1: Open source web browser engine
+net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.6 2.18.1 2.18.2: Open source web browser engine
 net-misc/chrony 3.2: NTP client and server programs
 net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
