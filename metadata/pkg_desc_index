@@ -8,7 +8,8 @@ app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.9.0-r56 2.9.0-r57 2.10.0 2.10.0-r1: QEMU + Kernel-based Virtual Machine userland tools
 app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1 1.2.2-r2: ELF utils that can check files for security relevant properties
-app-office/libreoffice 5.2.7.2 5.3.4.2: A full office productivity suite
+app-office/libreoffice 5.2.7.2: A full office productivity suite
+app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
@@ -37,6 +38,7 @@ gnome-base/gnome-keyring 3.20.0 3.20.1: Password and keyring managing daemon
 gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
+mate-extra/mate-power-manager 1.18.0: A session daemon for MATE that makes it easy to manage your laptop or desktop
 media-gfx/exiv2 0.25-r2: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
@@ -59,8 +61,10 @@ net-firewall/ebtables 2.0.10.4 2.0.10.4-r1: Utility that enables basic Ethernet 
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.5.10-r1: Samba Suite Version 4
+net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
 net-libs/libnsl 1.1.0: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
+net-libs/libqmi 1.18.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol helper library
 net-libs/libtirpc 0.2.5 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.6 2.18.1 2.18.2: Open source web browser engine
 net-misc/chrony 3.2: NTP client and server programs
@@ -83,6 +87,7 @@ sys-apps/sandbox 2.10-r3 2.10-r4 2.12: sandbox'd LD_PRELOAD hack
 sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
+sys-auth/elogind 234.4: The systemd project's logind, extracted to a standalone package
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.113 0.113-r4: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
@@ -102,6 +107,7 @@ sys-kernel/linux-headers 4.4 4.8 4.9 4.10 4.11 4.13: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.1 5.0.0: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
+sys-libs/libblockdev 2.13: A library for manipulating block devices
 sys-libs/libcxx 4.0.1: New implementation of the C++ standard library, targeting C++11
 sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
@@ -125,3 +131,4 @@ x11-misc/lightdm 1.21.5: A lightweight display manager
 x11-misc/slim 1.3.6-r5: Simple Login Manager
 x11-terms/rxvt-unicode 9.21-r99: rxvt clone with xft and unicode support
 x11-wm/i3 4.13-r1: An improved dynamic tiling window manager
+x11-wm/marco 1.18.1: MATE default window manager
