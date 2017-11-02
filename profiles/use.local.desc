@@ -210,8 +210,6 @@ mail-mta/postfix:ldap-bind - Add support for binding to LDAP backend using dev-l
 mail-mta/postfix:lmdb - Add support for using dev-db/lmdb for lookup tables
 mail-mta/postfix:memcached - Add support for using net-misc/memcached for lookup tables
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
-mate-extra/mate-power-manager:gtk3 - Build with GTK+3 instead of GTK+2
-mate-extra/mate-power-manager:man - Build power manager's man page.
 mate-extra/mate-power-manager:pm-utils - Adds support for suspend/resume using sys-power/upower-pm-utils instead of sys-power/upower
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
@@ -485,4 +483,3 @@ x11-terms/rxvt-unicode:secondary-wheel - Support for wheel scrolling on secondar
 x11-terms/rxvt-unicode:unicode3 - Use 21 instead of 16 bits to represent unicode characters
 x11-terms/rxvt-unicode:wcwidth - Enable wide char width support
 x11-wm/i3:doc - Build and install the HTML documentation and regenerate the man pages
-x11-wm/marco:gtk3 - Build with GTK+3 instead of GTK+2
