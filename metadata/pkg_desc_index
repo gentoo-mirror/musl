@@ -63,7 +63,7 @@ net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.5.10-r1: Samba Suite Version 4
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
-net-libs/libnsl 1.1.0: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
+net-libs/libnsl 1.1.0-r1: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
 net-libs/libqmi 1.18.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol helper library
 net-libs/libtirpc 0.2.5 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
 net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.16.6 2.18.1 2.18.2: Open source web browser engine
