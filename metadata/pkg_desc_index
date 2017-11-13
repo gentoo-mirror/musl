@@ -61,6 +61,7 @@ net-firewall/ebtables 2.0.10.4 2.0.10.4-r1: Utility that enables basic Ethernet 
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.5.10-r1: Samba Suite Version 4
+net-libs/libmbim 1.14.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
 net-libs/libnsl 1.1.0-r1: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
