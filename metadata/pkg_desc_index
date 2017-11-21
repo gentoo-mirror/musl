@@ -80,7 +80,7 @@ sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulati
 sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/busybox 1.25.1 1.26.2-r1 1.27.2: Utilities for rescue and embedded systems
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/iproute2 4.4.0 4.14.0: kernel routing and traffic control utilities
+sys-apps/iproute2 4.4.0 4.14.1: kernel routing and traffic control utilities
 sys-apps/kexec-tools 2.0.14: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.5.9-r1: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
