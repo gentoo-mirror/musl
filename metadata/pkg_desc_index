@@ -93,7 +93,7 @@ sys-auth/elogind 234.4: The systemd project's logind, extracted to a standalone 
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.113 0.113-r4: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
-sys-block/thin-provisioning-tools 0.7.0 0.7.2 0.7.4: A suite of tools for thin provisioning on Linux
+sys-block/thin-provisioning-tools 0.7.0 0.7.2 0.7.4 0.7.5: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.4.0 7.1.0-r1 7.2.0: The GNU Compiler Collection
