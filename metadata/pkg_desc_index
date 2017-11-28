@@ -1,5 +1,5 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
-app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0 8.30.0: An enhanced multi-threaded syslogd with database support and more
+app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0 8.31.0: An enhanced multi-threaded syslogd with database support and more
 app-admin/sudo 1.8.20_p2: Allows users or groups to run commands as other users
 app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard archive tool
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
