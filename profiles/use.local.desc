@@ -385,7 +385,7 @@ sys-apps/busybox:static - Make the system rescue shell (/bin/bb) static so you c
 sys-apps/busybox:systemd - Support systemd
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:iptables - include support for iptables filtering
-sys-apps/iproute2:minimal - only install ip and tc programs
+sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
 sys-apps/kexec-tools:booke - Include support for Book-E memory management
 sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
 sys-apps/kexec-tools:xen - Enable extended xen support
