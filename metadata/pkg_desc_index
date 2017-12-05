@@ -38,7 +38,7 @@ gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
 mate-extra/mate-power-manager 1.18.0: A session daemon for MATE that makes it easy to manage your laptop or desktop
-media-gfx/exiv2 0.25-r2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
+media-gfx/exiv2 0.26_p20171104 0.26_p20171104-r1: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.4.1 1.1.5: Advanced Linux Sound Architecture Library
