@@ -441,8 +441,9 @@ sys-fs/lvm2:openais - Openais support for clustered lvm
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
 sys-fs/lvm2:thin - Support for thin volumes
 sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
+sys-fs/udisks:elogind - Use sys-auth/elogind for session tracking
 sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by partitioning functionality
-sys-fs/udisks:introspection - Use dev-libs/gobject-introspection for introspection
+sys-fs/udisks:lvm - Add support for Logical Volume Management via sys-fs/lvm2.
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
 sys-libs/libblockdev:bcache - Enable block device cache support.
