@@ -430,6 +430,10 @@ sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
+sys-fs/btrfs-progs:reiserfs - Enable reiserfs support in btrfs-convert tool.
+sys-fs/btrfs-progs:static - Build static binaries in addition to the dynamic ones
+sys-fs/btrfs-progs:zstd - Enable zstd compression support.
 sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm

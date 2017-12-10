@@ -98,6 +98,7 @@ sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-devel/gcc 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.4.0 7.2.0: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1 8.0 8.0.1: GNU debugger
+sys-fs/btrfs-progs 4.14: Btrfs filesystem utilities
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/f2fs-tools 1.6.1 1.8.0 1.9.0: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2 2.02.166-r2 2.02.171: User-land utilities for LVM2 (device-mapper) software
