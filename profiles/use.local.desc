@@ -178,6 +178,8 @@ dev-libs/weston:xwayland - Enable ability support native X11 applications
 dev-qt/qt3support:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtcore:exceptions - Add support for exceptions - like catching them inside the event loop (recommended by upstream)
 dev-qt/qtcore:glib - Enable dev-libs/glib eventloop support
+dev-qt/qtcore:libcxx - Link with sys-libs/libcxx to avoid dependency on gcc.
+dev-qt/qtcore:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
 dev-qt/qtcore:qt3support - Enable the Qt3Support libraries for Qt4. Note that this does not mean you can compile pure Qt3 programs with Qt4.
 dev-qt/qtcore:systemd - Enable native journald logging support
 dev-qt/qtwebengine:geolocation - Enable physical position determination via dev-qt/qtpositioning
