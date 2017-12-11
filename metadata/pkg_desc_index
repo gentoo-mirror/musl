@@ -43,7 +43,7 @@ media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/alsa-lib 1.1.4.1 1.1.5: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 13.0.5 13.0.6 17.0.6 17.1.8 17.1.9 17.1.10 17.2.0 17.2.1 17.2.2 17.2.3 17.2.4 17.2.5 17.3.0_rc2 17.3.0_rc3 17.3.0_rc4 17.3.0_rc5: OpenGL-like graphic library for Linux
+media-libs/mesa 17.1.10 17.2.6 17.3.0: OpenGL-like graphic library for Linux
 media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
