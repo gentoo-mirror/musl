@@ -7,6 +7,7 @@ app-editors/emacs 24.5-r3 24.5-r4 25.2 25.2-r1 25.3: The extensible, customizabl
 app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.10.0 2.10.1: QEMU + Kernel-based Virtual Machine userland tools
+app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1 1.2.2-r2: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.4.2.2: A full office productivity suite
 app-text/enchant 1.6.1: Spellchecker wrapping library
@@ -14,6 +15,7 @@ dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-lang/ruby 2.4.2: An object-oriented scripting language
+dev-lang/rust 1.21.0: Systems programming language from Mozilla
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.166 0.169-r1 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
@@ -30,6 +32,7 @@ dev-qt/qtwebkit 5.7.1 5.9.1: WebKit rendering library for the Qt5 framework (dep
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/android-tools 6.0.1_p79: Android platform tools (adb, fastboot, and mkbootimg)
+dev-util/cargo 0.22.0-r1: The Rust's package manager
 dev-util/kbuild 0.1.9998_pre20131130 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
@@ -125,6 +128,7 @@ sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-process/audit 2.6.4 2.7.1: Userspace utilities for storing and processing auditing records
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
+virtual/rust 1.21.0: Virtual for Rust language compiler
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.19.3: X.Org X servers
 x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices

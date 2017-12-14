@@ -132,6 +132,8 @@ app-text/enchant:zemberek - Adds support for app-text/zemberek-server spell chec
 dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
 dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
 dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
+dev-lang/rust:jemalloc - Use dev-libs/jemalloc for allocations
+dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
 dev-libs/DirectFB:bmp - build BMP image provider
 dev-libs/DirectFB:divine - enable DiVine
 dev-libs/DirectFB:drmkms - build with DRM/KMS support
