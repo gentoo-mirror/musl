@@ -14,7 +14,7 @@ app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
-dev-lang/ruby 2.4.2: An object-oriented scripting language
+dev-lang/ruby 2.4.3: An object-oriented scripting language
 dev-lang/rust 1.21.0: Systems programming language from Mozilla
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
@@ -82,7 +82,7 @@ sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulati
 sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/busybox 1.25.1 1.26.2-r1 1.27.2: Utilities for rescue and embedded systems
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/iproute2 4.4.0 4.14.1-r1: kernel routing and traffic control utilities
+sys-apps/iproute2 4.4.0 4.14.1-r1 4.14.1-r2: kernel routing and traffic control utilities
 sys-apps/kexec-tools 2.0.14: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.5.9-r1: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
