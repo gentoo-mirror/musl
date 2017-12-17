@@ -1,142 +1,112 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
-app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0 8.31.0: An enhanced multi-threaded syslogd with database support and more
-app-admin/sudo 1.8.20_p2: Allows users or groups to run commands as other users
-app-arch/pax 20160306: pax (Portable Archive eXchange) is the POSIX standard archive tool
-app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
-app-editors/emacs 24.5-r3 24.5-r4 25.2 25.2-r1 25.3: The extensible, customizable, self-documenting real-time display editor
+app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0: An enhanced multi-threaded syslogd with database support and more
+app-editors/emacs 24.5-r3 25.2: The extensible, customizable, self-documenting real-time display editor
 app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.10.0 2.10.1: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
-app-misc/pax-utils 1.1.7 1.2.2 1.2.2-r1 1.2.2-r2: ELF utils that can check files for security relevant properties
+app-misc/pax-utils 1.1.7: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.4.2.2: A full office productivity suite
-app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
-dev-games/irrlicht 1.8.1-r1 1.8.4: open source high performance realtime 3D engine written in C++
+dev-games/irrlicht 1.8.1-r1: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
-dev-lang/ruby 2.4.3: An object-oriented scripting language
-dev-lang/rust 1.21.0: Systems programming language from Mozilla
 dev-libs/DirectFB 1.7.6: Thin library on top of the Linux framebuffer devices
-dev-libs/boehm-gc 7.4.2 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
-dev-libs/elfutils 0.166 0.169-r1 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+dev-libs/boehm-gc 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
+dev-libs/elfutils 0.166 0.169-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.50.3-r1: The GLib library of C routines
 dev-libs/libbsd 0.8.6: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
-dev-libs/weston 1.11.0 3.0.0: Wayland reference compositor
-dev-python/numpy 1.10.4 1.12.1: Fast array and numerical python library
+dev-libs/weston 1.11.0: Wayland reference compositor
+dev-python/numpy 1.10.4: Fast array and numerical python library
 dev-qt/qt3support 4.8.7: The Qt3Support module for the Qt toolkit
-dev-qt/qtcore 4.8.7-r3 5.7.1-r3 5.9.2 5.9.3: Cross-platform application development framework
+dev-qt/qtcore 4.8.7-r3 5.7.1-r3: Cross-platform application development framework
 dev-qt/qtwebengine 5.7.1-r2: Library for rendering dynamic web content in Qt5 C++ and QML applications
-dev-qt/qtwebkit 5.7.1 5.9.1: WebKit rendering library for the Qt5 framework (deprecated)
+dev-qt/qtwebkit 5.7.1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
-dev-util/android-tools 6.0.1_p79: Android platform tools (adb, fastboot, and mkbootimg)
-dev-util/cargo 0.22.0-r1: The Rust's package manager
-dev-util/kbuild 0.1.9998_pre20131130 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
-dev-util/systemtap 2.9: A linux trace/probe tool
+dev-util/kbuild 0.1.9998_pre20131130: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
-gnome-base/gnome-keyring 3.20.0 3.20.1: Password and keyring managing daemon
+gnome-base/gnome-keyring 3.20.0: Password and keyring managing daemon
 gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
-mate-extra/mate-power-manager 1.18.0: A session daemon for MATE that makes it easy to manage your laptop or desktop
-media-gfx/exiv2 0.26_p20171104 0.26_p20171104-r1: EXIF, IPTC and XMP metadata C++ library and command line utility
+media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-gfx/fontforge 20150612-r1: postscript font editor and converter
 media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
-media-libs/alsa-lib 1.1.4.1 1.1.5: Advanced Linux Sound Architecture Library
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 17.1.10 17.2.6 17.3.0: OpenGL-like graphic library for Linux
-media-libs/openal 1.17.2: A software implementation of the OpenAL 3D audio API
+media-libs/mesa 17.1.10: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
-media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
+media-plugins/caps-plugins 0.9.15: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/mpd 0.19.19: The Music Player Daemon (mpd)
 media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
-media-sound/pulseaudio 10.0 10.99.1 11.1: A networked sound server with an advanced plugin system
+media-sound/pulseaudio 10.0: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
-net-analyzer/openbsd-netcat 1.105-r1: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
-net-firewall/ebtables 2.0.10.4 2.0.10.4-r1: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
+net-firewall/ebtables 2.0.10.4: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/cifs-utils 6.4: Tools for Managing Linux CIFS Client Filesystems
 net-fs/samba 4.5.10-r1: Samba Suite Version 4
 net-libs/libmbim 1.14.0: Mobile Broadband Interface Model (MBIM) modem protocol helper library
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
-net-libs/libnsl 1.1.0-r3: Public client interface for NIS(YP) and NIS+ in a IPv6 ready version
-net-libs/libqmi 1.18.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol helper library
 net-libs/libtirpc 0.2.5 1.0.1-r1: Transport Independent RPC library (SunRPC replacement)
-net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.18.2 2.18.3: Open source web browser engine
-net-misc/chrony 3.2: NTP client and server programs
-net-misc/connman 1.29 1.33-r1: Provides a daemon for managing internet connections
+net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.18.2: Open source web browser engine
+net-misc/connman 1.29: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop Protocol
 net-misc/iputils 20151218: Network monitoring tools including ping and ping6
-net-misc/networkmanager 1.8.2 1.8.4: A set of co-operative tools that make networking simple and straightforward
 net-misc/openssh 7.5_p1-r3: Port of OpenBSD's free SSH release
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
-sys-apps/busybox 1.25.1 1.26.2-r1 1.27.2: Utilities for rescue and embedded systems
-sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
-sys-apps/iproute2 4.4.0 4.14.1-r1 4.14.1-r2: kernel routing and traffic control utilities
-sys-apps/kexec-tools 2.0.14: Load another kernel from the currently executing Linux kernel
+sys-apps/busybox 1.25.1: Utilities for rescue and embedded systems
+sys-apps/iproute2 4.4.0 4.14.1-r1: kernel routing and traffic control utilities
 sys-apps/keyutils 1.5.9-r1: Linux Key Management Utilities
-sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
 sys-apps/policycoreutils 2.7: SELinux core utilities
-sys-apps/sandbox 2.10-r3 2.10-r4 2.12: sandbox'd LD_PRELOAD hack
-sys-apps/smartmontools 6.6: Tools to monitor storage systems to provide advanced warning of disk degradation
+sys-apps/sandbox 2.10-r3 2.10-r4: sandbox'd LD_PRELOAD hack
 sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
-sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
+sys-apps/watchdog 5.14: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
-sys-auth/elogind 234.4: The systemd project's logind, extracted to a standalone package
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.113 0.113-r4: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
-sys-block/thin-provisioning-tools 0.7.0 0.7.2 0.7.4 0.7.5: A suite of tools for thin provisioning on Linux
+sys-block/thin-provisioning-tools 0.7.0: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-devel/gcc 4.9.4-r99 4.9.4-r100 5.4.0-r3 6.4.0 7.2.0: The GNU Compiler Collection
-sys-devel/gdb 7.10.1 7.12.1 8.0 8.0.1: GNU debugger
-sys-fs/btrfs-progs 4.14: Btrfs filesystem utilities
+sys-devel/gcc 4.9.4-r99 5.4.0-r3 6.4.0: The GNU Compiler Collection
+sys-devel/gdb 7.10.1 7.12.1: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
-sys-fs/f2fs-tools 1.6.1 1.8.0 1.9.0: Tools for Flash-Friendly File System (F2FS)
-sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2 2.02.166-r2 2.02.171: User-land utilities for LVM2 (device-mapper) software
+sys-fs/f2fs-tools 1.6.1: Tools for Flash-Friendly File System (F2FS)
+sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2: User-land utilities for LVM2 (device-mapper) software
 sys-fs/udisks 2.7.4: Daemon providing interfaces to work with storage devices
-sys-fs/xfsdump 3.1.6 3.1.8: xfs dump/restore utilities
-sys-fs/xfsprogs 4.5.0 4.9.0 4.12.0 4.13.1: xfs filesystem utilities
-sys-kernel/dracut 045-r2 046: Generic initramfs generation tool
-sys-kernel/linux-headers 4.4 4.8 4.9 4.10 4.11 4.13: Linux system headers
-sys-libs/compiler-rt-sanitizers 4.0.1 5.0.0: Compiler runtime libraries for clang (sanitizers & xray)
-sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
+sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
+sys-fs/xfsprogs 4.5.0 4.9.0: xfs filesystem utilities
+sys-kernel/dracut 045-r2: Generic initramfs generation tool
+sys-kernel/linux-headers 4.4: Linux system headers
+sys-libs/efivar 30: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
-sys-libs/libblockdev 2.13 2.14: A library for manipulating block devices
-sys-libs/libcxx 4.0.1: New implementation of the C++ standard library, targeting C++11
-sys-libs/libcxxabi 4.0.1: Low level support for a standard C++ library
+sys-libs/libblockdev 2.14: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
-sys-libs/libomp 3.9.1 4.0.1 5.0.0: OpenMP runtime library for LLVM/clang compiler
+sys-libs/libomp 3.9.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
-sys-libs/pam 1.2.1 1.3.0-r1: Linux-PAM (Pluggable Authentication Modules)
+sys-libs/pam 1.2.1: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
-sys-process/audit 2.6.4 2.7.1: Userspace utilities for storing and processing auditing records
+sys-process/audit 2.6.4: Userspace utilities for storing and processing auditing records
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
-virtual/rust 1.21.0: Virtual for Rust language compiler
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
-x11-base/xorg-server 1.19.3: X.Org X servers
 x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r4: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.28.2-r208: GNOME terminal widget
 x11-libs/xcb-util-xrm 1.0 1.2: X C-language Bindings sample implementations
-x11-misc/lightdm 1.21.5: A lightweight display manager
 x11-misc/slim 1.3.6-r5: Simple Login Manager
 x11-terms/rxvt-unicode 9.21-r99: rxvt clone with xft and unicode support
 x11-wm/i3 4.13-r1: An improved dynamic tiling window manager
-x11-wm/marco 1.18.1: MATE default window manager

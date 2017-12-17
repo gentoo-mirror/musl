@@ -30,10 +30,6 @@ app-admin/rsyslog:systemd - Build the journal input and output module (requires 
 app-admin/rsyslog:usertools - Installs the user tools (rsgtutil, rscryutil...) corresponding to the set USE flags
 app-admin/rsyslog:uuid - Include UUIDs in messages (requires sys-apps/util-linux)
 app-admin/rsyslog:zeromq - Build the ZeroMQ input and output modules (requires net-libs/czmq)
-app-admin/sudo:gcrypt - Use SHA2 from dev-libs/libgcrypt instead of sudo's internal SHA2.
-app-admin/sudo:offensive - Let sudo print insults when the user types the wrong password.
-app-admin/sudo:openssl - Use SHA2 from dev-libs/openssl instead of sudo's internal SHA2.
-app-admin/sudo:sendmail - Allow sudo to send emails with sendmail.
 app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
 app-editors/emacs:dynamic-loading - Enable loading of dynamic libraries at runtime
 app-editors/emacs:games - Support shared score files for games
@@ -126,14 +122,6 @@ app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:quickstarter - Build the system tray quickstarter
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
-app-text/enchant:aspell - Adds support for app-text/aspell spell checker
-app-text/enchant:hunspell - Adds support for app-text/hunspell spell checker
-app-text/enchant:zemberek - Adds support for app-text/zemberek-server spell checker server
-dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
-dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
-dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
-dev-lang/rust:jemalloc - Use dev-libs/jemalloc for allocations
-dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
 dev-libs/DirectFB:bmp - build BMP image provider
 dev-libs/DirectFB:divine - enable DiVine
 dev-libs/DirectFB:drmkms - build with DRM/KMS support
@@ -213,11 +201,8 @@ mail-mta/postfix:eai - Add support for SMTPUTF8
 mail-mta/postfix:ldap-bind - Add support for binding to LDAP backend using dev-libs/cyrus-sasl
 mail-mta/postfix:lmdb - Add support for using dev-db/lmdb for lookup tables
 mail-mta/postfix:memcached - Add support for using net-misc/memcached for lookup tables
-mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
-mate-extra/mate-power-manager:pm-utils - Adds support for suspend/resume using sys-power/upower-pm-utils instead of sys-power/upower
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
-media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
 media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
@@ -317,7 +302,6 @@ net-fs/samba:quota - Enables support for user quotas
 net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
-net-libs/libqmi:mbim - Support QMI over Mobile Broadband Interface Model (MBIM)
 net-libs/webkit-gtk:coverage - Enable code coverage support
 net-libs/webkit-gtk:egl - Enable EGL support
 net-libs/webkit-gtk:geoloc - Enable geolocation support through app-misc/geoclue
@@ -325,14 +309,6 @@ net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/ge
 net-libs/webkit-gtk:gles2 - Enable GLESv2 support
 net-libs/webkit-gtk:nsplugin - Enable full nsplugin support (GTK2 plugins)
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
-net-misc/chrony:adns - Support for asynchronous DNS
-net-misc/chrony:cmdmon - Support for command and monitoring
-net-misc/chrony:html - Install HTML documentation
-net-misc/chrony:ntp - Support for the Network Time Protocol (NTP)
-net-misc/chrony:phc - Support for the PTP (Precision Time Protocol) Hardware Clock (PHC) interface
-net-misc/chrony:pps - Support for the Linux Pulse Per Second (PPS) interface
-net-misc/chrony:refclock - Support for reference clocks
-net-misc/chrony:rtc - Support for the Linux Real Time Clock interface
 net-misc/connman:ethernet - Enable ethernet support.
 net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
 net-misc/connman:ofono - Use net-misc/ofono for telephony support.
@@ -353,20 +329,6 @@ net-misc/iputils:rdisc - Build and install rdisc -- server for the client side o
 net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
 net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
 net-misc/iputils:traceroute - Build and install traceroute -- tool for tracing network paths (see also net-analyzer/traceroute)
-net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
-net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
-net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
-net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
-net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
-net-misc/networkmanager:json - Enable JSON validation via dev-libs/jansson in libnm.
-net-misc/networkmanager:modemmanager - Enable support for mobile broadband devices using net-misc/modemmanager
-net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
-net-misc/networkmanager:ofono - Use net-misc/ofono for telephony support.
-net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
-net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information
-net-misc/networkmanager:teamd - Enable Teamd control support
-net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
-net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security using net-wireless/wpa_supplicant
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
 net-misc/openssh:hpn - Enable high performance ssh
@@ -386,17 +348,7 @@ sys-apps/busybox:systemd - Support systemd
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
-sys-apps/kexec-tools:booke - Include support for Book-E memory management
-sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
-sys-apps/kexec-tools:xen - Enable extended xen support
-sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
-sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
-sys-apps/net-tools:plipconfig - build the plipconfig tool (for working with old PLIP hardware)
-sys-apps/net-tools:slattach - build the slattach tool (for working with old serial ports)
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
-sys-apps/smartmontools:caps - Build against sys-libs/libcap-ng to allow smartd to drop its privileges.
-sys-apps/smartmontools:daemon - Install the monitoring daemon (smartd) and associated scripts.
-sys-apps/smartmontools:update_drivedb - Install a script to update the drivedb file.
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
 sys-apps/xinetd:rpc - support RPC services
@@ -431,10 +383,6 @@ sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
-sys-fs/btrfs-progs:convert - Build ext2 conversion utility (btrfs-convert)
-sys-fs/btrfs-progs:reiserfs - Enable reiserfs support in btrfs-convert tool.
-sys-fs/btrfs-progs:static - Build static binaries in addition to the dynamic ones
-sys-fs/btrfs-progs:zstd - Enable zstd compression support.
 sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
 sys-fs/lvm2:clvm - Allow users to build clustered lvm2
 sys-fs/lvm2:cman - Cman support for clustered lvm
@@ -455,27 +403,12 @@ sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
 sys-libs/libblockdev:kbd - Enable kernel block device support.
 sys-libs/libblockdev:lvm - Enable support for Logical Volume Management via sys-fs/lvm2.
-sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
-sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
-sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.
-sys-libs/libcxxabi:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependency on gcc
 sys-libs/libomp:hwloc - Enable CPU affinity support via hwloc
 sys-libs/libomp:ompt - Enable OpenMP Tools Interface support
 sys-libs/libselinux:pcre2 - Use dev-libs/libpcre2 for fcontext regexes
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
 sys-process/audit:gssapi - Enable GSSAPI support
-x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
-x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
-x11-base/xorg-server:kdrive - Build the kdrive X servers
-x11-base/xorg-server:tslib - Build with tslib support for touchscreen devices
-x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
-x11-base/xorg-server:xcsecurity - Build Security extension
-x11-base/xorg-server:xephyr - Build the Xephyr server
-x11-base/xorg-server:xnest - Build the Xnest server
-x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
-x11-base/xorg-server:xvfb - Build the Xvfb server
-x11-misc/lightdm:gtk - Pull in the gtk+ greeter
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-terms/rxvt-unicode:256-color - Enable 256 color support
 x11-terms/rxvt-unicode:alt-font-width - Calculate the font width using a different method
