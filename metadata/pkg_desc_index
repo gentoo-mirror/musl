@@ -3,7 +3,7 @@ app-admin/rsyslog 8.24.0-r2 8.26.0-r1 8.28.0: An enhanced multi-threaded syslogd
 app-editors/emacs 24.5-r3 25.2: The extensible, customizable, self-documenting real-time display editor
 app-editors/nano 2.8.2: GNU GPL'd Pico clone with more functionality
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
-app-emulation/qemu 2.10.0 2.10.1: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 2.10.1-r1: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-misc/pax-utils 1.1.7: ELF utils that can check files for security relevant properties
 app-office/libreoffice 5.4.2.2: A full office productivity suite
@@ -87,11 +87,12 @@ sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-fs/xfsprogs 4.5.0 4.9.0: xfs filesystem utilities
 sys-kernel/dracut 045-r2: Generic initramfs generation tool
 sys-kernel/linux-headers 4.4: Linux system headers
+sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libblockdev 2.14: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
-sys-libs/libomp 3.9.1: OpenMP runtime library for LLVM/clang compiler
+sys-libs/libomp 3.9.1 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
