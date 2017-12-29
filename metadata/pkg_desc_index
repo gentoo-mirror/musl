@@ -27,7 +27,7 @@ dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/kbuild 0.1.9998_pre20131130: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
-gnome-base/gnome-keyring 3.20.0: Password and keyring managing daemon
+gnome-base/gnome-keyring 3.20.0 3.20.1: Password and keyring managing daemon
 gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6: A fast and secure drop-in replacement for sendmail
