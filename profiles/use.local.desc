@@ -202,7 +202,6 @@ mail-mta/postfix:ldap-bind - Add support for binding to LDAP backend using dev-l
 mail-mta/postfix:lmdb - Add support for using dev-db/lmdb for lookup tables
 mail-mta/postfix:memcached - Add support for using net-misc/memcached for lookup tables
 media-gfx/exiv2:webready - Support reading metadata over the internet
-media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-libs/mesa:bindist - Disable patent-encumbered ARB_texture_float, EXT_texture_shared_exponent, and EXT_packed_float extensions.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
@@ -320,15 +319,20 @@ net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
-net-misc/iputils:SECURITY_HAZARD - Allow non-root users to flood (ping -f). This is generally a very bad idea.
-net-misc/iputils:arping - Build and install arping -- tool for sending ARP requests to peers (see also net-analyzer/arping)
-net-misc/iputils:clockdiff - Build and install clockdiff -- tool for comparing clocks via ICMP packets
-net-misc/iputils:gcrypt - Use dev-libs/libgcrypt for md5 support
-net-misc/iputils:rarpd - Build and install rarpd -- server for handling RARP (reverse ARP) requests; generally only used by old systems
-net-misc/iputils:rdisc - Build and install rdisc -- server for the client side of the ICMP router discover protocol
-net-misc/iputils:tftpd - Build and install tftpd -- server for the Trivial File Transfer Protocol (see also net-ftp/tftp-hpa)
-net-misc/iputils:tracepath - Build and install tracepath -- tool for tracing network paths for discovering MTU values
-net-misc/iputils:traceroute - Build and install traceroute -- tool for tracing network paths (see also net-analyzer/traceroute)
+net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
+net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
+net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
+net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
+net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
+net-misc/networkmanager:json - Enable JSON validation via dev-libs/jansson in libnm.
+net-misc/networkmanager:modemmanager - Enable support for mobile broadband devices using net-misc/modemmanager
+net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
+net-misc/networkmanager:ofono - Use net-misc/ofono for telephony support.
+net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
+net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information
+net-misc/networkmanager:teamd - Enable Teamd control support
+net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
+net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security using net-wireless/wpa_supplicant
 net-misc/openssh:X509 - Adds support for X.509 certificate authentication
 net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
 net-misc/openssh:hpn - Enable high performance ssh
