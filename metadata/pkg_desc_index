@@ -88,7 +88,7 @@ sys-fs/xfsprogs 4.5.0 4.9.0: xfs filesystem utilities
 sys-kernel/dracut 045-r2: Generic initramfs generation tool
 sys-kernel/linux-headers 4.4 4.13: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
-sys-libs/efivar 30: Tools and library to manipulate EFI variables
+sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libblockdev 2.14: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
