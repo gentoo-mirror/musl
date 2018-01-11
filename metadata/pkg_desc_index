@@ -53,7 +53,7 @@ net-libs/libmbim 1.14.0: Mobile Broadband Interface Model (MBIM) modem protocol 
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.24: NFSv4 ID <-> name mapping library
 net-libs/libtirpc 1.0.2-r1: Transport Independent RPC library (SunRPC replacement)
-net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.18.3: Open source web browser engine
+net-libs/webkit-gtk 2.4.11-r1 2.4.11-r200 2.18.4: Open source web browser engine
 net-misc/connman 1.29: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop Protocol
