@@ -1,9 +1,12 @@
-DEFINED_PHASES=-
+DEFINED_PHASES=prepare
+DEPEND=elibc_musl? ( sys-libs/argp-standalone ) >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=tool to manipulate Intel X86 and X86-64 processor microcode update collections
 EAPI=6
 HOMEPAGE=https://gitlab.com/iucode-tool/
 KEYWORDS=-* ~amd64 ~x86
 LICENSE=GPL-2
+RDEPEND=elibc_musl? ( sys-libs/argp-standalone )
 SLOT=0
 SRC_URI=https://gitlab.com/iucode-tool/releases/raw/master/iucode-tool_2.2.tar.xz
-_md5_=4e2fc2cb52815557c01b0fc85659f127
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	libtool	0081a71a261724730ec4c248494f044d	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_md5_=3eb79c0d2e64d2c5a832051d80ff0eb1
