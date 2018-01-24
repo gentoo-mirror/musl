@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -19,13 +19,13 @@ OPENGL_DIR="xorg-x11"
 MY_P="${P/_/-}"
 
 DESCRIPTION="OpenGL-like graphic library for Linux"
-HOMEPAGE="https://www.mesa3d.org/"
+HOMEPAGE="https://www.mesa3d.org/ https://mesa.freedesktop.org/"
 
 if [[ $PV == 9999 ]]; then
 	SRC_URI=""
 else
 	SRC_URI="https://mesa.freedesktop.org/archive/${MY_P}.tar.xz"
-	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-fbsd ~x86-fbsd ~amd64-linux ~arm-linux ~x86-linux ~sparc-solaris ~x64-solaris ~x86-solaris"
+	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86"
 fi
 
 LICENSE="MIT"
@@ -53,14 +53,14 @@ REQUIRED_USE="
 	vaapi? ( gallium )
 	vdpau? ( gallium )
 	vulkan? ( || ( video_cards_i965 video_cards_radeonsi )
-	          video_cards_radeonsi? ( llvm ) )
+			  video_cards_radeonsi? ( llvm ) )
 	wayland? ( egl gbm )
 	xa?  ( gallium )
 	video_cards_freedreno?  ( gallium )
 	video_cards_intel?  ( classic )
 	video_cards_i915?   ( || ( classic gallium ) )
 	video_cards_i965?   ( classic )
-	video_cards_imx?    ( gallium )
+	video_cards_imx?    ( gallium video_cards_vivante )
 	video_cards_nouveau? ( || ( classic gallium ) )
 	video_cards_radeon? ( || ( classic gallium )
 						  gallium? ( x86? ( llvm ) amd64? ( llvm ) ) )
@@ -75,7 +75,7 @@ REQUIRED_USE="
 	video_cards_vmware? ( gallium )
 "
 
-LIBDRM_DEPSTRING=">=x11-libs/libdrm-2.4.82"
+LIBDRM_DEPSTRING=">=x11-libs/libdrm-2.4.89"
 # keep correct libdrm and dri2proto dep
 # keep blocks in rdepend for binpkg
 RDEPEND="
@@ -146,14 +146,15 @@ RDEPEND="${RDEPEND}
 # 1. List all the working slots (with min versions) in ||, newest first.
 # 2. Update the := to specify *max* version, e.g. < 7.
 # 3. Specify LLVM_MAX_SLOT, e.g. 6.
-LLVM_MAX_SLOT="5"
 LLVM_DEPSTR="
 	|| (
+		sys-devel/llvm:7[${MULTILIB_USEDEP}]
+		sys-devel/llvm:6[${MULTILIB_USEDEP}]
 		sys-devel/llvm:5[${MULTILIB_USEDEP}]
 		sys-devel/llvm:4[${MULTILIB_USEDEP}]
 		>=sys-devel/llvm-3.9.0:0[${MULTILIB_USEDEP}]
 	)
-	<sys-devel/llvm-6:=[${MULTILIB_USEDEP}]
+	sys-devel/llvm:=[${MULTILIB_USEDEP}]
 "
 LLVM_DEPSTR_AMDGPU=${LLVM_DEPSTR//]/,llvm_targets_AMDGPU(-)]}
 CLANG_DEPSTR=${LLVM_DEPSTR//llvm/clang}
@@ -229,6 +230,9 @@ DEPEND="${RDEPEND}
 	>=x11-proto/xextproto-7.2.1-r1:=[${MULTILIB_USEDEP}]
 	>=x11-proto/xf86driproto-2.1.1-r1:=[${MULTILIB_USEDEP}]
 	>=x11-proto/xf86vidmodeproto-2.3.1-r1:=[${MULTILIB_USEDEP}]
+	vulkan? (
+		$(python_gen_any_dep ">=dev-python/mako-0.7.3[\${PYTHON_USEDEP}]")
+	)
 "
 [[ ${PV} == 9999 ]] && DEPEND+="
 	sys-devel/bison
@@ -277,8 +281,11 @@ pkg_setup() {
 }
 
 src_prepare() {
-	eapply "${FILESDIR}"/${PN}-11-execinfo.patch
-	eapply "${FILESDIR}"/${PN}-13-musl_endian.patch
+	eapply "${FILESDIR}"/${PN}-17-musl_endian.patch
+	eapply "${FILESDIR}"/${PN}-17-execinfo.patch
+	eapply "${FILESDIR}"/${PN}-17-musl-string_h.patch
+	eapply "${FILESDIR}"/${PN}-17-musl-invocation_name.patch
+	eapply "${FILESDIR}"/${PN}-18-musl-pthread.patch
 
 	eautoreconf
 
@@ -320,7 +327,7 @@ multilib_src_configure() {
 		myconf+="
 			$(use_enable d3d9 nine)
 			$(use_enable llvm)
-			$(use_enable openmax omx)
+			$(use_enable openmax omx-bellagio)
 			$(use_enable vaapi va)
 			$(use_enable vdpau)
 			$(use_enable xa)
@@ -401,6 +408,7 @@ multilib_src_configure() {
 		$(use_enable unwind libunwind) \
 		--enable-valgrind=$(usex valgrind auto no) \
 		--enable-llvm-shared-libs \
+		--disable-opencl-icd \
 		--with-dri-drivers=${DRI_DRIVERS} \
 		--with-gallium-drivers=${GALLIUM_DRIVERS} \
 		--with-vulkan-drivers=${VULKAN_DRIVERS} \
@@ -515,13 +523,8 @@ pkg_postinst() {
 	# warn about patent encumbered texture-float
 	if use !bindist; then
 		elog "USE=\"bindist\" was not set. Potentially patent encumbered code was"
-		elog "enabled. Please see patents.txt for an explanation."
-	fi
-
-	if ! has_version media-libs/libtxc_dxtn; then
-		elog "Note that in order to have full S3TC support, it is necessary to install"
-		elog "media-libs/libtxc_dxtn as well. This may be necessary to get nice"
-		elog "textures in some apps, and some others even require this to run."
+		elog "enabled. Please see /usr/share/doc/${P}/patents.txt.bz2 for an"
+		elog "explanation."
 	fi
 }
 
