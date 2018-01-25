@@ -46,10 +46,6 @@ app-editors/emacs:source - Install C source files and make them available for fi
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
 app-editors/emacs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
-app-editors/nano:debug - Enable debug messages and assert warnings. Note that these will all be sent straight to stderr rather than some logging facility.
-app-editors/nano:justify - Enable justify/unjustify functions for text formatting.
-app-editors/nano:magic - Add magic file support (sys-apps/file) to automatically detect appropriate syntax highlighting
-app-editors/nano:minimal - Disable all fancy features, including ones that otherwise have a dedicated USE flag (such as spelling).
 app-emulation/libvirt:apparmor - Enable AppArmor support
 app-emulation/libvirt:firewalld - DBus interface to iptables/ebtables allowing for better runtime management of your firewall.
 app-emulation/libvirt:fuse - Allow LXC to use sys-fs/fuse for mount points
