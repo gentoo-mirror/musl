@@ -4,10 +4,10 @@ DESCRIPTION=Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol h
 EAPI=6
 HOMEPAGE=https://cgit.freedesktop.org/libqmi/
 IUSE=doc +mbim static-libs
-KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+KEYWORDS=~amd64 ~arm ~mips ~x86
 LICENSE=LGPL-2
 RDEPEND=>=dev-libs/glib-2.32 virtual/libgudev mbim? ( >=net-libs/libmbim-1.14.0 )
 SLOT=0/5.1
 SRC_URI=https://www.freedesktop.org/software/libqmi/libqmi-1.18.0.tar.xz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=6b18aebb1e63b67591166b4f43af1849
+_md5_=c2bbb41c1ecc5a328f6b40f46305a54d
