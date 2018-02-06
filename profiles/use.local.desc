@@ -45,7 +45,6 @@ app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
 app-editors/emacs:source - Install C source files and make them available for find-function
 app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
 app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
-app-editors/emacs:xwidgets - Enable use of GTK widgets in Emacs buffers (requires GTK3)
 app-emulation/libvirt:apparmor - Enable AppArmor support
 app-emulation/libvirt:firewalld - DBus interface to iptables/ebtables allowing for better runtime management of your firewall.
 app-emulation/libvirt:fuse - Allow LXC to use sys-fs/fuse for mount points
