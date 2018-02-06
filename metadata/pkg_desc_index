@@ -32,7 +32,6 @@ gnome-base/gnome-session 3.22.3: Gnome session manager
 lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6 3.2.4: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
-media-gfx/sane-backends 1.0.24-r6: Scanner Access Now Easy - Backends
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/mesa 17.1.10 17.2.8: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
