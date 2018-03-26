@@ -67,7 +67,7 @@ sys-apps/iproute2 4.14.1-r2: kernel routing and traffic control utilities
 sys-apps/keyutils 1.5.9-r1 1.5.10: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
 sys-apps/policycoreutils 2.7: SELinux core utilities
-sys-apps/sandbox 2.10-r3 2.10-r4 2.12: sandbox'd LD_PRELOAD hack
+sys-apps/sandbox 2.12 2.13: sandbox'd LD_PRELOAD hack
 sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
 sys-apps/watchdog 5.14: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
