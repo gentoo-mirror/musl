@@ -11,7 +11,7 @@ SRC_URI="mirror://kernel/linux/utils/boot/${PN}/${P}.tar.xz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ia64 ~mips ~ppc ~sparc ~x86"
+KEYWORDS="amd64 arm ~mips ppc x86"
 IUSE="debug selinux"
 
 # Tests need root privileges, bug #298014
@@ -56,6 +56,7 @@ PATCHES=(
 	"${FILESDIR}/047-all-fix-issues-found-by-shellcheck.patch"
 	"${FILESDIR}/047-plymouth-fix-detection-of-plymouth-directory.patch"
 	"${FILESDIR}"/${P}-libfts.patch
+	"${FILESDIR}"/${PN}-sys-reg_h.patch
 )
 
 src_configure() {
