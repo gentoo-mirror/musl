@@ -84,7 +84,7 @@ sys-fs/f2fs-tools 1.6.1: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2: User-land utilities for LVM2 (device-mapper) software
 sys-fs/udisks 2.7.4: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
-sys-kernel/dracut 045-r2 046-r1: Generic initramfs generation tool
+sys-kernel/dracut 045-r2 046-r1 047-r1: Generic initramfs generation tool
 sys-kernel/linux-headers 4.13: Linux system headers
 sys-libs/compiler-rt-sanitizers 4.0.1: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
