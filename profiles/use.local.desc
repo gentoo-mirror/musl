@@ -338,6 +338,7 @@ net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/s
 sys-apps/accountsservice:elogind - Use sys-auth/elogind instead of sys-auth/consolekit for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
+sys-apps/iproute2:elf - support loading eBPF programs from ELFs (e.g. LLVM's eBPF backend)
 sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
 sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
