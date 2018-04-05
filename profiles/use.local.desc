@@ -356,6 +356,9 @@ sys-block/parted:device-mapper - Enable device-mapper support from sys-fs/lvm2 i
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
+sys-boot/plymouth:gdm - Enables smooth transition to GDM
+sys-boot/plymouth:libkms - Provides abstraction to the DRM drivers (intel, nouveau and vmwgfx at this moment)
+sys-boot/plymouth:pango - Adds support for printing text on splash screen and text prompts, e.g. for password
 sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
 sys-devel/gcc:cilk - Support the Cilk Plus language (C/C++ based languages for parallel programming)
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
@@ -396,6 +399,7 @@ sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by
 sys-fs/udisks:lvm - Add support for Logical Volume Management via sys-fs/lvm2.
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
+sys-libs/compiler-rt-sanitizers:clang - Force building using installed clang (rather than the default CC/CXX).
 sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
 sys-libs/libblockdev:kbd - Enable kernel block device support.
