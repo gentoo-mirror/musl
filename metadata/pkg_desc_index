@@ -5,7 +5,6 @@ app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-misc/pax-utils 1.1.7 1.2.2-r2: ELF utils that can check files for security relevant properties
-app-office/libreoffice 5.4.2.2: A full office productivity suite
 app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1: open source high performance realtime 3D engine written in C++
@@ -80,7 +79,6 @@ sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and
 sys-block/thin-provisioning-tools 0.7.0: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-boot/plymouth 0.9.3-r1: Graphical boot animation (splash) and logger
 sys-devel/clang 4.0.1 5.0.1: C language family frontend for LLVM
 sys-devel/gcc 5.4.0-r4 6.4.0-r1: The GNU Compiler Collection
 sys-devel/gdb 7.10.1 7.12.1: GNU debugger

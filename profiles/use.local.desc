@@ -107,16 +107,6 @@ app-emulation/qemu:xattr - Add support for getting and setting POSIX extended at
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
 app-misc/pax-utils:python - Install a more powerful/faster version of lddtree
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:collada - Enable Collada for rendering 3D models stored in *.dae and *.kmz format
-app-office/libreoffice:gltf - Use media-libs/libgltf for inserting 3D models in the glTF format into presentations
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:gtk3 - Enable highly experimental gtk3 frontend
-app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:quickstarter - Build the system tray quickstarter
-app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 dev-libs/DirectFB:bmp - build BMP image provider
 dev-libs/DirectFB:divine - enable DiVine
 dev-libs/DirectFB:drmkms - build with DRM/KMS support
@@ -356,9 +346,6 @@ sys-block/parted:device-mapper - Enable device-mapper support from sys-fs/lvm2 i
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
-sys-boot/plymouth:gdm - Enables smooth transition to GDM
-sys-boot/plymouth:libkms - Provides abstraction to the DRM drivers (intel, nouveau and vmwgfx at this moment)
-sys-boot/plymouth:pango - Adds support for printing text on splash screen and text prompts, e.g. for password
 sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
 sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
 sys-devel/clang:static-analyzer - Install the Clang static analyzer
