@@ -33,7 +33,7 @@ lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6 3.2.4: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 17.2.8 17.3.8: OpenGL-like graphic library for Linux
+media-libs/mesa 17.3.9: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
@@ -107,6 +107,7 @@ sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a 
 sys-process/audit 2.6.4 2.7.1: Userspace utilities for storing and processing auditing records
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
+x11-libs/libdrm 2.4.91: X.Org libdrm library
 x11-libs/libpciaccess 0.13.4: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r4: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.28.2-r208: GNOME terminal widget
