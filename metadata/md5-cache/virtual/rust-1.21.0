@@ -1,7 +1,0 @@
-DEFINED_PHASES=-
-DESCRIPTION=Virtual for Rust language compiler
-EAPI=6
-KEYWORDS=~amd64 ~arm ~x86
-RDEPEND==dev-lang/rust-1.21.0*
-SLOT=0
-_md5_=7f16e47c7204567986ae32bcca5ad0a7
