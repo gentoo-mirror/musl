@@ -19,9 +19,9 @@ dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux k
 dev-libs/weston 1.11.0: Wayland reference compositor
 dev-python/numpy 1.10.4: Fast array and numerical python library
 dev-qt/qt3support 4.8.7: The Qt3Support module for the Qt toolkit
-dev-qt/qtcore 4.8.7-r3 5.7.1-r3: Cross-platform application development framework
+dev-qt/qtcore 4.8.7-r4: Cross-platform application development framework
 dev-qt/qtwebengine 5.7.1-r2: Library for rendering dynamic web content in Qt5 C++ and QML applications
-dev-qt/qtwebkit 5.7.1: WebKit rendering library for the Qt5 framework (deprecated)
+dev-qt/qtwebkit 5.9.1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/android-tools 6.0.1_p79: Android platform tools (adb, fastboot, and mkbootimg)
