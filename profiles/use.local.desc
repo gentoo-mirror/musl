@@ -112,6 +112,9 @@ app-emulation/qemu:xattr - Add support for getting and setting POSIX extended at
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
 app-misc/pax-utils:python - Install a more powerful/faster version of lddtree
+dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
+dev-lang/rust:jemalloc - Use sys-libs/jemalloc as the standard memory allocator
+dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
 dev-libs/DirectFB:bmp - build BMP image provider
 dev-libs/DirectFB:divine - enable DiVine
 dev-libs/DirectFB:drmkms - build with DRM/KMS support
