@@ -5,7 +5,6 @@ app-editors/emacs 24.5-r5 25.3-r1 25.3-r3: The extensible, customizable, self-do
 app-emulation/libvirt 3.3.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
-app-misc/pax-utils 1.1.7 1.2.2-r2: ELF utils that can check files for security relevant properties
 app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-games/irrlicht 1.8.1-r1: open source high performance realtime 3D engine written in C++
@@ -31,7 +30,6 @@ dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 gnome-base/gnome-keyring 3.20.0 3.20.1: Password and keyring managing daemon
 gnome-base/gnome-session 3.22.3: Gnome session manager
-lxde-base/lxdm 0.4.1-r9: LXDE Display Manager
 mail-mta/postfix 3.1.6 3.2.4: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
@@ -62,7 +60,7 @@ net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop
 net-misc/iperf 3.1.3: A TCP, UDP, and SCTP network bandwidth measurement tool
 net-misc/openssh 7.7_p1-r4: Port of OpenBSD's free SSH release
 net-misc/radvd 2.17-r1: Linux IPv6 Router Advertisement Daemon
-net-misc/rsync 3.1.2-r2: File transfer program to keep remote files into sync
+net-misc/rsync 3.1.3: File transfer program to keep remote files into sync
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
@@ -91,13 +89,13 @@ sys-fs/udisks 2.7.4: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-kernel/dracut 045-r2 046-r1 047-r1: Generic initramfs generation tool
 sys-kernel/linux-headers 4.13: Linux system headers
-sys-libs/compiler-rt-sanitizers 4.0.1 5.0.1: Compiler runtime libraries for clang (sanitizers & xray)
+sys-libs/compiler-rt-sanitizers 4.0.1 5.0.1 5.0.2: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libapparmor 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libblockdev 2.14: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
-sys-libs/libomp 3.9.1 4.0.1: OpenMP runtime library for LLVM/clang compiler
+sys-libs/libomp 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1-r99: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
