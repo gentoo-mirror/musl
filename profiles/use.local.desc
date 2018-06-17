@@ -252,10 +252,6 @@ net-dialup/ppp:radius - Enables RADIUS support
 net-firewall/ebtables:perl - Install the ebtables-save script which uses perl
 net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
 net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
-net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
-net-fs/cifs-utils:caps - libcap support
-net-fs/cifs-utils:caps-ng - libcap-ng support
-net-fs/cifs-utils:creds - cifs credentials support
 net-fs/nfs-utils:ldap - Add ldap support
 net-fs/nfs-utils:libmount - Link mount.nfs with libmount
 net-fs/nfs-utils:nfsdcld - Enable nfsdcld NFSv4 clientid tracking daemon
