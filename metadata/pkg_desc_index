@@ -6,7 +6,6 @@ app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
-dev-games/irrlicht 1.8.1-r1: open source high performance realtime 3D engine written in C++
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-lang/rust 1.25.0: Systems programming language from Mozilla
 dev-libs/DirectFB 1.7.6-r1: Thin library on top of the Linux framebuffer devices
