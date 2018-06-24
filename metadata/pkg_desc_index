@@ -104,6 +104,7 @@ sys-libs/pam 1.2.1-r2: Linux-PAM (Pluggable Authentication Modules)
 sys-libs/queue 0.1: Install <sys/queue.h> from glibc.
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-process/audit 2.6.4 2.7.1: Userspace utilities for storing and processing auditing records
+sys-process/cronie 1.5.2: Cronie is a standard UNIX daemon cron based on the original vixie-cron
 sys-process/psmisc 22.21-r3: A set of tools that use the proc filesystem
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-libs/libdrm 2.4.91: X.Org libdrm library
