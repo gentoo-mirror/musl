@@ -285,13 +285,6 @@ net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
-net-misc/openssh:X509 - Adds support for X.509 certificate authentication
-net-misc/openssh:bindist - Disable EC/RC5 algorithms in OpenSSL for patent reasons.
-net-misc/openssh:hpn - Enable high performance ssh
-net-misc/openssh:ldap - Add support for storing SSH public keys in LDAP
-net-misc/openssh:ldns - Use LDNS for DNSSEC/SSHFP validation.
-net-misc/openssh:livecd - Enable root password logins for live-cd environment.
-net-misc/openssh:ssl - Enable additional crypto algorithms via OpenSSL
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
 sys-apps/accountsservice:elogind - Use sys-auth/elogind instead of sys-auth/consolekit for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
