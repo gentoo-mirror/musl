@@ -86,6 +86,26 @@ app-emulation/qemu:vte - Enable terminal support (x11-libs/vte) in the GTK+ inte
 app-emulation/qemu:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr. Requisite for the virtfs backend.
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
+app-emulation/wine-vanilla:capi - Enable ISDN support via CAPI
+app-emulation/wine-vanilla:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-vanilla:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-vanilla:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-vanilla:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-vanilla:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-vanilla:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-vanilla:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-vanilla:opencl - Enable OpenCL support
+app-emulation/wine-vanilla:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-vanilla:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-vanilla:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-vanilla:prelink - Run prelink on DLLs during build; For versions before wine-1.7.55 or hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-vanilla:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-vanilla:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-vanilla:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
+app-emulation/wine-vanilla:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-vanilla:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-vanilla:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-vanilla:vulkan - Enable Vulkan drivers
 dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
 dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
 dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
