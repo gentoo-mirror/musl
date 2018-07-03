@@ -96,7 +96,6 @@ sys-libs/libomp 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
-sys-libs/libunwind 1.2.1-r1: Portable and efficient API to determine the call-chain of a program
 sys-libs/libutempter 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
 sys-libs/ntdb 1.0-r1: A not-so trivial keyword/data database system
 sys-libs/pam 1.2.1-r2: Linux-PAM (Pluggable Authentication Modules)
