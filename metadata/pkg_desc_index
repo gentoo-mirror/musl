@@ -63,6 +63,7 @@ sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulati
 sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/fakeroot 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/iproute2 4.14.1-r2: kernel routing and traffic control utilities
+sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/keyutils 1.5.9-r1 1.5.10: Linux Key Management Utilities
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
 sys-apps/policycoreutils 2.7: SELinux core utilities
