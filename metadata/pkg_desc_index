@@ -31,6 +31,7 @@ mail-mta/postfix 3.1.6 3.2.4: A fast and secure drop-in replacement for sendmail
 media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and command line utility
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/mesa 17.3.9: OpenGL-like graphic library for Linux
+media-libs/openal 1.18.2-r1: A software implementation of the OpenAL 3D audio API
 media-libs/virglrenderer 0.6.0: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15: The CAPS Audio Plugin Suite - LADSPA plugin suite
