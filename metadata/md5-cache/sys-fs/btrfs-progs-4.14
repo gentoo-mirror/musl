@@ -4,11 +4,11 @@ DESCRIPTION=Btrfs filesystem utilities
 EAPI=6
 HOMEPAGE=https://btrfs.wiki.kernel.org
 IUSE=+convert reiserfs static static-libs +zstd
-KEYWORDS=~amd64 ~arm ~ia64 ~mips ~ppc ~sparc ~x86
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~sparc ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/lzo:2= sys-apps/util-linux:0=[static-libs(+)?] sys-libs/zlib:0= convert? ( sys-fs/e2fsprogs:0= sys-libs/e2fsprogs-libs:0= reiserfs? ( >=sys-fs/reiserfsprogs-3.6.27 ) ) zstd? ( app-arch/zstd:0= )
 RESTRICT=test
 SLOT=0/0
 SRC_URI=https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v4.14.tar.xz
 _eclasses_=bash-completion-r1	6af26c1ffe65d92d3f525cb715f6250c	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=c11824ea65d20f2ea75be5da3af7b48d
+_md5_=82ea2d4c4ce5dee7ef25fd0ab9ebc238
