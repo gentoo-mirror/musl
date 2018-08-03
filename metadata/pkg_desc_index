@@ -90,7 +90,6 @@ sys-fs/udisks 2.7.4: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-kernel/dracut 045-r2 046-r1 047-r1: Generic initramfs generation tool
 sys-kernel/linux-headers 4.13: Linux system headers
-sys-libs/compiler-rt-sanitizers 4.0.1 5.0.1 5.0.2: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libapparmor 2.12.0: Library to support AppArmor userspace utilities
