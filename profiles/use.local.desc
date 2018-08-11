@@ -320,6 +320,11 @@ net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/freerdp:client - Build client binaries
 net-misc/freerdp:server - Build server binaries
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
+net-vpn/ipsec-tools:hybrid - Makes available both mode-cfg and xauth support
+net-vpn/ipsec-tools:idea - Enable support for the IDEA algorithm
+net-vpn/ipsec-tools:nat - Enable NAT-Traversal
+net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
+net-vpn/ipsec-tools:stats - Enable statistics reporting
 sys-apps/accountsservice:elogind - Use sys-auth/elogind instead of sys-auth/consolekit for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd instead of sys-auth/consolekit for session tracking
 sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)

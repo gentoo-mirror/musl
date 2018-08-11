@@ -60,6 +60,7 @@ net-misc/freerdp 1.2.1_pre20150326-r1: Free implementation of the Remote Desktop
 net-misc/iperf 3.1.3: A TCP, UDP, and SCTP network bandwidth measurement tool
 net-misc/radvd 2.17-r1: Linux IPv6 Router Advertisement Daemon
 net-misc/rsync 3.1.3: File transfer program to keep remote files into sync
+net-vpn/ipsec-tools 0.8.2-r5: A port of KAME's IPsec utilities to the Linux-2.6 IPsec implementation
 net-wireless/crda 1.1.3-r1: Central Regulatory Domain Agent for wireless networks
 sys-apps/accountsservice 0.6.43-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/attr 2.4.47-r2: Extended attributes tools
