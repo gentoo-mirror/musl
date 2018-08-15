@@ -41,7 +41,7 @@ media-plugins/caps-plugins 0.9.15: The CAPS Audio Plugin Suite - LADSPA plugin s
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/mpd 0.20.10: The Music Player Daemon (mpd)
 media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
-media-sound/pulseaudio 11.1: A networked sound server with an advanced plugin system
+media-sound/pulseaudio 11.1-r1: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
 net-analyzer/wireshark 2.4.5: A network protocol analyzer formerly known as ethereal
