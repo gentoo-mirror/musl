@@ -9,6 +9,8 @@ app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
+dev-lang/go 1.10.3: A concurrent garbage collected and typesafe programming language
+dev-lang/go-bootstrap 1.4.3: Version of go compiler used for bootstrapping
 dev-lang/rust 1.25.0: Systems programming language from Mozilla
 dev-libs/DirectFB 1.7.6-r1: Thin library on top of the Linux framebuffer devices
 dev-libs/boehm-gc 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
