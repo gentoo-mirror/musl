@@ -6,6 +6,7 @@ app-editors/emacs 24.5-r5 25.3-r1 25.3-r3: The extensible, customizable, self-do
 app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
+app-office/libreoffice 6.0.6.2: A full office productivity suite
 app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine

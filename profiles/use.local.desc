@@ -102,6 +102,13 @@ app-emulation/wine-vanilla:realtime - Pull in sys-auth/rtkit for low-latency pul
 app-emulation/wine-vanilla:run-exes - Use Wine to open and run .EXE and .MSI files
 app-emulation/wine-vanilla:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
 app-emulation/wine-vanilla:udev - Use virtual/libudev to provide plug and play support
+app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
+app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
+app-office/libreoffice:gtk2 - Enable legacy gtk2 frontend
+app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
+app-office/libreoffice:odk - Build the Office Development Kit
+app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
+app-office/libreoffice:vlc - Use media-video/vlc for video embedding
 dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
 dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
 dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
