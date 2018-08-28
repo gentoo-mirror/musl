@@ -90,14 +90,14 @@ sys-devel/gdb 8.1-r1: GNU debugger
 sys-fs/dosfstools 4.0-r1: DOS filesystem tools - provides mkdosfs, mkfs.msdos, mkfs.vfat
 sys-fs/f2fs-tools 1.6.1: Tools for Flash-Friendly File System (F2FS)
 sys-fs/lvm2 2.02.116 2.02.116-r4 2.02.145-r2: User-land utilities for LVM2 (device-mapper) software
-sys-fs/udisks 2.7.4: Daemon providing interfaces to work with storage devices
+sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
 sys-fs/xfsdump 3.1.6: xfs dump/restore utilities
 sys-kernel/dracut 045-r2 046-r1 047-r1: Generic initramfs generation tool
 sys-kernel/linux-headers 4.13: Linux system headers
 sys-libs/efivar 30 31: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libapparmor 2.12.0: Library to support AppArmor userspace utilities
-sys-libs/libblockdev 2.14: A library for manipulating block devices
+sys-libs/libblockdev 2.14-r1: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libomp 4.0.1: OpenMP runtime library for LLVM/clang compiler
 sys-libs/libraw1394 2.1.1: library that provides direct access to the IEEE 1394 bus
