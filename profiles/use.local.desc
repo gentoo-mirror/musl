@@ -113,24 +113,6 @@ dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the 
 dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
 dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
 dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
-dev-libs/DirectFB:bmp - build BMP image provider
-dev-libs/DirectFB:divine - enable DiVine
-dev-libs/DirectFB:drmkms - build with DRM/KMS support
-dev-libs/DirectFB:dynload - enable dynload support
-dev-libs/DirectFB:egl - build with EGL support
-dev-libs/DirectFB:fusiondale - enable FusionDale
-dev-libs/DirectFB:fusionsound - enable FusionSound
-dev-libs/DirectFB:gles2 - build gles2 gfxdriver
-dev-libs/DirectFB:imlib2 - build Imlib2 image provider
-dev-libs/DirectFB:input_hub - provides an asynchronous interface to the input devices available and those being added/removed
-dev-libs/DirectFB:mpeg2 - build MPEG2 image provider
-dev-libs/DirectFB:mpeg3 - build Libmpeg3 video provider
-dev-libs/DirectFB:multicore - enable multicore support
-dev-libs/DirectFB:pnm - build PNM (PBM/PGM/PPM) image provider
-dev-libs/DirectFB:sawman - enable SaWMan (window manager and application manager)
-dev-libs/DirectFB:swfdec - build Swfdec (Flash decoder) video provider
-dev-libs/DirectFB:tremor - build Ogg/Vorbis music provider using Tremor
-dev-libs/DirectFB:webp - build WebP image provider
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
 dev-libs/elfutils:utils - Install command-line utilities (all the eu-* programs)
