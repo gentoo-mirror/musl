@@ -316,7 +316,9 @@ net-libs/webkit-gtk:gles2 - Enable GLESv2 support
 net-libs/webkit-gtk:nsplugin - Enable full nsplugin support (GTK2 plugins)
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
 net-misc/connman:ethernet - Enable ethernet support.
+net-misc/connman:iptables - Use net-firewall/iptables as firewall.
 net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
+net-misc/connman:nftables - Use net-firewall/nftables as firewall.
 net-misc/connman:ofono - Use net-misc/ofono for telephony support.
 net-misc/connman:openconnect - Use net-vpn/openconnect for VPN support.
 net-misc/connman:openvpn - Use net-vpn/openvpn for openvpn support.
