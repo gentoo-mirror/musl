@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2018 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -10,7 +10,7 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 else
 	SRC_URI="mirror://kernel/linux/utils/net/${PN}/${P}.tar.xz"
-	KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc ~x86"
+	KEYWORDS="amd64 arm ~arm64 ~mips ppc x86"
 fi
 
 DESCRIPTION="kernel routing and traffic control utilities"
@@ -18,12 +18,14 @@ HOMEPAGE="https://wiki.linuxfoundation.org/networking/iproute2"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="atm berkdb +iptables ipv6 minimal selinux"
+IUSE="atm berkdb caps elf +iptables ipv6 minimal selinux"
 
 # We could make libmnl optional, but it's tiny, so eh
 RDEPEND="
 	!net-misc/arpd
-	!minimal? ( net-libs/libmnl virtual/libelf )
+	!minimal? ( net-libs/libmnl )
+	caps? ( sys-libs/libcap )
+	elf? ( virtual/libelf )
 	iptables? ( >=net-firewall/iptables-1.4.20:= )
 	berkdb? ( sys-libs/db:= )
 	atm? ( net-dialup/linux-atm )
@@ -42,10 +44,8 @@ DEPEND="
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-3.1.0-mtu.patch #291907
-	"${FILESDIR}"/${P}-fix-tc-actions.patch
-	"${FILESDIR}"/${P}-configure-nomagic.patch # bug 643722
-	"${FILESDIR}"/${P}-posix-shell.patch
-	"${FILESDIR}"/${PN}-4.14.0-musl.patch
+	"${FILESDIR}"/${PN}-4.17.0-configure-nomagic.patch # bug 643722
+	"${FILESDIR}"/${P}-musl.patch
 )
 
 src_prepare() {
@@ -102,8 +102,9 @@ src_configure() {
 	# We've locked in recent enough kernel headers #549948
 	TC_CONFIG_IPSET := y
 	HAVE_BERKELEY_DB := $(usex berkdb y n)
+	HAVE_CAP      := $(usex caps y n)
 	HAVE_MNL      := $(usex minimal n y)
-	HAVE_ELF      := $(usex minimal n y)
+	HAVE_ELF      := $(usex elf y n)
 	HAVE_SELINUX  := $(usex selinux y n)
 	IP_CONFIG_SETNS := ${setns}
 	# Use correct iptables dir, #144265 #293709
