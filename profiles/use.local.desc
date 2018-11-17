@@ -102,6 +102,9 @@ app-emulation/wine-vanilla:realtime - Pull in sys-auth/rtkit for low-latency pul
 app-emulation/wine-vanilla:run-exes - Use Wine to open and run .EXE and .MSI files
 app-emulation/wine-vanilla:samba - Add support for NTLM auth. see http://wiki.winehq.org/NtlmAuthSetupGuide and http://wiki.winehq.org/NtlmSigningAndSealing
 app-emulation/wine-vanilla:udev - Use virtual/libudev to provide plug and play support
+app-misc/screen:multiuser - Enable multiuser support (by setting correct permissions)
+app-misc/screen:nethack - Express error messages in nethack style
+app-misc/screen:utmp - Include utmp support
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
 app-office/libreoffice:gtk2 - Enable legacy gtk2 frontend
@@ -383,6 +386,10 @@ sys-fs/udisks:lvm - Add support for Logical Volume Management via sys-fs/lvm2.
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
 sys-libs/compiler-rt-sanitizers:clang - Force building using installed clang (rather than the default CC/CXX).
+sys-libs/ldb:doc - Builds documentation
+sys-libs/ldb:ldap - Enable LDAP support
+sys-libs/ldb:lmdb - Enable LMDB backend
+sys-libs/ldb:python - Enable Python support
 sys-libs/libblockdev:bcache - Enable block device cache support.
 sys-libs/libblockdev:cryptsetup - Enable sys-fs/cryptsetup support
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
