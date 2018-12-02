@@ -74,6 +74,7 @@ sys-apps/fakeroot 1.22: A fake root environment by means of LD_PRELOAD and SysV 
 sys-apps/iproute2 4.17.0 4.17.0-r1: kernel routing and traffic control utilities
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/keyutils 1.5.9-r1 1.5.10: Linux Key Management Utilities
+sys-apps/lshw 02.18b-r2: Hardware Lister
 sys-apps/net-tools 1.60_p20161110235919: Standard Linux networking tools
 sys-apps/policycoreutils 2.7: SELinux core utilities
 sys-apps/sandbox 2.12 2.13: sandbox'd LD_PRELOAD hack
