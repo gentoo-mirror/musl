@@ -11,4 +11,4 @@ REQUIRED_USE=nis? ( hostname )
 SLOT=0
 SRC_URI=mirror://gentoo/net-tools-1.60_p20180626073013.tar.xz
 _eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	55aaa148741116aa54ad0d80e361818e	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
-_md5_=537b76f9c992ad9e4380a21b551f6b5a
+_md5_=f83923e4db772a0648c2bcb1f7fe7789
