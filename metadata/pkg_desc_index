@@ -39,7 +39,6 @@ media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pulseaudio 11.1-r1: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.5: GTK+ UVC Viewer
-net-analyzer/wireshark 2.4.5: A network protocol analyzer formerly known as ethereal
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
 net-firewall/ebtables 2.0.10.4: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
