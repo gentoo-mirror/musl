@@ -3,9 +3,7 @@ app-admin/hardinfo 0.5.2_pre20130823: A system information and benchmark tool fo
 app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
-app-misc/screen 4.6.1: screen manager with VT100/ANSI terminal emulation
 app-office/libreoffice 6.0.6.2: A full office productivity suite
-app-text/aspell 0.60.7_rc1: A spell checker replacement for ispell
 dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-lang/go 1.10.3: A concurrent garbage collected and typesafe programming language
