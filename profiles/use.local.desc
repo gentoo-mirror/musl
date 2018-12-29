@@ -4,20 +4,6 @@
 
 app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
 app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
-app-editors/emacs:athena - Enable the MIT Athena widget set (x11-libs/libXaw)
-app-editors/emacs:dynamic-loading - Enable loading of dynamic libraries at runtime
-app-editors/emacs:games - Support shared score files for games
-app-editors/emacs:gconf - Use gnome-base/gconf to read the system font name
-app-editors/emacs:gfile - Use gfile (dev-libs/glib) for file notification
-app-editors/emacs:gsettings - Use gsettings (dev-libs/glib) to read the system font name
-app-editors/emacs:gtk3 - Prefer version 3 of the GIMP Toolkit to version 2 (x11-libs/gtk+)
-app-editors/emacs:gzip-el - Compress bundled Emacs Lisp source
-app-editors/emacs:imagemagick - Use media-gfx/imagemagick for image processing
-app-editors/emacs:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal Lisp implementations
-app-editors/emacs:pax_kernel - Enable building under a PaX enabled kernel
-app-editors/emacs:source - Install C source files and make them available for find-function
-app-editors/emacs:toolkit-scroll-bars - Use the selected toolkit's scrollbars in preference to Emacs' own scrollbars
-app-editors/emacs:wide-int - Prefer wide Emacs integers (typically 62-bit). This option has an effect only on architectures where "long" and "long long" types have different size.
 app-emulation/qemu:accessibility - Adds support for braille displays using brltty
 app-emulation/qemu:aio - Enables support for Linux's Async IO
 app-emulation/qemu:alsa - Enable alsa output for sound emulation
