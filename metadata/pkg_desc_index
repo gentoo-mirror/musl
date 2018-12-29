@@ -8,7 +8,6 @@ dev-db/libiodbc 3.52.8-r2: ODBC Interface for Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-lang/go 1.10.3: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.4.3: Version of go compiler used for bootstrapping
-dev-lang/rust 1.25.0: Systems programming language from Mozilla
 dev-lang/spidermonkey 52.9.1_pre1: Stand-alone JavaScript C++ library
 dev-libs/elfutils 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/libbsd 0.8.6 0.9.1: An library to provide useful functions commonly found on BSD systems
@@ -17,12 +16,10 @@ dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux k
 dev-libs/weston 1.11.0: Wayland reference compositor
 dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
-dev-python/numpy 1.10.4: Fast array and numerical python library
 dev-qt/qtwebkit 5.9.1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-scheme/guile 1.8.8-r3: Scheme interpreter
 dev-tex/luatex 0.70.1-r2: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/android-tools 6.0.1_p79: Android platform tools (adb, fastboot, and mkbootimg)
-dev-util/cargo 0.26.0: The Rust's package manager
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 gnome-base/gnome-keyring 3.20.0 3.20.1: Password and keyring managing daemon

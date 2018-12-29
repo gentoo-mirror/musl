@@ -64,10 +64,6 @@ app-office/libreoffice:jemalloc - Use dev-libs/jemalloc for allocations
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
-dev-lang/rust:extended - Build and install rls, rustfmt and cargo alongside the compiler and stdlib
-dev-lang/rust:jemalloc - Use dev-libs/jemalloc as the standard memory allocator
-dev-lang/rust:system-llvm - Use system sys-devel/llvm in place of the bundled one
-dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
 dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
