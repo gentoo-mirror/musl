@@ -9,6 +9,7 @@ dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual 
 dev-lang/go 1.10.3: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.4.3: Version of go compiler used for bootstrapping
 dev-lang/spidermonkey 52.9.1_pre1: Stand-alone JavaScript C++ library
+dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/elfutils 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/libbsd 0.8.6 0.9.1: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
