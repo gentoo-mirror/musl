@@ -10,9 +10,7 @@ dev-lang/go 1.10.3: A concurrent garbage collected and typesafe programming lang
 dev-lang/go-bootstrap 1.4.3: Version of go compiler used for bootstrapping
 dev-lang/rust 1.25.0: Systems programming language from Mozilla
 dev-lang/spidermonkey 52.9.1_pre1: Stand-alone JavaScript C++ library
-dev-libs/boehm-gc 7.4.2: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/elfutils 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/glib 2.52.3: The GLib library of C routines
 dev-libs/libbsd 0.8.6 0.9.1: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
