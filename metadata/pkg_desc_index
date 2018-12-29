@@ -1,7 +1,7 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
 app-admin/hardinfo 0.5.2_pre20130823: A system information and benchmark tool for Linux systems
-app-admin/rsyslog 8.32.0-r4: An enhanced multi-threaded syslogd with database support and more
-app-antivirus/clamav 0.99.4-r1: Clam Anti-Virus Scanner
+app-admin/rsyslog 8.40.0-r1: An enhanced multi-threaded syslogd with database support and more
+app-antivirus/clamav 0.100.1-r1: Clam Anti-Virus Scanner
 app-editors/emacs 24.5-r5 25.3-r1 25.3-r3: The extensible, customizable, self-documenting real-time display editor
 app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
