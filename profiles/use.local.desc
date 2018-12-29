@@ -316,15 +316,9 @@ sys-devel/gdb:multitarget - Support all known targets in one gdb binary
 sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
 sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
 sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
-sys-fs/dosfstools:compat - Install symlinks for legacy names of the tools
-sys-fs/lvm2:clvm - Allow users to build clustered lvm2
-sys-fs/lvm2:cman - Cman support for clustered lvm
-sys-fs/lvm2:corosync - Corosync support for clustered lvm
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
 sys-fs/lvm2:lvm1 - Allow users to build lvm2 with lvm1 support
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
-sys-fs/lvm2:openais - Openais support for clustered lvm
-sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
 sys-fs/lvm2:thin - Support for thin volumes
 sys-fs/udisks:cryptsetup - Enable sys-fs/cryptsetup support
 sys-fs/udisks:elogind - Use sys-auth/elogind for session tracking
