@@ -12,7 +12,6 @@ dev-lang/spidermonkey 52.9.1_pre1: Stand-alone JavaScript C++ library
 dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/elfutils 0.170-r1: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.56.2 2.56.4: The GLib library of C routines
-dev-libs/libbsd 0.8.6 0.9.1: An library to provide useful functions commonly found on BSD systems
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
