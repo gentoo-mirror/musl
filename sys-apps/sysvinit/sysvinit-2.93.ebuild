@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -12,7 +12,7 @@ SRC_URI="mirror://nongnu/${PN}/${P/_/-}.tar.xz"
 LICENSE="GPL-2"
 SLOT="0"
 [[ "${PV}" == *beta* ]] || \
-KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc ~x86"
+KEYWORDS="~amd64 ~arm ~arm64 ~mips ~ppc x86"
 IUSE="selinux ibm static kernel_FreeBSD"
 
 CDEPEND="
@@ -105,7 +105,7 @@ src_install() {
 	# dead symlink
 	rm "${ED%/}"/usr/bin/lastb || die
 
-	doinitd "${FILESDIR}"/bootlogd
+	newinitd "${FILESDIR}"/bootlogd.initd bootlogd
 }
 
 pkg_postinst() {
@@ -122,4 +122,9 @@ pkg_postinst() {
 
 	elog "The last/lastb/mesg/mountpoint/sulogin/utmpdump/wall tools have been moved to"
 	elog "sys-apps/util-linux. The pidof tool has been moved to sys-process/procps."
+
+	# Required for new bootlogd service
+	if [[ ! -e "${EROOT%/}/var/log/boot" ]] ; then
+		touch "${EROOT%/}/var/log/boot"
+	fi
 }
