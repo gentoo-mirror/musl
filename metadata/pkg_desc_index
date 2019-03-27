@@ -29,7 +29,7 @@ media-gfx/exiv2 0.26_p20171104: EXIF, IPTC and XMP metadata C++ library and comm
 media-libs/alsa-lib 1.1.6-r1: Advanced Linux Sound Architecture Library
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 18.1.6 18.1.9: OpenGL-like graphic library for Linux
+media-libs/mesa 18.1.9: OpenGL-like graphic library for Linux
 media-libs/openal 1.18.2-r1: A software implementation of the OpenAL 3D audio API
 media-libs/virglrenderer 0.6.0: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
