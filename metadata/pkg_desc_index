@@ -1,6 +1,5 @@
 app-accessibility/speech-dispatcher 0.8.1: Speech synthesis interface
 app-admin/hardinfo 0.5.2_pre20130823: A system information and benchmark tool for Linux systems
-app-emulation/qemu 2.11.1-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
 app-office/libreoffice 6.1.4.2: A full office productivity suite
