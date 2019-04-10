@@ -1,9 +1,9 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-EGIT_REPO_URI="https://anongit.freedesktop.org/git/mesa/drm.git"
+EGIT_REPO_URI="https://gitlab.freedesktop.org/mesa/drm.git"
 
 if [[ ${PV} = 9999* ]]; then
 	GIT_ECLASS="git-r3"
@@ -12,7 +12,7 @@ fi
 inherit ${GIT_ECLASS} meson multilib-minimal
 
 DESCRIPTION="X.Org libdrm library"
-HOMEPAGE="https://dri.freedesktop.org/"
+HOMEPAGE="https://dri.freedesktop.org/ https://gitlab.freedesktop.org/mesa/drm"
 if [[ ${PV} = 9999* ]]; then
 	SRC_URI=""
 else
@@ -33,9 +33,7 @@ SLOT="0"
 RDEPEND="elibc_FreeBSD? ( >=dev-libs/libpthread-stubs-0.4:=[${MULTILIB_USEDEP}] )
 	video_cards_intel? ( >=x11-libs/libpciaccess-0.13.1-r1:=[${MULTILIB_USEDEP}] )"
 DEPEND="${RDEPEND}
-	>=dev-util/meson-0.43.0
 	valgrind? ( dev-util/valgrind )"
-
 PATCHES=( "${FILESDIR}"/fix-ioctl.patch )
 
 src_unpack() {
