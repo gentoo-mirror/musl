@@ -47,7 +47,7 @@ net-fs/nfs-utils 1.3.4-r1 2.3.1-r3: NFS client and server daemons
 net-fs/samba 4.5.16: Samba Suite Version 4
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.25-r1: NFSv4 ID <-> name mapping library
-net-libs/webkit-gtk 2.22.2: Open source web browser engine
+net-libs/webkit-gtk 2.22.2 2.22.6: Open source web browser engine
 net-misc/connman 1.35-r1: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
 net-misc/iperf 3.1.3: A TCP, UDP, and SCTP network bandwidth measurement tool
