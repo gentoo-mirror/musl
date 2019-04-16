@@ -79,7 +79,7 @@ sys-boot/syslinux 6.04_pre1: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK 
 sys-devel/clang 6.0.1: C language family frontend for LLVM
 sys-devel/gcc 8.2.0-r6: The GNU Compiler Collection
 sys-devel/gdb 8.1-r1: GNU debugger
-sys-fs/lvm2 2.02.145-r2 2.02.183: User-land utilities for LVM2 (device-mapper) software
+sys-fs/lvm2 2.02.183: User-land utilities for LVM2 (device-mapper) software
 sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
 sys-kernel/dracut 045-r2 046-r1 047-r1: Generic initramfs generation tool
 sys-kernel/linux-headers 4.14-r1: Linux system headers
