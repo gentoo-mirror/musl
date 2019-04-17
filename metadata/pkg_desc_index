@@ -44,7 +44,7 @@ net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
 net-firewall/ebtables 2.0.10.4: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-firewall/iptables 1.4.21-r1: Linux kernel (2.4+) firewall, NAT and packet mangling tools
 net-fs/nfs-utils 1.3.4-r1 2.3.1-r3: NFS client and server daemons
-net-fs/samba 4.5.16: Samba Suite Version 4
+net-fs/samba 4.5.16 4.8.6-r2: Samba Suite Version 4
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.25-r1: NFSv4 ID <-> name mapping library
 net-libs/webkit-gtk 2.22.2 2.22.6: Open source web browser engine
