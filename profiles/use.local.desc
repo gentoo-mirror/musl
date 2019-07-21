@@ -136,8 +136,6 @@ net-dialup/ppp:ipv6 - Enables support for IP version 6
 net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
 net-dialup/ppp:radius - Enables RADIUS support
 net-firewall/ebtables:perl - Install the ebtables-save script which uses perl
-net-firewall/iptables:conntrack - Build against net-libs/libnetfilter_conntrack when enables the connlabel matcher
-net-firewall/iptables:netlink - Build against libnfnetlink which enables the nfnl_osf util
 net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
 net-fs/cifs-utils:caps - libcap support
 net-fs/cifs-utils:caps-ng - libcap-ng support
