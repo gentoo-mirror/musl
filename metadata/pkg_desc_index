@@ -72,7 +72,7 @@ sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
 sys-apps/watchdog 5.14: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
-sys-auth/polkit 0.115-r3: Policy framework for controlling privileges for system-wide services
+sys-auth/polkit 0.115-r3 0.115-r4: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
 sys-block/thin-provisioning-tools 0.7.0: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
