@@ -3,7 +3,7 @@
 
 EAPI="4"
 
-inherit eutils toolchain-funcs versionator flag-o-matic multilib-minimal
+inherit eutils toolchain-funcs versionator flag-o-matic multilib-minimal usr-ldscript
 
 MY_PV=$(get_version_component_range 1-2)
 DEB_PV=$(get_version_component_range 3)
@@ -18,11 +18,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 ia64 ~mips ppc sh sparc x86"
 IUSE="ipv6 netgroups static-libs"
 
-RDEPEND="
-	abi_x86_32? (
-		!<=app-emulation/emul-linux-x86-baselibs-20131008-r4
-		!app-emulation/emul-linux-x86-baselibs[-abi_x86_32(-)]
-	)"
+RDEPEND=""
 
 S=${WORKDIR}/${MY_P}
 
