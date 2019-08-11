@@ -4,6 +4,31 @@
 
 app-accessibility/speech-dispatcher:espeak - Adds support for espeak speech engine
 app-accessibility/speech-dispatcher:flite - Adds support for flite speech engine
+app-emulation/libvirt:apparmor - Enable AppArmor support
+app-emulation/libvirt:firewalld - DBus interface to iptables/ebtables allowing for better runtime management of your firewall.
+app-emulation/libvirt:fuse - Allow LXC to use sys-fs/fuse for mount points
+app-emulation/libvirt:glusterfs - Enable GlusterFS support via sys-cluster/glusterfs
+app-emulation/libvirt:iscsi - Allow using an iSCSI remote storage server as pool for disk image storage
+app-emulation/libvirt:libssh - Use net-libs/libssh to communicate with remote libvirtd hosts, for example: qemu+libssh://server/system
+app-emulation/libvirt:libvirtd - Builds the libvirtd daemon as well as the client utilities instead of just the client utilities
+app-emulation/libvirt:lvm - Allow using the Logical Volume Manager (sys-fs/lvm2) as pool for disk image storage
+app-emulation/libvirt:lxc - Support management of Linux Containers virtualisation (app-emulation/lxc)
+app-emulation/libvirt:macvtap - Support for MAC-based TAP (macvlan/macvtap). For networking instead of the normal TUN/TAP. It has its advantages and disadvantages. macvtap support requires very new kernels and is currently evolving. Support for this is experimental at best.
+app-emulation/libvirt:nfs - Allow using Network File System mounts as pool for disk image storage
+app-emulation/libvirt:numa - Use NUMA for memory segmenting via sys-process/numactl and sys-process/numad
+app-emulation/libvirt:openvz - Support management of OpenVZ virtualisation (openvz-sources)
+app-emulation/libvirt:parted - Allow using real disk partitions as pool for disk image storage, using sys-block/parted to create, resize and delete them.
+app-emulation/libvirt:pcap - Support auto learning IP addreses for routing
+app-emulation/libvirt:phyp - Support IBM HMC / IVM hypervisor via PHYP protocol
+app-emulation/libvirt:qemu - Support management of QEMU virtualisation (app-emulation/qemu)
+app-emulation/libvirt:rbd - Enable rados block device support via sys-cluster/ceph
+app-emulation/libvirt:uml - Support management of User Mode Linux virtualisation
+app-emulation/libvirt:vepa - Virtual Ethernet Port Aggregator (VEPA) / 802.1Qbg support. Relies on macvtap support.
+app-emulation/libvirt:virt-network - Enable virtual networking (NAT) support for guests. Includes all the dependencies for NATed network mode. Effectively any network setup that relies on libvirt to setup and configure network interfaces on your host. This can include bridged and routed networks ONLY if you are allowing libvirt to create and manage the underlying devices for you. In some cases this requires enabling the 'netcf' USE flag (currently unavailable).
+app-emulation/libvirt:virtualbox - Support management of VirtualBox virtualisation (one of app-emulation/virtualbox or app-emulation/virtualbox-bin)
+app-emulation/libvirt:wireshark-plugins - Build the net-analyzer/wireshark plugin for the Libvirt RPC protocol
+app-emulation/libvirt:xen - Support management of Xen virtualisation (app-emulation/xen)
+app-emulation/libvirt:zfs - Enable ZFS backend storage sys-fs/zfs
 app-emulation/wine-vanilla:capi - Enable ISDN support via CAPI
 app-emulation/wine-vanilla:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine-vanilla:dos - Pull in games-emulation/dosbox to run DOS applications
@@ -26,6 +51,28 @@ app-office/libreoffice:gtk2 - Enable legacy gtk2 frontend
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
 app-office/libreoffice:vlc - Use media-video/vlc for video embedding
+app-text/enchant:aspell - Adds support for app-text/aspell spell checker
+app-text/enchant:hunspell - Adds support for app-text/hunspell spell checker
+dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
+dev-java/icedtea:cups - Link against the CUPS library at compile time, rather than using it dynamically at runtime.
+dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
+dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
+dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
+dev-java/icedtea:kerberos - Link against Kerberos in order to obtain the cache location.
+dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the webstart flag to be enabled.
+dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
+dev-java/icedtea:pch - Build using pre-compiled headers.
+dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
+dev-java/icedtea:shenandoah - Include the Shenandoah ultra-low pause time garbage collector (-XX:+UseShenandoahGC) (arm64 and x86_64 only)
+dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
+dev-java/icedtea:sunec - Build the SunEC provider against system NSS
+dev-java/icedtea:system-lcms - Build against the system LCMS installation rather than the in-tree copy.
+dev-java/icedtea:webstart - Enable Web Start support (via NetX).
+dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
+dev-lang/perl:ithreads - Enable Perl threads, has some compatibility problems
+dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
+dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
+dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
 dev-lang/spidermonkey:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 dev-lang/spidermonkey:debug - Enable assertions to allow for easier debugging of programs that link to spidermonkey -- note this will often crash software on regular end-user systems
 dev-lang/spidermonkey:system-icu - Use the system-wide dev-libs/icu instead of bundled -- note, only takes effect when icu flag is enabled
@@ -39,6 +86,28 @@ dev-libs/glib:systemtap - Build support for profiling and tracing using dev-util
 dev-libs/glib:utils - Install gtester-report utility to generate test report files for your software; build gresource utility with ELF support.
 dev-libs/libnl:python - Install experimental dev-lang/python bindings
 dev-libs/libnl:utils - Install command line interface utils
+dev-libs/weston:colord - Allow setting color managment
+dev-libs/weston:drm - Enable drm compositor support
+dev-libs/weston:editor - Install wayland-editor example application
+dev-libs/weston:fbdev - Enable fbdev compositor support
+dev-libs/weston:gles2 - Use GLESv2 cairo instead of full GL
+dev-libs/weston:headless - Headless backend and a noop renderer, mainly for testing purposes
+dev-libs/weston:ivi - Enable the IVI shell
+dev-libs/weston:launch - Install weston-launch utility
+dev-libs/weston:rdp - Enable Remote Desktop Protocol compositor support
+dev-libs/weston:resize-optimization - Increase performance, allocate more RAM. Recommended to disable on Raspberry Pi
+dev-libs/weston:screen-sharing - Enable screen-sharing through RDP
+dev-libs/weston:unwind - Enable libunwind usage for backtraces
+dev-libs/weston:wayland-compositor - Enable Wayland compositor support
+dev-libs/weston:webp - Add support for the WebP image format
+dev-libs/weston:xwayland - Enable ability support native X11 applications
+dev-qt/qtwebengine:designer - Install the QWebEngineView plugin used to add widgets in dev-qt/designer forms that display web pages.
+dev-qt/qtwebengine:geolocation - Enable physical position determination via dev-qt/qtpositioning
+dev-qt/qtwebengine:jumbo-build - Combine source files to speed up build process.
+dev-qt/qtwebengine:pax_kernel - Enable building under a PaX enabled kernel
+dev-qt/qtwebengine:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
+dev-qt/qtwebengine:system-icu - Use the system-wide dev-libs/icu instead of bundled.
+dev-qt/qtwebengine:widgets - Enable QtWidgets support
 dev-scheme/guile:debug-freelist - Include garbage collector freelist debugging code
 dev-scheme/guile:debug-malloc - Include malloc debugging code
 dev-scheme/guile:deprecated - Enable deprecated features
@@ -136,6 +205,11 @@ net-dialup/ppp:ipv6 - Enables support for IP version 6
 net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
 net-dialup/ppp:radius - Enables RADIUS support
 net-firewall/ebtables:perl - Install the ebtables-save script which uses perl
+net-fs/autofs:dmalloc - Enable debugging with the dmalloc library
+net-fs/autofs:ldap - Install LDAP module
+net-fs/autofs:libtirpc - Use TiRPC library instead of SunRPC
+net-fs/autofs:mount-locking - Enable locking to prevent corruption of /etc/mtab in the presence of concurrent auto-mounting. If enabled, recursive auto-mounting (eg. using autofs to bind or loop mount a filesystem which is itself auto-mounted) is not possible.
+net-fs/autofs:sasl - Enable SASL support in the LDAP module
 net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
 net-fs/cifs-utils:caps - libcap support
 net-fs/cifs-utils:caps-ng - libcap-ng support
@@ -162,12 +236,24 @@ net-fs/samba:quota - Enables support for user quotas
 net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
+net-im/prosody:jit - Use LuaJIT instead of vanilla Lua
+net-im/prosody:libevent - Use libevent for event handling
+net-im/prosody:zlib - Support for compressing XMPP streams with mod_compression
+net-libs/libqmi:mbim - Support QMI over Mobile Broadband Interface Model (MBIM)
 net-libs/webkit-gtk:coverage - Enable code coverage support
 net-libs/webkit-gtk:egl - Enable EGL support
 net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
 net-libs/webkit-gtk:gles2 - Enable GLESv2 support
 net-libs/webkit-gtk:nsplugin - Enable full nsplugin support (GTK2 plugins)
 net-libs/webkit-gtk:webgl - Build support for the WebGL HTML API using virtual/opengl
+net-misc/chrony:adns - Support for asynchronous DNS
+net-misc/chrony:cmdmon - Support for command and monitoring
+net-misc/chrony:html - Install HTML documentation
+net-misc/chrony:ntp - Support for the Network Time Protocol (NTP)
+net-misc/chrony:phc - Support for the PTP (Precision Time Protocol) Hardware Clock (PHC) interface
+net-misc/chrony:pps - Support for the Linux Pulse Per Second (PPS) interface
+net-misc/chrony:refclock - Support for reference clocks
+net-misc/chrony:rtc - Support for the Linux Real Time Clock interface
 net-misc/connman:ethernet - Enable ethernet support.
 net-misc/connman:iptables - Use net-firewall/iptables as firewall.
 net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
@@ -179,7 +265,24 @@ net-misc/connman:pptp - Use net-dialup/pptpclient for PPTP VPN support.
 net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
+net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
+net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
+net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
+net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
+net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
+net-misc/networkmanager:iwd - Use net-wireless/iwd instead of net-wireless/wpa_supplicant for wifi support by default
+net-misc/networkmanager:json - Enable JSON validation via dev-libs/jansson in libnm.
+net-misc/networkmanager:modemmanager - Enable support for mobile broadband devices using net-misc/modemmanager
+net-misc/networkmanager:nss - Use dev-libs/nss for cryptography
+net-misc/networkmanager:ofono - Use net-misc/ofono for telephony support.
+net-misc/networkmanager:ovs - Enable OpenVSwitch support
+net-misc/networkmanager:ppp - Enable support for mobile broadband and PPPoE connections using net-dialup/ppp
+net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS information in /etc/resolv.conf. Generally, a symlink to /run/NetworkManager/resolv.conf is simpler. On systems running systemd-resolved, disable this flag and create a symlink to /run/systemd/resolve/stub-resolv.conf.
+net-misc/networkmanager:teamd - Enable Teamd control support
+net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
+net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
+net-p2p/qbittorrent:webui - Enable the Web UI
 net-vpn/ipsec-tools:hybrid - Makes available both mode-cfg and xauth support
 net-vpn/ipsec-tools:idea - Enable support for the IDEA algorithm
 net-vpn/ipsec-tools:nat - Enable NAT-Traversal
@@ -191,10 +294,16 @@ sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
 sys-apps/iproute2:elf - support loading eBPF programs from ELFs (e.g. LLVM's eBPF backend)
 sys-apps/iproute2:iptables - include support for iptables filtering
 sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
+sys-apps/kexec-tools:booke - Include support for Book-E memory management
+sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
+sys-apps/kexec-tools:xen - Enable extended xen support
 sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
 sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
 sys-apps/net-tools:plipconfig - build the plipconfig tool (for working with old PLIP hardware)
 sys-apps/net-tools:slattach - build the slattach tool (for working with old serial ports)
+sys-apps/pciutils:dns - Enable support for querying the central database of PCI IDs using DNS
+sys-apps/pciutils:kmod - Enable sys-apps/kmod support for the -k switch in lspci command
+sys-apps/pciutils:zlib - Support compressed pci.ids database
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
@@ -258,6 +367,10 @@ sys-libs/libblockdev:cryptsetup - Enable sys-fs/cryptsetup support
 sys-libs/libblockdev:dmraid - Support for dmraid devices, also known as ATA-RAID, or Fake RAID.
 sys-libs/libblockdev:kbd - Enable kernel block device support.
 sys-libs/libblockdev:lvm - Enable support for Logical Volume Management via sys-fs/lvm2.
+sys-libs/libcxx:libcxxabi - Build on top of sys-libs/libcxxabi instead of gcc's libsupc++ (avoids depending on gcc).
+sys-libs/libcxx:libcxxrt - Build on top of sys-libs/libcxxrt instead of gcc's libsupc++ (avoids depending on gcc).
+sys-libs/libcxx:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependence on gcc.
+sys-libs/libcxxabi:libunwind - Use libunwind instead of libgcc_s for stack unwinding, thus avoiding dependency on gcc
 sys-libs/libomp:hwloc - Enable CPU affinity support via hwloc
 sys-libs/libomp:ompt - Enable OpenMP Tools Interface support
 sys-libs/libselinux:pcre2 - Use dev-libs/libpcre2 for fcontext regexes
@@ -266,10 +379,20 @@ sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the
 sys-process/audit:gssapi - Enable GSSAPI support
 sys-process/cronie:anacron - Install the periodic anacron command scheduler.
 sys-process/cronie:inotify - Enable inotify filesystem monitoring support.
+x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
+x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
+x11-base/xorg-server:kdrive - Build the kdrive X servers
+x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
+x11-base/xorg-server:xcsecurity - Build Security extension
+x11-base/xorg-server:xephyr - Build the Xephyr server
+x11-base/xorg-server:xnest - Build the Xnest server
+x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
+x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-libs/vte:glade - Installs catalog files for dev-util/glade
 x11-misc/i3status:filecaps - Linux capabilities library is required for i3status to be able to read net bandwith
+x11-misc/lightdm:gtk - Pull in the gtk+ greeter
 x11-misc/slim:consolekit - Enable native consolekit support
 x11-terms/rxvt-unicode:256-color - Enable 256 color support
 x11-terms/rxvt-unicode:blink - Enable blinking text
@@ -282,4 +405,8 @@ x11-terms/rxvt-unicode:pixbuf - Enable transparency support using gtk's pixbuf
 x11-terms/rxvt-unicode:unicode3 - Use 21 instead of 16 bits to represent unicode characters
 x11-terms/rxvt-unicode:utmp - Enable utmp support
 x11-terms/rxvt-unicode:wtmp - Enable wtmp support
+x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
+x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
+x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
+x11-wm/fluxbox:toolbar - Enables the Fluxbox toolbar
 x11-wm/i3:doc - Build and install the HTML documentation and regenerate the man pages
