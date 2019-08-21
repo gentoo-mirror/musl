@@ -21,7 +21,7 @@ LICENSE="LGPL-2.1+"
 SLOT="2"
 IUSE="dbus debug fam gtk-doc kernel_linux +mime selinux static-libs systemtap test utils xattr"
 
-KEYWORDS="amd64 arm arm64 ~mips ppc x86"
+KEYWORDS="amd64 ~arm arm64 ~mips ~ppc x86"
 
 # Added util-linux multilib dependency to have libmount support (which
 # is always turned on on linux systems, unless explicitly disabled, but
@@ -128,6 +128,11 @@ src_prepare() {
 
 	# gdbus-codegen is a separate package
 	eapply "${FILESDIR}"/${PN}-2.58.2-external-gdbus-codegen.patch
+
+	# gdbus message upper limit check fix from glib-2-58
+	eapply "${FILESDIR}"/${PV}-gdbusmessage-limit-fix.patch
+	# gfile copy fallback security fix (wrong permissions at start)
+	eapply "${FILESDIR}"/${PV}-CVE-2019-12450.patch
 
 	# Tarball doesn't come with gtk-doc.make and we can't unconditionally depend on dev-util/gtk-doc due
 	# to circular deps during bootstramp. If actually not building gtk-doc, an almost empty file will do
