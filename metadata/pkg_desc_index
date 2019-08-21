@@ -17,7 +17,7 @@ dev-lang/ruby 2.4.4 2.5.1: An object-oriented scripting language
 dev-lang/spidermonkey 52.9.1_pre1: Stand-alone JavaScript C++ library
 dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/elfutils 0.170-r1 0.172 0.173 0.176: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/glib 2.56.2 2.56.4 2.58.2 2.58.3: The GLib library of C routines
+dev-libs/glib 2.56.2 2.56.4 2.58.2 2.58.3 2.58.3-r1: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
 dev-libs/weston 3.0.0: Wayland reference compositor
