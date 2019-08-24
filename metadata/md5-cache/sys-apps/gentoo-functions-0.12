@@ -1,0 +1,10 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=base functions required by all Gentoo systems
+EAPI=7
+HOMEPAGE=https://www.gentoo.org
+KEYWORDS=amd64 arm arm64 ~mips ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=https://github.com/gentoo/gentoo-functions/archive/0.12.tar.gz -> gentoo-functions-0.12.tar.gz
+_eclasses_=eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	7ba73aee7fe4462b3a745e3645ab92ca	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
+_md5_=192b1bc81908456b725bc0fa7858a0ae
