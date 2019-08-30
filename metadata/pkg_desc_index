@@ -113,7 +113,7 @@ sys-devel/gdb 8.1-r1 8.1-r2: GNU debugger
 sys-fs/lvm2 2.02.183 2.02.184 2.02.184-r1 2.02.184-r4: User-land utilities for LVM2 (device-mapper) software
 sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
 sys-kernel/dracut 045-r2 046-r1 047-r1 048-r1 049-r1: Generic initramfs generation tool
-sys-kernel/linux-headers 4.14-r1 4.15-r1 4.16-r2 4.17 4.18 4.19 4.20 5.0-r1 5.1: Linux system headers
+sys-kernel/linux-headers 4.14-r1 4.15-r1 4.16-r2 4.17 4.18 4.19 4.20 5.0-r1 5.1 5.2: Linux system headers
 sys-libs/compiler-rt-sanitizers 6.0.1 7.1.0: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
