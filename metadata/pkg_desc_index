@@ -41,7 +41,7 @@ media-libs/alsa-lib 1.1.4.1 1.1.5 1.1.6-r1: Advanced Linux Sound Architecture Li
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libepoxy 1.5.0: Epoxy is a library for handling OpenGL function pointer management for you
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 19.0.8 19.1.4 19.2.0_rc1: OpenGL-like graphic library for Linux
+media-libs/mesa 19.0.8 19.1.4 19.2.0_rc2: OpenGL-like graphic library for Linux
 media-libs/openal 1.18.2-r1: A software implementation of the OpenAL 3D audio API
 media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
