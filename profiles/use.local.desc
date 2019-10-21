@@ -102,7 +102,6 @@ dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:webp - Add support for the WebP image format
 dev-libs/weston:xwayland - Enable ability support native X11 applications
 dev-qt/qtwebengine:designer - Install the QWebEngineView plugin used to add widgets in dev-qt/designer forms that display web pages.
-dev-qt/qtwebengine:geolocation - Enable physical position determination via dev-qt/qtpositioning
 dev-qt/qtwebengine:jumbo-build - Combine source files to speed up build process.
 dev-qt/qtwebengine:pax_kernel - Enable building under a PaX enabled kernel
 dev-qt/qtwebengine:system-ffmpeg - Use the system-wide media-video/ffmpeg instead of bundled.
