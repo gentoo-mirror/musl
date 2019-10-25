@@ -116,7 +116,7 @@ sys-kernel/linux-headers 4.14-r1 4.15-r1 4.16-r2 4.17 4.18 4.19 4.20 5.0-r1 5.1 
 sys-libs/compiler-rt-sanitizers 6.0.1 7.1.0: Compiler runtime libraries for clang (sanitizers & xray)
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
-sys-libs/ldb 1.1.26 1.1.29-r1 1.1.31 1.2.3 1.3.6 1.4.2 1.4.3 1.4.4 1.5.1: An LDAP-like embedded database
+sys-libs/ldb 1.1.29-r1 1.1.31 1.2.4 1.3.6 1.3.8 1.4.7 1.5.5: An LDAP-like embedded database
 sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libblockdev 2.13 2.14-r1: A library for manipulating block devices
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
