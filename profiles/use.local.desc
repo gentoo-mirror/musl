@@ -322,10 +322,6 @@ sys-block/parted:device-mapper - Enable device-mapper support from sys-fs/lvm2 i
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
-sys-devel/clang:default-compiler-rt - Use compiler-rt instead of libgcc as the default rtlib for clang
-sys-devel/clang:default-libcxx - Use libc++ instead of libstdc++ as the default stdlib for clang
-sys-devel/clang:static-analyzer - Install the Clang static analyzer
-sys-devel/clang:z3 - Enable the static analyzer constraint manager backend using sci-mathematics/z3
 sys-devel/gcc:d - Enable support for the D programming language
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
 sys-devel/gcc:go - Build the GCC Go language frontend.
@@ -359,11 +355,6 @@ sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by
 sys-fs/udisks:lvm - Add support for Logical Volume Management via sys-fs/lvm2.
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
-sys-libs/compiler-rt-sanitizers:clang - Force building using installed clang (rather than the default CC/CXX).
-sys-libs/compiler-rt-sanitizers:libfuzzer - Build fuzzing runtime.
-sys-libs/compiler-rt-sanitizers:profile - Build profiling runtime.
-sys-libs/compiler-rt-sanitizers:sanitize - Build sanitizer runtimes.
-sys-libs/compiler-rt-sanitizers:xray - Build XRay runtime.
 sys-libs/ldb:doc - Builds documentation
 sys-libs/ldb:ldap - Enable LDAP support
 sys-libs/ldb:lmdb - Enable LMDB backend
