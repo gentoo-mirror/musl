@@ -1,4 +1,4 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -26,6 +26,7 @@ LICENSE="MIT CC-BY-SA-3.0"
 SLOT="0"
 
 IUSE="colord dbus +drm editor examples fbdev +gles2 headless ivi jpeg +launch lcms rdp +resize-optimization screen-sharing static-libs +suid systemd test unwind wayland-compositor webp +X xwayland"
+RESTRICT="!test? ( test )"
 
 REQUIRED_USE="
 	drm? ( gles2 )
@@ -76,7 +77,7 @@ RDEPEND="
 	)
 	xwayland? (
 		x11-base/xorg-server[wayland]
-		x11-libs/cairo[xcb]
+		x11-libs/cairo[X,xcb(+)]
 		>=x11-libs/libxcb-1.9
 		x11-libs/libXcursor
 	)
