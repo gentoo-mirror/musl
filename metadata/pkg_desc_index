@@ -3,7 +3,7 @@ app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-emulation/libvirt 4.10.0: C toolkit to manipulate virtual machines
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
 app-eselect/eselect-rust 0.3_pre20150428: eselect module for rust
-app-office/libreoffice 6.2.5.2: A full office productivity suite
+app-office/libreoffice 6.3.4.2: A full office productivity suite
 app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2 3.52.12: ODBC Interface for Linux
 dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine written in C++
@@ -45,7 +45,7 @@ media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU use
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
-media-sound/mpd 0.20.10: The Music Player Daemon (mpd)
+media-sound/mpd 0.21.18-r1: The Music Player Daemon (mpd)
 media-sound/ncmpcpp 0.7.7: featureful ncurses based MPD client inspired by ncmpc
 media-sound/pulseaudio 11.1-r1: A networked sound server with an advanced plugin system
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
