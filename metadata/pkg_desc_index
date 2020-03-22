@@ -89,7 +89,7 @@ sys-apps/pciutils 3.6.0: Various utilities dealing with the PCI bus
 sys-apps/policycoreutils 2.9 3.0: SELinux core utilities
 sys-apps/sandbox 2.12 2.13 2.14 2.15 2.17: sandbox'd LD_PRELOAD hack
 sys-apps/sysvinit 2.93 2.94: /sbin/init - parent of all processes
-sys-apps/tcp-wrappers 7.6.22-r1: TCP Wrappers
+sys-apps/tcp-wrappers 7.6.22-r1 7.6.28: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
