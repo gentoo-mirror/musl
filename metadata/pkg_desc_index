@@ -107,7 +107,7 @@ sys-kernel/dracut 045-r2 046-r1 047-r1 048-r1 049-r1: Generic initramfs generati
 sys-kernel/linux-headers 4.14-r1 4.15-r1 4.16-r2 4.17 4.18 4.19 4.20: Linux system headers
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
-sys-libs/ldb 1.1.29-r1 1.1.31 1.2.4 1.3.6 1.3.8 1.4.7 1.5.5: An LDAP-like embedded database
+sys-libs/ldb 1.1.29-r1 1.1.31 1.2.4 1.3.6 1.3.8 1.4.7 1.5.5 2.0.8: An LDAP-like embedded database
 sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libblockdev 2.13 2.14-r1: A library for manipulating block devices
 sys-libs/libcap 2.28-r1: POSIX 1003.1e capabilities
