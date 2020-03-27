@@ -59,6 +59,7 @@ net-libs/libasr 1.0.2: Async Resolver Library from OpenBSD/OpenSMTPD
 net-libs/libndp 1.6-r1: Library for Neighbor Discovery Protocol
 net-libs/libnfsidmap 0.25-r1 0.27: NFSv4 ID <-> name mapping library
 net-libs/libqmi 1.18.0: Qualcomm MSM (Mobile Station Modem) Interface (QMI) modem protocol helper library
+net-libs/webkit-gtk 2.24.4 2.26.4 2.26.4-r1: Open source web browser engine
 net-misc/chrony 3.2: NTP client and server programs
 net-misc/connman 1.35-r1: Provides a daemon for managing internet connections
 net-misc/dibbler 1.0.0: Portable DHCPv6 implementation (server, client and relay)
