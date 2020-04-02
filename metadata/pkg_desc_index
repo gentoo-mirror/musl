@@ -18,7 +18,6 @@ dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux k
 dev-libs/weston 3.0.0: Wayland reference compositor
 dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
-dev-qt/qtwebengine 5.13.2: Library for rendering dynamic web content in Qt5 C++ and QML applications
 dev-tex/luatex 0.70.1-r3: An extended version of pdfTeX using Lua as an embedded scripting language
 dev-util/android-tools 6.0.1_p79 8.1.0_p1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/cmocka 1.1.3: A unit testing framework for C
