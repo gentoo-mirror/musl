@@ -1,6 +1,7 @@
 app-admin/hardinfo 0.5.2_pre20130823: A system information and benchmark tool for Linux systems
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-emulation/libvirt 4.10.0: C toolkit to manipulate virtual machines
+app-emulation/qemu 4.2.0-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
 app-office/libreoffice 6.3.4.2: A full office productivity suite
 app-text/enchant 1.6.1: Spellchecker wrapping library
@@ -122,6 +123,7 @@ sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a 
 sys-process/audit 2.7.1 2.8.3 2.8.4: Userspace utilities for storing and processing auditing records
 sys-process/cronie 1.5.2: Cronie is a standard UNIX daemon cron based on the original vixie-cron
 sys-process/psmisc 23.1-r1: A set of tools that use the proc filesystem
+x11-apps/igt-gpu-tools 1.24: Intel GPU userland tools
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.20.5: X.Org X servers
 x11-libs/libdrm 2.4.96 2.4.97 2.4.100: X.Org libdrm library
