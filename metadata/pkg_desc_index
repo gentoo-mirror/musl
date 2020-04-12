@@ -96,6 +96,7 @@ sys-apps/xinetd 2.3.15-r99: powerful replacement for inetd
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.115-r3 0.115-r4 0.116-r1: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
+sys-block/partimage 0.6.9-r1: Console-based application to efficiently save raw partition data to image file
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
