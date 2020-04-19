@@ -139,12 +139,6 @@ dev-libs/weston:unwind - Enable libunwind usage for backtraces
 dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:webp - Add support for the WebP image format
 dev-libs/weston:xwayland - Enable ability support native X11 applications
-gnome-base/gnome-keyring:ssh-agent - Use GNOME Keyring to unlock SSH keys. Recommended unless you are using ECDSA or Ed25519 keys.
-mail-mta/postfix:dovecot-sasl - Enable net-mail/dovecot protocol version 1 (server only) SASL implementation
-mail-mta/postfix:eai - Add support for SMTPUTF8
-mail-mta/postfix:ldap-bind - Add support for binding to LDAP backend using dev-libs/cyrus-sasl
-mail-mta/postfix:lmdb - Add support for using dev-db/lmdb for lookup tables
-mail-mta/postfix:memcached - Add support for using net-misc/memcached for lookup tables
 mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
 media-gfx/exiv2:webready - Support reading metadata over the internet
 media-libs/alsa-lib:alisp - Enable support for ALISP (ALSA LISP) interpreter for advanced features.
