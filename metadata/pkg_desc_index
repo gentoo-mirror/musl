@@ -76,7 +76,7 @@ sys-apps/groff 1.22.4: Text formatter used for man pages
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
 sys-apps/iproute2 4.17.0 4.17.0-r1 4.20.0 5.2.0: kernel routing and traffic control utilities
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
-sys-apps/iucode_tool 2.2 2.3 2.3.1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
+sys-apps/iucode_tool 2.3.1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
 sys-apps/kexec-tools 2.0.14: Load another kernel from the currently executing Linux kernel
 sys-apps/keyutils 1.5.9-r1 1.5.10: Linux Key Management Utilities
 sys-apps/lshw 02.18b-r2: Hardware Lister
