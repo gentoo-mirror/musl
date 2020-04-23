@@ -286,36 +286,16 @@ net-vpn/ipsec-tools:idea - Enable support for the IDEA algorithm
 net-vpn/ipsec-tools:nat - Enable NAT-Traversal
 net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
 net-vpn/ipsec-tools:stats - Enable statistics reporting
-net-wireless/bluez:btpclient - Enable BTP client
-net-wireless/bluez:deprecated - Build deprecated plugins
-net-wireless/bluez:experimental - Build experimental plugins
-net-wireless/bluez:extra-tools - Install tools that upstream doesn't install on purpose by default. All this tools shouldn't be used. Then, please notify upstream about you still need them to let them know the situation.
-net-wireless/bluez:mesh - Add support for Bluetooth Mesh control application and advertising bearer.
-net-wireless/bluez:midi - Enable MIDI support
-net-wireless/bluez:obex - Enable OBEX transfer support
-net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
-net-wireless/bluez:user-session - Allow compatibility with user-session semantics for session bus under systemd
 sys-apps/accountsservice:consolekit - Use sys-auth/consolekit for session tracking
 sys-apps/accountsservice:elogind - Use sys-auth/elogind for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
-sys-apps/iproute2:berkdb - build programs that use berkdb (just arpd)
-sys-apps/iproute2:elf - support loading eBPF programs from ELFs (e.g. LLVM's eBPF backend)
-sys-apps/iproute2:iptables - include support for iptables filtering
-sys-apps/iproute2:minimal - only install ip and tc programs, without eBPF support
-sys-apps/kexec-tools:booke - Include support for Book-E memory management
-sys-apps/kexec-tools:lzma - Enables support for LZMA compressed kernel images
-sys-apps/kexec-tools:xen - Enable extended xen support
 sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
 sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
 sys-apps/net-tools:plipconfig - build the plipconfig tool (for working with old PLIP hardware)
 sys-apps/net-tools:slattach - build the slattach tool (for working with old serial ports)
-sys-apps/pciutils:dns - Enable support for querying the central database of PCI IDs using DNS
-sys-apps/pciutils:kmod - Enable sys-apps/kmod support for the -k switch in lspci command
-sys-apps/pciutils:zlib - Support compressed pci.ids database
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
-sys-apps/xinetd:rpc - support RPC services
 sys-auth/polkit:consolekit - Use sys-auth/consolekit for session tracking
 sys-auth/polkit:elogind - Use sys-auth/elogind for session tracking
 sys-auth/polkit:systemd - Use sys-apps/systemd for session tracking
