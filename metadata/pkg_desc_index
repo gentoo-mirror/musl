@@ -31,7 +31,7 @@ mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framew
 mate-extra/mate-power-manager 1.18.1: A session daemon for MATE that makes it easy to manage your laptop or desktop
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 19.3.5 20.0.4-r1: OpenGL-like graphic library for Linux
+media-libs/mesa 19.3.5 20.0.8: OpenGL-like graphic library for Linux
 media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
