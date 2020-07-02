@@ -1,9 +1,9 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI="7"
 
-inherit autotools eutils
+inherit autotools
 
 DESCRIPTION="tool to manipulate Intel X86 and X86-64 processor microcode update collections"
 HOMEPAGE="https://gitlab.com/iucode-tool/"
@@ -20,10 +20,10 @@ RDEPEND=${DEPEND}
 S="${WORKDIR}/${PN/_/-}-${PV}"
 
 src_prepare() {
+	default
+
 	eapply "${FILESDIR}/${PN}-2.2-limits.patch"
 	use elibc_musl && eapply "${FILESDIR}/${PN}-2.2-argp.patch"
-
-	eapply_user
 
 	eautoreconf
 }
