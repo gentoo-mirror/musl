@@ -60,7 +60,7 @@ net-vpn/ipsec-tools 0.8.2-r5: A port of KAME's IPsec utilities to the Linux-2.6 
 sys-apps/accountsservice 0.6.50-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/apparmor 2.11.1-r2 2.12.0: Userspace utils and init scripts for the AppArmor application security system
 sys-apps/attr 2.4.47-r2: Extended attributes tools
-sys-apps/bubblewrap 0.3.1-r1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
+sys-apps/bubblewrap 0.4.1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/fakeroot 1.20.2-r1 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/gentoo-functions 0.12: base functions required by all Gentoo systems
 sys-apps/groff 1.22.4: Text formatter used for man pages
@@ -74,6 +74,8 @@ sys-apps/sandbox 2.12 2.13 2.14 2.15 2.17: sandbox'd LD_PRELOAD hack
 sys-apps/sysvinit 2.93 2.94: /sbin/init - parent of all processes
 sys-apps/tcp-wrappers 7.6.22-r1 7.6.28: TCP Wrappers
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
+sys-apps/xdg-dbus-proxy 0.1.2: Filtering proxy for D-Bus connections
+sys-auth/elogind 243.7: The systemd project's logind, extracted to a standalone package
 sys-auth/nss-myhostname 0.3: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.116-r1: Policy framework for controlling privileges for system-wide services
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
