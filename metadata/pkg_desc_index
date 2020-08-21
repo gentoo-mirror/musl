@@ -28,7 +28,6 @@ dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple
 dev-util/systemtap 2.9: A linux trace/probe tool
 dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framework, a part of the SPF/SRS protocols
-mate-extra/mate-power-manager 1.18.1: A session daemon for MATE that makes it easy to manage your laptop or desktop
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/mesa 19.3.5 20.0.8: OpenGL-like graphic library for Linux
@@ -36,9 +35,8 @@ media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU use
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
-media-sound/mpd 0.21.18-r1: The Music Player Daemon (mpd)
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
-media-video/guvcview 2.0.6: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
+media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
 net-analyzer/openbsd-netcat 1.105-r1: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)

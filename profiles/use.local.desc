@@ -139,7 +139,6 @@ dev-libs/weston:wayland-compositor - Enable Wayland compositor support
 dev-libs/weston:webp - Add support for the WebP image format
 dev-libs/weston:xwayland - Enable ability support native X11 applications
 dev-python/pypy3-exe:low-memory - Build using PyPy with the engine configured towards low memory footprint. This makes it possible to build PyPy using ~3.5G of RAM on amd64 and ~half of that on x86, at the cost of lengthened build time.
-mate-extra/mate-power-manager:applet - Enable building of the MATE applet.
 media-libs/mesa:classic - Build drivers based on the classic architecture.
 media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
 media-libs/mesa:dri3 - Enable DRI3 support.
@@ -160,34 +159,6 @@ media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frame
 media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
-media-sound/mpd:cdio - Use libcdio for ISO9660 parsing support
-media-sound/mpd:chromaprint - Enable ChromaPrint / AcoustID support
-media-sound/mpd:cue - Enable CUE sheet support
-media-sound/mpd:curl - Support for web stream listening
-media-sound/mpd:eventfd - Use the eventfd function in MPD's event loop
-media-sound/mpd:faad - Use external faad library for AAC decoding
-media-sound/mpd:fifo - Support writing audio to a FIFO
-media-sound/mpd:fluidsynth - Enables Fluidsynth MIDI software synthesis (discouraged)
-media-sound/mpd:gme - Enables support for media-libs/game-music-emu for playing various video game music formats.
-media-sound/mpd:id3tag - Support for ID3 tags
-media-sound/mpd:inotify - Use the Linux kernel inotify subsystem to notice changes to mpd music library
-media-sound/mpd:lame - Support for MP3 streaming via Icecast2
-media-sound/mpd:libmpdclient - Enable support for remote mpd databases
-media-sound/mpd:libsoxr - Enable the libsoxr resampler
-media-sound/mpd:mpg123 - Enable support for mp3 decoding over media-sound/mpg123
-media-sound/mpd:network - Enables network streaming support
-media-sound/mpd:nfs - Enable support for the Network File System
-media-sound/mpd:pipe - Support writing audio to a pipe
-media-sound/mpd:qobuz - Build plugin to access qobuz
-media-sound/mpd:recorder - Enables output plugin for recording radio streams
-media-sound/mpd:sid - Build with SID (Commodore 64 Audio) support
-media-sound/mpd:signalfd - Use the signalfd function in MPD's event loop
-media-sound/mpd:soundcloud - Build plugin to access soundcloud
-media-sound/mpd:systemd - Enable support for systemd socket activation
-media-sound/mpd:tidal - Build plugin to access tidal
-media-sound/mpd:twolame - Support twolame MPEG-2 encoding
-media-sound/mpd:webdav - Enable using music from a WebDAV share
-media-sound/mpd:wildmidi - Enable MIDI support via wildmidi
 media-sound/sox:amr - Enables Adaptive Multi-Rate Audio support
 media-sound/sox:id3tag - Enables ID3 tagging with id3tag library
 media-sound/sox:opus - Enables reading Ogg Opus files.
