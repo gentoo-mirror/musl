@@ -37,7 +37,7 @@ media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA p
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
-net-analyzer/openbsd-netcat 1.105-r1: The OpenBSD network swiss army knife
+net-analyzer/openbsd-netcat 1.105-r1 1.190 1.195: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
 net-firewall/ebtables 2.0.10.4 2.0.10.4-r2: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
