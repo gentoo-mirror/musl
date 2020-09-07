@@ -12,7 +12,7 @@ dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual 
 dev-lang/ruby 2.4.4 2.5.1: An object-oriented scripting language
 dev-lang/rust 1.34.2: Systems programming language from Mozilla
 dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
-dev-libs/elfutils 0.176-r1 0.177 0.178: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.62.6: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r5: Library providing the FAM File Alteration Monitor API
 dev-libs/libnl 3.4.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
