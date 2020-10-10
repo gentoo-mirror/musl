@@ -228,7 +228,6 @@ net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/networkmanager:connection-sharing - Use net-dns/dnsmasq and net-firewall/iptables for connection sharing
-net-misc/networkmanager:consolekit - Use sys-auth/consolekit for session tracking
 net-misc/networkmanager:dhclient - Use dhclient from net-misc/dhcp for getting ip
 net-misc/networkmanager:dhcpcd - Use net-misc/dhcpcd for getting ip
 net-misc/networkmanager:elogind - Use sys-auth/elogind for session tracking
