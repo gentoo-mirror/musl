@@ -9,6 +9,7 @@ dev-db/libiodbc 3.52.8-r2 3.52.12: ODBC Interface for Linux
 dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/icedtea 3.16.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
+dev-java/openjdk 8.265_p01 8.272_p10 11.0.8_p10 11.0.9_p11: Open source implementation of the Java programming language
 dev-lang/ruby 2.4.4 2.5.1: An object-oriented scripting language
 dev-lang/rust 1.34.2: Systems programming language from Mozilla
 dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
@@ -82,7 +83,7 @@ sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-boot/syslinux 6.04_pre1: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/binutils 2.33.1-r1 2.34-r2: Tools necessary to build programs
-sys-devel/gcc 9.3.0-r1 10.1.0-r1 10.2.0-r1: The GNU Compiler Collection
+sys-devel/gcc 9.3.0-r2 10.2.0-r3: The GNU Compiler Collection
 sys-devel/gdb 8.1-r1 8.1-r2: GNU debugger
 sys-devel/lld 9.0.1 10.0.1: The LLVM linker (link editor)
 sys-fs/lvm2 2.02.187-r3: User-land utilities for LVM2 (device-mapper) software
