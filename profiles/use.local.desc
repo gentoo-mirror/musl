@@ -347,6 +347,7 @@ x11-apps/igt-gpu-tools:chamelium - Enables support for building Chamelium tests
 x11-apps/igt-gpu-tools:man - Build and install man pages
 x11-apps/igt-gpu-tools:overlay - Build the intel-gpu-overlay utility
 x11-apps/igt-gpu-tools:runner - Build the test runner
+x11-apps/igt-gpu-tools:tests - Enable tests
 x11-apps/igt-gpu-tools:valgrind - Support valgrind annotations
 x11-apps/igt-gpu-tools:xv - Enable intel-gpu-overlay xv backend
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
