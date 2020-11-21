@@ -7,38 +7,25 @@ PYTHON_REQ_USE="libressl?,sqlite,ssl"
 LIBDVDCSS_VERSION="1.4.2-Leia-Beta-5"
 LIBDVDREAD_VERSION="6.0.0-Leia-Alpha-3"
 LIBDVDNAV_VERSION="6.0.0-Leia-Alpha-3"
-FFMPEG_VERSION="4.0.4"
-CODENAME="Leia"
-FFMPEG_KODI_VERSION="18.4"
+FFMPEG_VERSION="4.3.1"
+CODENAME="Matrix"
+FFMPEG_KODI_VERSION="Beta1"
+PYTHON_COMPAT=( python3_{6,7,8,9} )
 SRC_URI="https://github.com/xbmc/libdvdcss/archive/${LIBDVDCSS_VERSION}.tar.gz -> libdvdcss-${LIBDVDCSS_VERSION}.tar.gz
 	https://github.com/xbmc/libdvdread/archive/${LIBDVDREAD_VERSION}.tar.gz -> libdvdread-${LIBDVDREAD_VERSION}.tar.gz
 	https://github.com/xbmc/libdvdnav/archive/${LIBDVDNAV_VERSION}.tar.gz -> libdvdnav-${LIBDVDNAV_VERSION}.tar.gz
-	!java? ( https://dev.gentoo.org/~anarchy/patches/${PN}-18.2-no-java-required.patch )
 	!system-ffmpeg? ( https://github.com/xbmc/FFmpeg/archive/${FFMPEG_VERSION}-${CODENAME}-${FFMPEG_KODI_VERSION}.tar.gz -> ffmpeg-${PN}-${FFMPEG_VERSION}-${CODENAME}-${FFMPEG_KODI_VERSION}.tar.gz )"
-
-PATCHES=(
-	"${FILESDIR}/musl/0001-add-missing-stdint.h.patch"
-	"${FILESDIR}/musl/0002-fix-fileemu.patch"
-	"${FILESDIR}/musl/0003_use_stdint_for_musl.patch"
-	"${FILESDIR}/musl/0004-Fix-ldt-for-musl.patch"
-	"${FILESDIR}/musl/0005-fix-fortify-sources.patch"
-	"${FILESDIR}/musl/0006-remove-filewrap.patch"
-	"${FILESDIR}/musl/0007-set-default-stacksize-for-musl.patch"
-)
-
 if [[ ${PV} == *9999 ]] ; then
-	PYTHON_COMPAT=( python2_7 python3_{6,7} )
 	EGIT_REPO_URI="https://github.com/xbmc/xbmc.git"
 	inherit git-r3
 else
-	PYTHON_COMPAT=( python2_7 )
 	MY_PV=${PV/_p/_r}
 	MY_PV=${MY_PV/_alpha/a}
 	MY_PV=${MY_PV/_beta/b}
 	MY_PV=${MY_PV/_rc/rc}
 	MY_P="${PN}-${MY_PV}"
 	SRC_URI+=" https://github.com/xbmc/xbmc/archive/${MY_PV}-${CODENAME}.tar.gz -> ${MY_P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 	S=${WORKDIR}/xbmc-${MY_PV}-${CODENAME}
 fi
 
@@ -52,12 +39,13 @@ SLOT="0"
 # use flag is called libusb so that it doesn't fool people in thinking that
 # it is _required_ for USB support. Otherwise they'll disable udev and
 # that's going to be worse.
-IUSE="airplay alsa bluetooth bluray caps cec +css dbus dvd gbm gles java lcms libressl libusb lirc mariadb mysql nfs +opengl pulseaudio raspberry-pi samba systemd +system-ffmpeg test +udev udisks upnp upower vaapi vdpau wayland webserver +X +xslt zeroconf"
+IUSE="airplay alsa bluetooth bluray caps cec +css dbus dvd gbm gles lcms libressl libusb lirc mariadb mysql nfs +opengl pulseaudio raspberry-pi samba systemd +system-ffmpeg test udf udev udisks upnp upower vaapi vdpau wayland webserver +X +xslt zeroconf"
 REQUIRED_USE="
 	${PYTHON_REQUIRED_USE}
 	|| ( gles opengl )
-	^^ ( gbm raspberry-pi wayland X )
+	|| ( gbm wayland X )
 	?? ( mariadb mysql )
+	bluray? ( udf )
 	udev? ( !libusb )
 	udisks? ( dbus )
 	upower? ( dbus )
@@ -71,23 +59,26 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	)
 	alsa? ( >=media-libs/alsa-lib-1.1.4.1 )
 	bluetooth? ( net-wireless/bluez )
-	bluray? ( >=media-libs/libbluray-1.0.2 )
+	bluray? ( >=media-libs/libbluray-1.1.2 )
 	caps? ( sys-libs/libcap )
 	dbus? ( sys-apps/dbus )
 	dev-db/sqlite
 	dev-libs/expat
-	dev-libs/flatbuffers
-	>=dev-libs/fribidi-0.19.7
+	>=dev-libs/flatbuffers-1.11.0
+	>=dev-libs/fribidi-1.0.5
 	cec? ( >=dev-libs/libcec-4.0[raspberry-pi?] )
 	dev-libs/libpcre[cxx]
 	>=dev-libs/libinput-1.10.5
 	>=dev-libs/libxml2-2.9.4
 	>=dev-libs/lzo-2.04
+	>=dev-libs/spdlog-1.5.0:=
 	dev-libs/tinyxml[stl]
-	$(python_gen_cond_dep 'dev-python/pillow[${PYTHON_MULTI_USEDEP}]')
-	$(python_gen_cond_dep 'dev-python/pycryptodome[${PYTHON_MULTI_USEDEP}]' 'python3*')
-	>=dev-libs/libcdio-0.94
-	>=dev-libs/libfmt-3.0.1
+	$(python_gen_cond_dep '
+		dev-python/pillow[${PYTHON_MULTI_USEDEP}]
+		dev-python/pycryptodome[${PYTHON_MULTI_USEDEP}]
+	')
+	>=dev-libs/libcdio-2.1.0
+	>=dev-libs/libfmt-6.1.2
 	dev-libs/libfstrcmp
 	gbm? (	media-libs/mesa[gbm] )
 	gles? (
@@ -97,19 +88,20 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	libusb? ( virtual/libusb:1 )
 	virtual/ttf-fonts
 	media-fonts/roboto
-	>=media-libs/fontconfig-2.12.4
-	>=media-libs/freetype-2.8
+	media-libs/dav1d
+	>=media-libs/fontconfig-2.13.1
+	>=media-libs/freetype-2.10.1
 	>=media-libs/libass-0.13.4
-	!raspberry-pi? ( media-libs/mesa[egl,X(+)] )
+	!raspberry-pi? ( media-libs/mesa[egl] )
 	>=media-libs/taglib-1.11.1
 	system-ffmpeg? (
-		>=media-video/ffmpeg-${FFMPEG_VERSION}:=[encode,postproc]
+		>=media-video/ffmpeg-${FFMPEG_VERSION}:=[dav1d,encode,postproc]
 		libressl? ( media-video/ffmpeg[libressl,-openssl] )
 		!libressl? ( media-video/ffmpeg[-libressl,openssl] )
 	)
 	mysql? ( dev-db/mysql-connector-c:= )
 	mariadb? ( dev-db/mariadb-connector-c:= )
-	>=net-misc/curl-7.56.1[http2]
+	>=net-misc/curl-7.68.0[http2]
 	nfs? ( >=net-fs/libnfs-2.0.0:= )
 	opengl? ( media-libs/glu )
 	!libressl? ( >=dev-libs/openssl-1.0.2l:0= )
@@ -120,6 +112,7 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	pulseaudio? ( media-sound/pulseaudio )
 	samba? ( >=net-fs/samba-3.4.6[smbclient(+)] )
 	>=sys-libs/zlib-1.2.11
+	udf? ( >=dev-libs/libudfread-1.0.0 )
 	udev? ( virtual/udev )
 	vaapi? (
 		x11-libs/libva:=
@@ -141,6 +134,7 @@ COMMON_DEPEND="${PYTHON_DEPS}
 	)
 	webserver? ( >=net-libs/libmicrohttpd-0.9.55[messages(+)] )
 	X? (
+		media-libs/mesa[X]
 		x11-libs/libX11
 		x11-libs/libXrandr
 		x11-libs/libXrender
@@ -153,7 +147,6 @@ COMMON_DEPEND="${PYTHON_DEPS}
 "
 RDEPEND="${COMMON_DEPEND}
 	lirc? ( app-misc/lirc )
-	!media-tv/xbmc
 	udisks? ( sys-fs/udisks:2 )
 	upower? ( sys-power/upower )
 "
@@ -166,11 +159,11 @@ DEPEND="${COMMON_DEPEND}
 	dev-util/cmake
 	dev-util/gperf
 	media-libs/giflib
-	>=media-libs/libjpeg-turbo-1.5.1:=
+	>=media-libs/libjpeg-turbo-2.0.4:=
 	>=media-libs/libpng-1.6.26:0=
-	test? ( dev-cpp/gtest )
+	test? ( >=dev-cpp/gtest-1.10.0 )
 	virtual/pkgconfig
-	java? ( virtual/jre )
+	virtual/jre
 	x86? ( dev-lang/nasm )
 "
 
@@ -180,6 +173,14 @@ In some cases Kodi needs to access multicast addresses.
 Please consider enabling IP_MULTICAST under Networking options.
 "
 
+PATCHES=(
+	"${FILESDIR}/musl/19.0/0001-add-missing-stdint.h.patch"
+	"${FILESDIR}/musl/19.0/0002-fix-fileemu.patch"
+	"${FILESDIR}/musl/19.0/0003-Use-stdint.h-defined-types-uint8_t-uint16_t-uint32_t.patch"
+	"${FILESDIR}/musl/19.0/0004-Fix-ldt-for-musl.patch"
+	"${FILESDIR}/musl/19.0/0005-Fix-fortify-sources.patch"
+)
+
 pkg_setup() {
 	check_extra_config
 	python-single-r1_pkg_setup
@@ -187,14 +188,6 @@ pkg_setup() {
 
 src_unpack() {
 	if [[ ${PV} == *9999 ]] ; then
-		if python_is_python3; then
-			EGIT_BRANCH="feature_python3"
-			ewarn "Using the experimental Python 3 branch!"
-			ewarn "See https://kodi.wiki/view/Migration_to_Python_3 for more information."
-			ewarn "To use the non-experimental Python 2 version:"
-			ewarn "echo '~${CATEGORY}/${P} PYTHON_TARGETS: -* python2_7 PYTHON_SINGLE_TARGET: -* python2_7' >> /etc/portage/package.use"
-			ewarn "then re-merge using: emerge -a =${CATEGORY}/${PF}"
-		fi
 		git-r3_src_unpack
 	else
 		default
@@ -202,10 +195,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	if in_iuse java && use !java; then
-		eapply "${DISTDIR}"/${PN}-18.2-no-java-required.patch
-	fi
-
 	cmake_src_prepare
 
 	# avoid long delays when powerkit isn't running #348580
@@ -215,7 +204,6 @@ src_prepare() {
 
 	# Prepare tools and libs witch are configured with autotools during compile time
 	AUTOTOOLS_DIRS=(
-		"${S}"/lib/cpluff
 		"${S}"/tools/depends/native/TexturePacker/src
 		"${S}"/tools/depends/native/JsonSchemaBuilder/src
 	)
@@ -230,13 +218,17 @@ src_prepare() {
 
 	# Prevent autoreconf rerun
 	sed -e 's/autoreconf -vif/echo "autoreconf already done in src_prepare()"/' -i \
-		"${S}"/cmake/modules/FindCpluff.cmake \
 		"${S}"/tools/depends/native/TexturePacker/src/autogen.sh \
 		"${S}"/tools/depends/native/JsonSchemaBuilder/src/autogen.sh \
 		|| die
 }
 
 src_configure() {
+	local platform=()
+	use gbm && platform+=( gbm )
+	use wayland && platform+=( wayland )
+	use X && platform+=( x11 )
+	local core_platform_name="${platform[@]}"
 	local mycmakeargs=(
 		-Ddocdir="${EPREFIX}/usr/share/doc/${PF}"
 		-DENABLE_LDGOLD=OFF # https://bugs.gentoo.org/show_bug.cgi?id=606124
@@ -252,6 +244,8 @@ src_configure() {
 		-DENABLE_INTERNAL_CROSSGUID=OFF
 		-DENABLE_INTERNAL_FFMPEG="$(usex !system-ffmpeg)"
 		-DENABLE_INTERNAL_FSTRCMP=OFF
+		-DENABLE_INTERNAL_GTEST=OFF
+		-DENABLE_INTERNAL_UDFREAD=OFF
 		-DENABLE_CAP=$(usex caps)
 		-DENABLE_LCMS2=$(usex lcms)
 		-DENABLE_LIRCCLIENT=$(usex lirc)
@@ -265,7 +259,9 @@ src_configure() {
 		-DENABLE_PLIST=$(usex airplay)
 		-DENABLE_PULSEAUDIO=$(usex pulseaudio)
 		-DENABLE_SMBCLIENT=$(usex samba)
+		-DENABLE_TESTING=$(usex test)
 		-DENABLE_UDEV=$(usex udev)
+		-DENABLE_UDFREAD=$(usex udf)
 		-DENABLE_UPNP=$(usex upnp)
 		-DENABLE_VAAPI=$(usex vaapi)
 		-DENABLE_VDPAU=$(usex vdpau)
@@ -273,6 +269,10 @@ src_configure() {
 		-Dlibdvdread_URL="${DISTDIR}/libdvdread-${LIBDVDREAD_VERSION}.tar.gz"
 		-Dlibdvdnav_URL="${DISTDIR}/libdvdnav-${LIBDVDNAV_VERSION}.tar.gz"
 		-Dlibdvdcss_URL="${DISTDIR}/libdvdcss-${LIBDVDCSS_VERSION}.tar.gz"
+		-DPYTHON_INCLUDE_DIR="$(python_get_includedir)"
+		-DPYTHON_LIBRARY="$(python_get_library_path)"
+		-DAPP_RENDER_SYSTEM="$(usex opengl gl gles)"
+		-DCORE_PLATFORM_NAME="${core_platform_name}"
 	)
 
 	use libusb && mycmakeargs+=( -DENABLE_LIBUSB=$(usex libusb) )
@@ -281,28 +281,6 @@ src_configure() {
 		mycmakeargs+=( -DWITH_FFMPEG="yes" )
 	else
 		mycmakeargs+=( -DFFMPEG_URL="${DISTDIR}/ffmpeg-${PN}-${FFMPEG_VERSION}-${CODENAME}-${FFMPEG_KODI_VERSION}.tar.gz" )
-	fi
-
-	if use gbm; then
-		mycmakeargs+=(
-			-DCORE_PLATFORM_NAME="gbm"
-			-DGBM_RENDER_SYSTEM="$(usex opengl gl gles)"
-		)
-	fi
-
-	if use wayland; then
-		mycmakeargs+=(
-			-DCORE_PLATFORM_NAME="wayland"
-			-DWAYLAND_RENDER_SYSTEM="$(usex opengl gl gles)"
-		)
-	fi
-
-	if use raspberry-pi; then
-		mycmakeargs+=( -DCORE_PLATFORM_NAME="rbpi" )
-	fi
-
-	if use X; then
-		mycmakeargs+=( -DCORE_PLATFORM_NAME="x11" )
 	fi
 
 	cmake_src_configure
