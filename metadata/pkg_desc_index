@@ -3,7 +3,7 @@ app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-emulation/libvirt 4.10.0: C toolkit to manipulate virtual machines
 app-emulation/qemu 4.2.0-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
-app-office/libreoffice 6.4.3.2 6.4.4.2 6.4.5.2: A full office productivity suite
+app-office/libreoffice 6.4.7.2: A full office productivity suite
 app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2 3.52.12: ODBC Interface for Linux
 dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine written in C++
