@@ -32,7 +32,7 @@ dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framework, a part of the SPF/SRS protocols
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 20.1.10 20.2.0_rc4: OpenGL-like graphic library for Linux
+media-libs/mesa 20.1.10 20.2.4: OpenGL-like graphic library for Linux
 media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
@@ -110,7 +110,7 @@ sys-process/psmisc 23.1-r1: A set of tools that use the proc filesystem
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.20.5: X.Org X servers
-x11-libs/libdrm 2.4.102: X.Org libdrm library
+x11-libs/libdrm 2.4.102 2.4.103: X.Org libdrm library
 x11-libs/libpciaccess 0.13.4 0.14: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.60.3: Library providing a virtual terminal emulator widget
