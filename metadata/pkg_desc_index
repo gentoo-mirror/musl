@@ -38,7 +38,7 @@ media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
-media-tv/kodi 19.0_beta1-r1: A free and open source media-player and entertainment hub
+media-tv/kodi 19.0_beta2: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
 net-analyzer/openbsd-netcat 1.105-r1 1.190 1.195: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
