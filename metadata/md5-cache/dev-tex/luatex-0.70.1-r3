@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/zziplib >=media-libs/libpng-1.4 app-text/poppler:=[xpdf-headers(+)] sys-libs/zlib:* >=dev-libs/kpathsea-6.0.1_p20110627
 SLOT=0
 SRC_URI=http://foundry.supelec.fr/gf/download/frsrelease/392/1730/luatex-beta-0.70.1.tar.bz2 http://foundry.supelec.fr/gf/download/frsrelease/392/1732/luatex-beta-0.70.1-doc.tar.bz2
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	69bd92aa099f708425db9f1f01d61213	flag-o-matic	fb54c9a3302f35aeae1c84f363e776f7	l10n	8cdd85e169b835d518bc2fd59f780d8e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	texlive-common	0ed8c0ce6e8c9bb49ab84344ac802665	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	texlive-common	0ed8c0ce6e8c9bb49ab84344ac802665	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=31d7eb27b30e2f812d8f8a566dd1ce9b
