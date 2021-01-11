@@ -362,7 +362,6 @@ x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-libs/libdrm:libkms - Enable building of libkms, a library for applications to interface with KMS
 x11-libs/libdrm:valgrind - Compile in valgrind memory hints
 x11-misc/i3status:filecaps - Linux capabilities library is required for i3status to be able to read net bandwith
-x11-misc/lightdm:gtk - Pull in the gtk+ greeter
 x11-terms/rxvt-unicode:256-color - Enable 256 color support
 x11-terms/rxvt-unicode:blink - Enable blinking text
 x11-terms/rxvt-unicode:fading-colors - Enable colors fading when off focus
