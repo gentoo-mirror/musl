@@ -228,6 +228,7 @@ net-fs/samba:system-heimdal - Use app-crypt/heimdal instead of bundled heimdal.
 net-fs/samba:system-mitkrb5 - Use app-crypt/mit-krb5 instead of app-crypt/heimdal.
 net-fs/samba:winbind - Enables support for the winbind auth daemon
 net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
 net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
 net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
 net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
