@@ -23,7 +23,6 @@ dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
 dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
 dev-tex/luatex 0.70.1-r3: An extended version of pdfTeX using Lua as an embedded scripting language
-dev-util/android-tools 6.0.1_p79 8.1.0_p1: Android platform tools (adb, fastboot, and mkbootimg)
 dev-util/cmocka 1.1.3: A unit testing framework for C
 dev-util/dwarves 1.17: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
@@ -91,7 +90,6 @@ sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
 sys-kernel/dracut 045-r2 046-r1 047-r1 048-r1 049-r1: Generic initramfs generation tool
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
-sys-libs/ldb 1.1.29-r1 1.1.31 1.2.4 1.3.6 1.3.8 1.4.7 1.5.5 2.0.8: An LDAP-like embedded database
 sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libraw1394 2.1.1: library that provides direct access to the IEEE 1394 bus

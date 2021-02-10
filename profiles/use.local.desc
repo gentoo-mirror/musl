@@ -317,12 +317,6 @@ sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSA
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:systemtap - enable systemtap static probe points
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
-sys-devel/gdb:client - Install the main "gdb" program (most people want this)
-sys-devel/gdb:lzma - Support lzma compression in ELF debug info
-sys-devel/gdb:multitarget - Support all known targets in one gdb binary
-sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
-sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
-sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
@@ -333,10 +327,6 @@ sys-fs/udisks:gptfdisk - Pull in sys-apps/gptfdisk for sgdisk command as used by
 sys-fs/udisks:lvm - Add support for Logical Volume Management via sys-fs/lvm2.
 sys-fs/udisks:systemd - Support sys-apps/systemd's logind
 sys-kernel/dracut:debug - Module installing additional tools like strace, file editor, ssh and more
-sys-libs/ldb:doc - Builds documentation
-sys-libs/ldb:ldap - Enable LDAP support
-sys-libs/ldb:lmdb - Enable LMDB backend
-sys-libs/ldb:python - Enable Python support
 sys-libs/libselinux:pcre2 - Use dev-libs/libpcre2 for fcontext regexes
 sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
 sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
