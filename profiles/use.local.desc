@@ -322,6 +322,14 @@ sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSA
 sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
 sys-devel/gcc:systemtap - enable systemtap static probe points
 sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
+sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
+sys-devel/gdb:lzma - Support lzma compression in ELF debug info
+sys-devel/gdb:multitarget - Support all known targets in one gdb binary
+sys-devel/gdb:python - Enable support for the new internal scripting language, as well as extended pretty printers
+sys-devel/gdb:server - Install the "gdbserver" program (useful for embedded/remote targets)
+sys-devel/gdb:source-highlight - Enable listing highlighting via dev-util/source-highlight
+sys-devel/gdb:xml - Support parsing XML data files needed (at least) for cpu features, memory maps, and syscall tracing
+sys-devel/gdb:xxhash - Use dev-libs/xxhash to speed up internal hashing.
 sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LVM2 (UNSUPPORTED)
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock

@@ -84,6 +84,7 @@ sys-boot/lilo 24.1: Standard Linux boot loader
 sys-boot/syslinux 6.04_pre1: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/binutils 2.33.1-r1 2.34-r2: Tools necessary to build programs
 sys-devel/gcc 9.3.0-r2 10.2.0-r5: The GNU Compiler Collection
+sys-devel/gdb 10.1: GNU debugger
 sys-devel/lld 9.0.1 10.0.1 11.0.0: The LLVM linker (link editor)
 sys-fs/lvm2 2.02.187-r3: User-land utilities for LVM2 (device-mapper) software
 sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
