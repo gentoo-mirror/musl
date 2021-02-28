@@ -8,7 +8,7 @@ app-text/enchant 1.6.1: Spellchecker wrapping library
 dev-db/libiodbc 3.52.8-r2 3.52.12: ODBC Interface for Linux
 dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/icedtea 3.16.0: A harness to build OpenJDK using Free Software build tools and dependencies
-dev-java/icedtea-bin 3.17.1: Binary build of the IcedTea JDK from Alpine Linux
+dev-java/icedtea-bin 3.18.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk 8.272_p10 11.0.9_p11: Open source implementation of the Java programming language
 dev-lang/ruby 2.4.4 2.5.1: An object-oriented scripting language
