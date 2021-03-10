@@ -30,7 +30,7 @@ dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framework, a part of the SPF/SRS protocols
 media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
 media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
-media-libs/mesa 20.1.10 20.2.6: OpenGL-like graphic library for Linux
+media-libs/mesa 20.1.10 20.2.6 20.3.4: OpenGL-like graphic library for Linux
 media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
