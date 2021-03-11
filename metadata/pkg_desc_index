@@ -105,7 +105,6 @@ sys-process/psmisc 23.1-r1: A set of tools that use the proc filesystem
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.1: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.20.5: X.Org X servers
-x11-libs/libdrm 2.4.102 2.4.103: X.Org libdrm library
 x11-libs/libpciaccess 0.13.4 0.14: Library providing generic access to the PCI bus and devices
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-libs/vte 0.60.3: Library providing a virtual terminal emulator widget
