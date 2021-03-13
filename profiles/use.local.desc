@@ -112,13 +112,12 @@ dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/ope
 dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
 dev-java/openjdk:source - Install JVM sources
 dev-java/openjdk:systemtap - Enable SystemTAP/DTrace tracing
-dev-lang/ruby:jemalloc - Use dev-libs/jemalloc for memory allocation.
-dev-lang/ruby:rdoc - Install dev-ruby/rdoc after installing Ruby.
-dev-lang/ruby:rubytests - Install ruby tests that can only be run after ruby is installed
+dev-lang/rust:cargo - Install cargo component
 dev-lang/rust:clippy - Install clippy component
 dev-lang/rust:rls - Install rls component
 dev-lang/rust:rustfmt - Install rustfmt component
 dev-lang/rust:system-llvm - Use the system LLVM install
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/appstream-glib:stemmer - Add word stemming via dev-libs/snowball-stemmer.
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
@@ -285,10 +284,6 @@ net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
 net-vpn/ipsec-tools:stats - Enable statistics reporting
 sys-apps/accountsservice:elogind - Use sys-auth/elogind for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
-sys-apps/net-tools:arp - build the arp and rarp tools (for manipulating the ARP cache)
-sys-apps/net-tools:hostname - build the hostname and dnsdomainname tools
-sys-apps/net-tools:plipconfig - build the plipconfig tool (for working with old PLIP hardware)
-sys-apps/net-tools:slattach - build the slattach tool (for working with old serial ports)
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
@@ -362,19 +357,7 @@ x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
 x11-misc/i3status:filecaps - Linux capabilities library is required for i3status to be able to read net bandwith
-x11-terms/rxvt-unicode:256-color - Enable 256 color support
-x11-terms/rxvt-unicode:blink - Enable blinking text
-x11-terms/rxvt-unicode:fading-colors - Enable colors fading when off focus
-x11-terms/rxvt-unicode:font-styles - Enable support for bold and italic fonts
-x11-terms/rxvt-unicode:iso14755 - Enable ISO-14755 support
-x11-terms/rxvt-unicode:mousewheel - Enable scrolling via mouse wheel or buttons 4 and 5
-x11-terms/rxvt-unicode:perl - Enable perl script support. You can still disable this at runtime with -pe ""
-x11-terms/rxvt-unicode:pixbuf - Enable transparency support using gtk's pixbuf
-x11-terms/rxvt-unicode:unicode3 - Use 21 instead of 16 bits to represent unicode characters
-x11-terms/rxvt-unicode:utmp - Enable utmp support
-x11-terms/rxvt-unicode:wtmp - Enable wtmp support
 x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
 x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
 x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
 x11-wm/fluxbox:toolbar - Enables the Fluxbox toolbar
-x11-wm/i3:doc - Build and install the HTML documentation and regenerate the man pages

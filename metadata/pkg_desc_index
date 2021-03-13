@@ -10,9 +10,8 @@ dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine writte
 dev-java/icedtea 3.16.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-bin 3.18.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
-dev-java/openjdk 8.272_p10 11.0.9_p11: Open source implementation of the Java programming language
-dev-lang/ruby 2.4.4 2.5.1: An object-oriented scripting language
-dev-lang/rust 1.34.2: Systems programming language from Mozilla
+dev-java/openjdk 8.282_p08 11.0.10_p9: Open source implementation of the Java programming language
+dev-lang/rust 1.47.0-r1: Systems programming language from Mozilla
 dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.62.6 2.64.5: The GLib library of C routines
@@ -65,7 +64,6 @@ sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the A
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
 sys-apps/lshw 02.18b-r2: Hardware Lister
-sys-apps/net-tools 1.60_p20161110235919 1.60_p20170221182432 1.60_p20180626073013: Standard Linux networking tools
 sys-apps/policycoreutils 3.1-r1: SELinux core utilities
 sys-apps/sandbox 2.12 2.13 2.14 2.15 2.17: sandbox'd LD_PRELOAD hack
 sys-apps/sysvinit 2.93 2.97: /sbin/init - parent of all processes
@@ -80,7 +78,7 @@ sys-block/partimage 0.6.9-r1: Console-based application to efficiently save raw 
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
-sys-boot/syslinux 6.04_pre1: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
+sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/binutils 2.33.1-r1 2.34-r2: Tools necessary to build programs
 sys-devel/gcc 9.3.0-r2 10.2.0-r5: The GNU Compiler Collection
 sys-devel/gdb 10.1: GNU debugger
@@ -92,7 +90,6 @@ sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
-sys-libs/libraw1394 2.1.1: library that provides direct access to the IEEE 1394 bus
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
 sys-libs/libutempter 1.1.6-r2: Library that allows non-privileged apps to write utmp (login) info, which need root access
@@ -110,7 +107,4 @@ x11-libs/vte 0.60.3 0.62.3: Library providing a virtual terminal emulator widget
 x11-libs/xcb-util-xrm 1.3: X C-language Bindings sample implementations
 x11-misc/i3status 2.12: generates a status bar for dzen2, xmobar or similar
 x11-misc/slim 1.3.6-r5: Simple Login Manager
-x11-terms/rxvt-unicode 9.22-r2: rxvt clone with xft and unicode support
 x11-wm/fluxbox 1.3.7-r4: X11 window manager featuring tabs and an iconbar
-x11-wm/i3 4.13-r1: An improved dynamic tiling window manager
-x11-wm/marco 1.18.2: MATE default window manager
