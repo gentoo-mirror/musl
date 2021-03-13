@@ -95,12 +95,10 @@ dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/ope
 dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
 dev-java/openjdk:source - Install JVM sources
 dev-java/openjdk:systemtap - Enable SystemTAP/DTrace tracing
-dev-lang/rust:cargo - Install cargo component
 dev-lang/rust:clippy - Install clippy component
 dev-lang/rust:rls - Install rls component
 dev-lang/rust:rustfmt - Install rustfmt component
 dev-lang/rust:system-llvm - Use the system LLVM install
-dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
 dev-libs/elfutils:utils - Install command-line utilities (all the eu-* programs)
@@ -158,14 +156,6 @@ media-tv/kodi:udf - Enable UDF support. Required for playing blurays.
 media-tv/kodi:upower - Use sys-power/upower to get battery level and active power source
 media-tv/kodi:webserver - Enable internal webserver
 media-tv/kodi:xslt - Enable metadata XSLT scrapers support with dev-libs/libxslt
-net-dialup/ppp:activefilter - Enables active filter support
-net-dialup/ppp:atm - Enables ATM (Asynchronous Transfer Mode) protocol support
-net-dialup/ppp:dhcp - Installs PPP DHCP client plugin for IP address allocation by a DHCP server (see http://www.netservers.co.uk/gpl/)
-net-dialup/ppp:eap-tls - Enables support for Extensible Authentication Protocol and Transport Level Security (see http://www.nikhef.nl/~janjust/ppp/index.html)
-net-dialup/ppp:gtk - Installs GTK+ password prompting program that can be used by passprompt.so PPP plugin for reading the password from a X11 input terminal
-net-dialup/ppp:ipv6 - Enables support for IP version 6
-net-dialup/ppp:pam - Enables PAM (Pluggable Authentication Modules) support
-net-dialup/ppp:radius - Enables RADIUS support
 net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
 net-fs/cifs-utils:caps - libcap support
 net-fs/cifs-utils:caps-ng - libcap-ng support
