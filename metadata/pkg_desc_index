@@ -1,35 +1,21 @@
-app-admin/hardinfo 0.5.2_pre20130823: A system information and benchmark tool for Linux systems
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
-app-emulation/libvirt 4.10.0: C toolkit to manipulate virtual machines
-app-emulation/qemu 4.2.0-r2: QEMU + Kernel-based Virtual Machine userland tools
-app-emulation/wine-vanilla 2.0.3: Free implementation of Windows(tm) on Unix, without external patchsets
+app-emulation/libvirt 6.8.0-r2 7.0.0-r1: C toolkit to manipulate virtual machines
+app-emulation/qemu 5.2.0-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-office/libreoffice 6.4.7.2: A full office productivity suite
-app-text/enchant 1.6.1: Spellchecker wrapping library
-dev-db/libiodbc 3.52.8-r2 3.52.12: ODBC Interface for Linux
-dev-games/irrlicht 1.8.4: open source high performance realtime 3D engine written in C++
 dev-java/icedtea 3.16.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-bin 3.18.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk 8.282_p08 11.0.10_p9: Open source implementation of the Java programming language
 dev-lang/rust 1.47.0-r1: Systems programming language from Mozilla
-dev-libs/appstream-glib 0.7.9: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/glib 2.62.6 2.64.5: The GLib library of C routines
+dev-libs/glib 2.66.7: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r6: Library providing the FAM File Alteration Monitor API
-dev-libs/libnl 3.4.0 3.5.0: Libraries providing APIs to netlink protocol based Linux kernel interfaces
-dev-libs/weston 3.0.0: Wayland reference compositor
-dev-perl/Crypt-Rijndael 1.130.0: Crypt::CBC compliant Rijndael encryption module
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
 dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
-dev-tex/luatex 0.70.1-r3: An extended version of pdfTeX using Lua as an embedded scripting language
-dev-util/dwarves 1.17: pahole (Poke-a-Hole) and other DWARF2 utilities
+dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
-dev-util/valgrind 3.12.0: An open-source memory debugger for GNU/Linux
 mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framework, a part of the SPF/SRS protocols
-media-libs/libdc1394 2.2.5-r1: Library to interface with IEEE 1394 cameras following the IIDC specification
-media-libs/libopenraw 0.0.9: A decoding library for RAW image formats
 media-libs/mesa 20.1.10 20.2.6 20.3.4: OpenGL-like graphic library for Linux
-media-libs/virglrenderer 0.6.0 9999: library used implement a virtual 3D GPU used by qemu
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
@@ -39,7 +25,6 @@ media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and v
 net-analyzer/openbsd-netcat 1.105-r1 1.190 1.195: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-dialup/ppp 2.4.7-r3: Point-to-Point Protocol (PPP)
-net-firewall/ebtables 2.0.10.4 2.0.10.4-r2: Utility that enables basic Ethernet frame filtering on a Linux bridge, MAC NAT and brouting
 net-fs/autofs 5.1.4: Kernel based automounter
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 1.3.4-r1 2.3.1-r3 2.3.3: NFS client and server daemons
@@ -84,8 +69,6 @@ sys-devel/gcc 9.3.0-r2 10.2.0-r5: The GNU Compiler Collection
 sys-devel/gdb 10.1: GNU debugger
 sys-devel/lld 9.0.1 10.0.1 11.0.0: The LLVM linker (link editor)
 sys-fs/lvm2 2.02.187-r3: User-land utilities for LVM2 (device-mapper) software
-sys-fs/udisks 2.7.4-r1: Daemon providing interfaces to work with storage devices
-sys-kernel/dracut 045-r2 046-r1 047-r1 048-r1 049-r1: Generic initramfs generation tool
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
