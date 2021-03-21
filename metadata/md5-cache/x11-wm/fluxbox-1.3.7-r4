@@ -4,6 +4,7 @@ DEPEND=!!<=x11-misc/fbdesk-1.2.1 !!<=x11-misc/fluxconf-0.9.9 !!<x11-themes/fluxb
 DESCRIPTION=X11 window manager featuring tabs and an iconbar
 EAPI=7
 HOMEPAGE=http://www.fluxbox.org
+INHERIT=autotools toolchain-funcs
 IUSE=nls xinerama bidi +truetype +imlib +slit +systray +toolbar vim-syntax
 KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~x86
 LICENSE=MIT
@@ -11,5 +12,5 @@ RDEPEND=!!<=x11-misc/fbdesk-1.2.1 !!<=x11-misc/fluxconf-0.9.9 !!<x11-themes/flux
 REQUIRED_USE=systray? ( toolbar )
 SLOT=0
 SRC_URI=mirror://sourceforge/fluxbox/fluxbox-1.3.7.tar.xz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b
 _md5_=6b7fdd03b5b830b52040a59f067875bd

@@ -3,6 +3,7 @@ DEPEND=>=dev-libs/glib-2.16 >=sys-apps/dbus-1.2.24 iptables? ( >=net-firewall/ip
 DESCRIPTION=Provides a daemon for managing internet connections
 EAPI=6
 HOMEPAGE=https://01.org/connman
+INHERIT=autotools systemd
 IUSE=bluetooth debug doc examples +ethernet iptables l2tp nftables ofono openvpn openconnect pptp policykit tools vpnc +wifi wispr networkmanager
 KEYWORDS=amd64 arm arm64 ~mips ~ppc x86
 LICENSE=GPL-2
@@ -10,5 +11,5 @@ RDEPEND=>=dev-libs/glib-2.16 >=sys-apps/dbus-1.2.24 iptables? ( >=net-firewall/i
 REQUIRED_USE=|| ( iptables nftables )
 SLOT=0
 SRC_URI=mirror://kernel/linux/network/connman/connman-1.35.tar.xz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	systemd	74b223e42834adf09a2d21fe5fe13741
 _md5_=8d18e9314e2bc28e2922a3d87adb59a7
