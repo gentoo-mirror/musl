@@ -15,7 +15,7 @@ dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
 dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 mail-filter/libspf2 1.2.9-r3 1.2.10: libspf2 implements the Sender Policy Framework, a part of the SPF/SRS protocols
-media-libs/mesa 20.1.10 20.2.6 20.3.4: OpenGL-like graphic library for Linux
+media-libs/mesa 20.1.10 20.3.5: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
 media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
