@@ -64,7 +64,6 @@ sys-devel/lld 9.0.1 10.0.1 11.0.0: The LLVM linker (link editor)
 sys-fs/lvm2 2.02.187-r3: User-land utilities for LVM2 (device-mapper) software
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
-sys-libs/libapparmor 2.11.1 2.12.0: Library to support AppArmor userspace utilities
 sys-libs/libnih 1.0.3-r3: Light-weight 'standard library' of C functions
 sys-libs/libselinux 2.6 2.7: SELinux userland library
 sys-libs/libsepol 2.6: SELinux binary policy representation library
