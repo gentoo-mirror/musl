@@ -95,10 +95,12 @@ dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/ope
 dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
 dev-java/openjdk:source - Install JVM sources
 dev-java/openjdk:systemtap - Enable SystemTAP/DTrace tracing
+dev-lang/rust:cargo - Install cargo component
 dev-lang/rust:clippy - Install clippy component
 dev-lang/rust:rls - Install rls component
 dev-lang/rust:rustfmt - Install rustfmt component
 dev-lang/rust:system-llvm - Use the system LLVM install
+dev-lang/rust:wasm - Build support for the wasm32-unknown-unknown target
 dev-libs/elfutils:lzma - Support automatic decompression of LZMA-compressed files and kernel images
 dev-libs/elfutils:threads - Build the libraries with thread safe support
 dev-libs/elfutils:utils - Install command-line utilities (all the eu-* programs)
@@ -297,7 +299,6 @@ x11-base/xorg-server:xephyr - Build the Xephyr server
 x11-base/xorg-server:xnest - Build the Xnest server
 x11-base/xorg-server:xorg - Build the Xorg X server (HIGHLY RECOMMENDED)
 x11-base/xorg-server:xvfb - Build the Xvfb server
-x11-misc/i3status:filecaps - Linux capabilities library is required for i3status to be able to read net bandwith
 x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
 x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
 x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
