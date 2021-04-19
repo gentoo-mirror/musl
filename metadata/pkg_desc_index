@@ -31,6 +31,7 @@ net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-libs/webkit-gtk 2.30.5: Open source web browser engine
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
 net-misc/networkmanager 1.26.4 1.28.0-r1: A set of co-operative tools that make networking simple and straightforward
+net-misc/rsync 3.2.3-r2 9999: File transfer program to keep remote files into sync
 net-vpn/ipsec-tools 0.8.2-r5: A port of KAME's IPsec utilities to the Linux-2.6 IPsec implementation
 sys-apps/accountsservice 0.6.50-r1: D-Bus interfaces for querying and manipulating user account information
 sys-apps/apparmor 2.11.1-r2 2.12.0: Userspace utils and init scripts for the AppArmor application security system

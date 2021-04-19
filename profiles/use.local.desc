@@ -223,6 +223,9 @@ net-misc/networkmanager:resolvconf - Use net-dns/openresolv for managing DNS inf
 net-misc/networkmanager:teamd - Enable Teamd control support
 net-misc/networkmanager:wext - Enable support for the deprecated Wext (Wireless Extensions) API; needed for some older drivers (e.g. ipw2200, ndiswrapper)
 net-misc/networkmanager:wifi - Enable support for wifi and 802.1x security
+net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
+net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
+net-misc/rsync:xxhash - Enable dev-libs/xxhash support for hashing
 net-vpn/ipsec-tools:hybrid - Makes available both mode-cfg and xauth support
 net-vpn/ipsec-tools:idea - Enable support for the IDEA algorithm
 net-vpn/ipsec-tools:nat - Enable NAT-Traversal
