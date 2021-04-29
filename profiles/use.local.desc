@@ -296,7 +296,7 @@ x11-apps/igt-gpu-tools:tests - Enable tests
 x11-apps/igt-gpu-tools:valgrind - Support valgrind annotations
 x11-apps/igt-gpu-tools:xv - Enable intel-gpu-overlay xv backend
 x11-base/xorg-server:dmx - Build the Distributed Multiheaded X server
-x11-base/xorg-server:glamor - Enable Glamor OpenGL 2D acceleration
+x11-base/xorg-server:elogind - Use elogind to get control over framebuffer when running as regular user
 x11-base/xorg-server:kdrive - Build the kdrive X servers
 x11-base/xorg-server:unwind - Enable libunwind usage for backtraces
 x11-base/xorg-server:xcsecurity - Build Security extension
