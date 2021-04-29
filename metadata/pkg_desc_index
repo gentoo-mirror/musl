@@ -8,7 +8,7 @@ dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual 
 dev-java/openjdk 8.282_p08 11.0.10_p9: Open source implementation of the Java programming language
 dev-lang/rust 1.47.0-r1: Systems programming language from Mozilla
 dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
-dev-libs/glib 2.66.7: The GLib library of C routines
+dev-libs/glib 2.66.7 2.68.1: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r6: Library providing the FAM File Alteration Monitor API
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
 dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
