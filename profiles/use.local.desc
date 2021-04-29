@@ -234,6 +234,7 @@ net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
 net-vpn/ipsec-tools:stats - Enable statistics reporting
 sys-apps/accountsservice:elogind - Use sys-auth/elogind for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
+sys-apps/groff:uchardet - Enable automatic encoding detection via app-i18n/uchardet
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
