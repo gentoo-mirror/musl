@@ -79,14 +79,12 @@ dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by s
 dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
 dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
 dev-java/icedtea:kerberos - Link against Kerberos in order to obtain the cache location.
-dev-java/icedtea:nsplugin - Enable browser plugin (NPPlugin), requires also the webstart flag to be enabled.
 dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
 dev-java/icedtea:pch - Build using pre-compiled headers.
 dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
 dev-java/icedtea:shenandoah - Include the Shenandoah ultra-low pause time garbage collector (-XX:+UseShenandoahGC) (arm64 and x86_64 only)
 dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
 dev-java/icedtea:system-lcms - Build against the system LCMS installation rather than the in-tree copy.
-dev-java/icedtea:webstart - Enable Web Start support (via NetX).
 dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
 dev-java/icedtea-bin:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
 dev-java/openjdk:gentoo-vm - Allow this JDK to be recognised by Gentoo (package manager, eselect, java-config, EXPERIMENTAL!)
