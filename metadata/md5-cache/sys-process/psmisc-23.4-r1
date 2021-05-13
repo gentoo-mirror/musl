@@ -10,4 +10,4 @@ LICENSE=GPL-2
 RDEPEND=!=app-i18n/man-pages-l10n-4.0.0-r0 >=sys-libs/ncurses-5.7-r7:0= nls? ( virtual/libintl ) selinux? ( sys-libs/libselinux )
 SLOT=0
 SRC_URI=mirror://sourceforge/psmisc/psmisc-23.4.tar.xz
-_md5_=5dc6997d7fbda986591eb79df8eec529
+_md5_=a210b6b82d1053ddd87e67c7f2fa6be1
