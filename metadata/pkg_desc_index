@@ -70,7 +70,6 @@ sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a 
 sys-libs/tevent 0.10.2: Samba tevent library
 sys-process/audit 2.7.1 2.8.3 2.8.4 2.8.5-r1: Userspace utilities for storing and processing auditing records
 sys-process/procps 3.3.17: standard informational utilities and process-handling tools
-sys-process/psmisc 23.3-r1 23.4-r1: A set of tools that use the proc filesystem
 virtual/rust 1.47.0: Virtual for Rust language compiler
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
