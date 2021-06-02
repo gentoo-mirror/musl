@@ -68,11 +68,13 @@ app-emulation/qemu:xattr - Add support for getting and setting POSIX extended at
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
 app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
+app-office/libreoffice:clang - Use Clang compiler instead of GCC
 app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
 app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
 app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
 app-office/libreoffice:odk - Build the Office Development Kit
 app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
+app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
 dev-java/icedtea:cups - Link against the CUPS library at compile time, rather than using it dynamically at runtime.
 dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
