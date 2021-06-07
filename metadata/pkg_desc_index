@@ -6,7 +6,6 @@ dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build to
 dev-java/icedtea-bin 3.18.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk 8.292_p10 11.0.11_p9-r1: Open source implementation of the Java programming language
-dev-lang/rust 1.47.0-r1: Systems programming language from Mozilla
 dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.66.7 2.68.1: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r6: Library providing the FAM File Alteration Monitor API
@@ -27,7 +26,7 @@ net-analyzer/openbsd-netcat 1.105-r1 1.190 1.195: The OpenBSD network swiss army
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
-net-fs/samba 4.12.9-r1 4.12.12 4.13.5 4.14.0: Samba Suite Version 4
+net-fs/samba 4.13.9 4.14.4: Samba Suite Version 4
 net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
 net-misc/rsync 3.2.3-r2: File transfer program to keep remote files into sync
@@ -69,7 +68,6 @@ sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a 
 sys-libs/tevent 0.10.2: Samba tevent library
 sys-process/audit 2.7.1 2.8.3 2.8.4 2.8.5-r1: Userspace utilities for storing and processing auditing records
 sys-process/procps 3.3.17: standard informational utilities and process-handling tools
-virtual/rust 1.47.0: Virtual for Rust language compiler
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.20.11: X.Org X servers
