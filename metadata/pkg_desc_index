@@ -32,7 +32,6 @@ net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet conn
 net-misc/rsync 3.2.3-r2: File transfer program to keep remote files into sync
 net-vpn/ipsec-tools 0.8.2-r5: A port of KAME's IPsec utilities to the Linux-2.6 IPsec implementation
 sys-apps/accountsservice 0.6.55: D-Bus interfaces for querying and manipulating user account information
-sys-apps/attr 2.4.47-r2: Extended attributes tools
 sys-apps/bubblewrap 0.4.1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/fakeroot 1.20.2-r1 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/groff 1.22.4: Text formatter used for man pages
