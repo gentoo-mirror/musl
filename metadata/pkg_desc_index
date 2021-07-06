@@ -50,7 +50,6 @@ sys-auth/polkit 0.119-r2: Policy framework for controlling privileges for system
 sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
 sys-block/partimage 0.6.9-r1: Console-based application to efficiently save raw partition data to image file
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
-sys-boot/efibootmgr 14: User-space application to modify the EFI boot manager
 sys-boot/lilo 24.1: Standard Linux boot loader
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/binutils 2.33.1-r1 2.34-r2: Tools necessary to build programs
