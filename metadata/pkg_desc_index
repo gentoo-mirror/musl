@@ -58,6 +58,7 @@ sys-devel/gdb 10.1: GNU debugger
 sys-devel/lld 10.0.1-r1 11.1.0-r1 12.0.0: The LLVM linker (link editor)
 sys-fs/lvm2 2.02.187-r3: User-land utilities for LVM2 (device-mapper) software
 sys-fs/reiserfsprogs 3.6.27: Reiserfs Utilities
+sys-kernel/linux-headers 5.10-r1: Linux system headers
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/pam 1.3.1-r2: Linux-PAM (Pluggable Authentication Modules)
