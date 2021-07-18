@@ -1,6 +1,6 @@
 app-crypt/chntpw 140201: Offline Windows NT Password & Registry Editor
 app-emulation/libvirt 6.8.0-r2 7.0.0-r1: C toolkit to manipulate virtual machines
-app-emulation/qemu 6.0.0: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/qemu 6.0.0-r2: QEMU + Kernel-based Virtual Machine userland tools
 app-office/libreoffice 7.1.3.2: A full office productivity suite
 dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-bin 3.19.0: Binary build of the IcedTea JDK from Alpine Linux
