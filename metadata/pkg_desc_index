@@ -22,7 +22,6 @@ media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-tv/kodi 19.1: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
-net-analyzer/openbsd-netcat 1.105-r1 1.190 1.195: The OpenBSD network swiss army knife
 net-dialup/linux-atm 2.5.2: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
