@@ -6,7 +6,7 @@ dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build to
 dev-java/icedtea-bin 3.19.0: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk 8.292_p10 11.0.11_p9-r1: Open source implementation of the Java programming language
-dev-libs/elfutils 0.180: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
+dev-libs/elfutils 0.180 0.185: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.66.7 2.68.1: The GLib library of C routines
 dev-libs/libgamin 0.1.10-r6: Library providing the FAM File Alteration Monitor API
 dev-perl/Sys-CPU 0.610.0-r1: Access CPU info. number, etc on Win and UNIX
