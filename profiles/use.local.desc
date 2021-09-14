@@ -230,10 +230,6 @@ sys-block/partimage:nologin - Do not include login support when connecting parti
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
-sys-devel/binutils:default-gold - Set ld to point to ld.gold instead of ld.bfd
-sys-devel/binutils:gold - Build ld.gold linker
-sys-devel/binutils:multitarget - Adds support to binutils for cross compiling (does not work with gas)
-sys-devel/binutils:plugins - Enable plugin support in tools
 sys-devel/gcc:ada - Build the ADA language (GNAT) frontend
 sys-devel/gcc:d - Enable support for the D programming language
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
