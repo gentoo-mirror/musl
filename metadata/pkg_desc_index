@@ -3,7 +3,7 @@ app-emulation/libvirt 6.8.0-r2 7.0.0-r1: C toolkit to manipulate virtual machine
 app-emulation/qemu 6.0.0-r3: QEMU + Kernel-based Virtual Machine userland tools
 app-office/libreoffice 7.1.5.2: A full office productivity suite
 dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build tools and dependencies
-dev-java/icedtea-bin 3.20.0: Binary build of the IcedTea JDK from Alpine Linux
+dev-java/icedtea-bin 3.20.0-r1: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/jamvm 2.0.0-r1: An extremely small and specification-compliant virtual machine
 dev-java/openjdk 8.292_p10 11.0.11_p9-r1: Open source implementation of the Java programming language
 dev-libs/elfutils 0.180 0.185: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
