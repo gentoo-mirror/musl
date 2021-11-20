@@ -230,24 +230,6 @@ sys-block/partimage:nologin - Do not include login support when connecting parti
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
 sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
-sys-devel/gcc:ada - Build the ADA language (GNAT) frontend
-sys-devel/gcc:d - Enable support for the D programming language
-sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
-sys-devel/gcc:go - Build the GCC Go language frontend.
-sys-devel/gcc:graphite - Add support for the framework for loop optimizations based on a polyhedral intermediate representation
-sys-devel/gcc:jit - Enable libgccjit so other applications can embed gcc for Just-In-Time compilation. This will slow down the compiler a bit as it forces all of the toolchain to be shared libs.
-sys-devel/gcc:libssp - Build SSP support into a dedicated library rather than use the code in the C library (DO NOT ENABLE THIS IF YOU DON'T KNOW WHAT IT DOES)
-sys-devel/gcc:lto - Build using Link Time Optimizations (LTO)
-sys-devel/gcc:nptl - Enable support for Native POSIX Threads Library, the new threading module (requires linux-2.6 or better usually)
-sys-devel/gcc:objc - Build support for the Objective C code language
-sys-devel/gcc:objc++ - Build support for the Objective C++ language
-sys-devel/gcc:objc-gc - Build support for the Objective C code language Garbage Collector
-sys-devel/gcc:pgo - Build GCC using Profile Guided Optimization (PGO)
-sys-devel/gcc:sanitize - Build support for various sanitizer functions (ASAN/TSAN/etc...)
-sys-devel/gcc:ssp - Build packages with stack smashing protector on by default
-sys-devel/gcc:systemtap - enable systemtap static probe points
-sys-devel/gcc:valgrind - Enable valgrind annotations for gcc internals (useful for gcc debugging).
-sys-devel/gcc:vtv - Build support for virtual table verification (a C++ hardening feature)
 sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
 sys-devel/gdb:lzma - Support lzma compression in ELF debug info
 sys-devel/gdb:multitarget - Support all known targets in one gdb binary
