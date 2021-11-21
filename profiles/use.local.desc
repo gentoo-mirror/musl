@@ -242,8 +242,6 @@ sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LV
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
 sys-fs/lvm2:thin - Support for thin volumes
-sys-libs/pam:berkdb - Build the pam_userdb module, that allows to authenticate users against a Berkeley DB file. Please note that enabling this USE flag will create a PAM module that links to the Berkeley DB (as provided by sys-libs/db) installed in /usr/lib and will thus not work for boot-critical services authentication.
-sys-libs/pam:cracklib - Build the pam_cracklib module, that allows to verify the chosen passwords' strength through the use of sys-libs/cracklib. Please note that simply enabling the USE flag on this package will not make use of pam_cracklib by default, you should also enable it in sys-auth/pambase as well as update your configuration files.
 sys-process/audit:gssapi - Enable GSSAPI support
 x11-apps/igt-gpu-tools:X - Enable intel-gpu-overlay xlib/cairo backend
 x11-apps/igt-gpu-tools:chamelium - Enables support for building Chamelium tests
