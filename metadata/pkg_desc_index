@@ -29,7 +29,7 @@ net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
 net-misc/rsync 3.2.3-r2: File transfer program to keep remote files into sync
 net-vpn/ipsec-tools 0.8.2-r5: A port of KAME's IPsec utilities to the Linux-2.6 IPsec implementation
-net-wireless/bluez 5.61-r1: Bluetooth Tools and System Daemons for Linux
+net-wireless/bluez 5.62-r1: Bluetooth Tools and System Daemons for Linux
 sys-apps/accountsservice 0.6.55: D-Bus interfaces for querying and manipulating user account information
 sys-apps/bubblewrap 0.4.1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution
 sys-apps/fakeroot 1.20.2-r1 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
