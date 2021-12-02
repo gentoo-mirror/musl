@@ -56,6 +56,7 @@ sys-libs/gpm 1.20.7-r2: Console-based mouse driver
 sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-libs/tevent 0.10.2: Samba tevent library
 sys-process/audit 2.7.1 2.8.3 2.8.4 2.8.5-r1: Userspace utilities for storing and processing auditing records
+www-client/firefox 91.3.0: Firefox Web Browser
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
 x11-base/xorg-server 1.20.11: X.Org X servers
