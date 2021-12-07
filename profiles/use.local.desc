@@ -211,11 +211,6 @@ net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
 net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
 net-misc/rsync:xxhash - Enable dev-libs/xxhash support for hashing
-net-vpn/ipsec-tools:hybrid - Makes available both mode-cfg and xauth support
-net-vpn/ipsec-tools:idea - Enable support for the IDEA algorithm
-net-vpn/ipsec-tools:nat - Enable NAT-Traversal
-net-vpn/ipsec-tools:rc5 - Enable support for the patented RC5 algorithm
-net-vpn/ipsec-tools:stats - Enable statistics reporting
 net-wireless/bluez:btpclient - Enable BTP client
 net-wireless/bluez:deprecated - Build deprecated plugins
 net-wireless/bluez:experimental - Build experimental plugins
@@ -250,7 +245,6 @@ sys-fs/lvm2:device-mapper-only - Build only device-mapper and not the rest of LV
 sys-fs/lvm2:lvm2create_initrd - Install lvm2create_initrd script and pull in sys-apps/makedev for the /sbin/MAKEDEV command
 sys-fs/lvm2:sanlock - Enable lvmlockd with support for sanlock
 sys-fs/lvm2:thin - Support for thin volumes
-sys-process/audit:gssapi - Enable GSSAPI support
 x11-apps/igt-gpu-tools:X - Enable intel-gpu-overlay xlib/cairo backend
 x11-apps/igt-gpu-tools:chamelium - Enables support for building Chamelium tests
 x11-apps/igt-gpu-tools:man - Build and install man pages
