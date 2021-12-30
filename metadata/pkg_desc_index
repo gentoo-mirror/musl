@@ -25,7 +25,6 @@ net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
 net-fs/samba 4.14.10-r1: Samba Suite Version 4
 net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
-net-misc/rsync 3.2.3-r2: File transfer program to keep remote files into sync
 net-misc/spice-gtk 0.39-r2: Set of GObject and Gtk objects for connecting to Spice servers and a client GUI
 net-wireless/bluez 5.62-r3: Bluetooth Tools and System Daemons for Linux
 sys-apps/accountsservice 0.6.55: D-Bus interfaces for querying and manipulating user account information

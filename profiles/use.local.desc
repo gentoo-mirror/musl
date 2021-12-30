@@ -208,9 +208,6 @@ net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wireguard - Enable WireGuard VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
-net-misc/rsync:stunnel - Provide helper scripts for using rsync via >=net-misc/stunnel-4
-net-misc/rsync:system-zlib - Use system zlib instead of bundled one. This is incompatible with older rsync releases!
-net-misc/rsync:xxhash - Enable dev-libs/xxhash support for hashing
 net-misc/spice-gtk:gtk3 - Build the spice client (spicy), requires x11-libs/gtk+:3
 net-misc/spice-gtk:mjpeg - Enable builtin mjpeg video decoder
 net-misc/spice-gtk:policykit - Enable sys-auth/polkit support for the usbredir acl helper
