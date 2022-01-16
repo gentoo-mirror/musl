@@ -13,9 +13,7 @@ dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.16.1 3.17.0 9999: An open-source memory debugger for GNU/Linux
 media-libs/mesa 21.2.6: OpenGL-like graphic library for Linux
-media-libs/zvbi 0.2.35-r1: VBI Decoding Library for Zapping
 media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
-media-sound/cdparanoia 3.10.2-r6: an advanced CDDA reader with error correction
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-tv/kodi 19.3-r1: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
@@ -49,7 +47,6 @@ sys-devel/gdb 10.1: GNU debugger
 sys-fs/lvm2 2.02.188-r2: User-land utilities for LVM2 (device-mapper) software
 sys-fs/reiserfsprogs 3.6.27: Reiserfs Utilities
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
-sys-libs/slang 2.3.0: A multi-platform programmer's library designed to allow a developer to create robust software
 sys-libs/tevent 0.10.2: Samba tevent library
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
