@@ -13,7 +13,7 @@ dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.16.1 3.17.0 9999: An open-source memory debugger for GNU/Linux
 media-libs/mesa 21.2.6: OpenGL-like graphic library for Linux
-media-plugins/caps-plugins 0.9.15 0.9.24: The CAPS Audio Plugin Suite - LADSPA plugin suite
+media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-sound/sox 14.4.2: The swiss army knife of sound processing programs
 media-tv/kodi 19.3-r1: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
@@ -38,7 +38,6 @@ sys-apps/xdg-dbus-proxy 0.1.2: Filtering proxy for D-Bus connections
 sys-auth/elogind 246.9.2 246.10: The systemd project's logind, extracted to a standalone package
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-auth/polkit 0.119-r2 0.120-r1: Policy framework for controlling privileges for system-wide services
-sys-block/parted 3.2 3.2-r2: Create, destroy, resize, check, copy partitions and file systems
 sys-block/partimage 0.6.9-r1: Console-based application to efficiently save raw partition data to image file
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/lilo 24.1: Standard Linux boot loader
