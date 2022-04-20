@@ -4,7 +4,7 @@ app-office/libreoffice 7.2.5.2-r1 7.2.6.2-r1: A full office productivity suite
 dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-bin 3.20.0-r2: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/openjdk 8.292_p10 11.0.11_p9-r1: Open source implementation of the Java programming language
-dev-lang/rust 1.56.1 1.58.1: Systems programming language from Mozilla
+dev-lang/rust 1.58.1 1.59.0: Systems programming language from Mozilla
 dev-libs/elfutils 0.180 0.185: Libraries/utilities to handle ELF objects (drop in replacement for libelf)
 dev-libs/glib 2.66.7 2.68.1: The GLib library of C routines
 dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
