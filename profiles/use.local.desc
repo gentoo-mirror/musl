@@ -227,8 +227,6 @@ sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
-sys-auth/polkit:duktape - Usedev-lang/duktape for javascript engine
-sys-auth/polkit:systemd - Use sys-apps/systemd for session tracking
 sys-block/partimage:nologin - Do not include login support when connecting partimaged
 sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
 sys-boot/lilo:minimal - Do not install the dolilo helper script
