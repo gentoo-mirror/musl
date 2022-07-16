@@ -1,6 +1,5 @@
 app-emulation/libvirt 6.8.0-r2 7.0.0-r1: C toolkit to manipulate virtual machines
 app-emulation/qemu 6.0.0-r54: QEMU + Kernel-based Virtual Machine userland tools
-app-office/libreoffice 7.2.5.2-r1 7.2.6.2-r1: A full office productivity suite
 dev-java/icedtea 3.18.0: A harness to build OpenJDK using Free Software build tools and dependencies
 dev-java/icedtea-bin 3.20.0-r2: Binary build of the IcedTea JDK from Alpine Linux
 dev-java/openjdk 8.292_p10 11.0.11_p9-r1: Open source implementation of the Java programming language
@@ -22,7 +21,6 @@ net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
 net-fs/samba 4.14.10-r1: Samba Suite Version 4
 net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
-net-misc/spice-gtk 0.39-r2 0.40-r1: Set of GObject and Gtk objects for connecting to Spice servers and a client GUI
 net-wireless/bluez 5.62-r3: Bluetooth Tools and System Daemons for Linux
 sys-apps/accountsservice 0.6.55: D-Bus interfaces for querying and manipulating user account information
 sys-apps/bubblewrap 0.4.1: Unprivileged sandboxing tool, namespaces-powered chroot-like solution

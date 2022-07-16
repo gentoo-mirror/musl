@@ -68,14 +68,6 @@ app-emulation/qemu:vte - Enable terminal support (x11-libs/vte) in the GTK+ inte
 app-emulation/qemu:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr. Requisite for the virtfs backend.
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
-app-office/libreoffice:base - Enable full support for LibreOffice Base databases (involves additional bundled libs)
-app-office/libreoffice:clang - Use Clang compiler instead of GCC
-app-office/libreoffice:coinmp - Use sci-libs/coinor-mp as alternative solver
-app-office/libreoffice:googledrive - Enable support for remote files on Google Drive
-app-office/libreoffice:mariadb - Prefer mariadb connector over mysql connector
-app-office/libreoffice:odk - Build the Office Development Kit
-app-office/libreoffice:pdfimport - Enable PDF import via the Poppler library
-app-office/libreoffice:vulkan - Enable Vulkan usage via the skia library (clang recommended)
 dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
 dev-java/icedtea:cups - Link against the CUPS library at compile time, rather than using it dynamically at runtime.
 dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
@@ -210,11 +202,6 @@ net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wireguard - Enable WireGuard VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
-net-misc/spice-gtk:gtk3 - Build the spice client (spicy), requires x11-libs/gtk+:3
-net-misc/spice-gtk:mjpeg - Enable builtin mjpeg video decoder
-net-misc/spice-gtk:policykit - Enable sys-auth/polkit support for the usbredir acl helper
-net-misc/spice-gtk:usbredir - Use sys-apps/usbredir to redirect USB devices to another machine over TCP
-net-misc/spice-gtk:webdav - Support for folder-sharing between guest and client using net-libs/phodav
 net-wireless/bluez:btpclient - Enable BTP client
 net-wireless/bluez:deprecated - Build deprecated plugins
 net-wireless/bluez:experimental - Build experimental plugins
