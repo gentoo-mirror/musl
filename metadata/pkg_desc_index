@@ -14,6 +14,7 @@ media-libs/mesa 21.3.7: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-tv/kodi 19.4-r2: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
+net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
 net-fs/samba 4.14.10-r1: Samba Suite Version 4

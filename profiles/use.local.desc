@@ -212,9 +212,6 @@ sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use th
 sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
 sys-block/partimage:nologin - Do not include login support when connecting partimaged
-sys-boot/lilo:device-mapper - Enable support for device-mapper from sys-fs/lvm2
-sys-boot/lilo:minimal - Do not install the dolilo helper script
-sys-boot/lilo:pxeserial - Avoid character echo on PXE serial console
 sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
 sys-devel/gdb:lzma - Support lzma compression in ELF debug info
 sys-devel/gdb:multitarget - Support all known targets in one gdb binary
