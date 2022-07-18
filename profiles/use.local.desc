@@ -130,10 +130,6 @@ media-libs/mesa:wayland - Enable support for dev-libs/wayland
 media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
 media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
 media-libs/mesa:zink - Enable the Zink OpenGL-over-Vulkan Gallium driver
-media-sound/sox:amr - Enables Adaptive Multi-Rate Audio support
-media-sound/sox:id3tag - Enables ID3 tagging with id3tag library
-media-sound/sox:opus - Enables reading Ogg Opus files.
-media-sound/sox:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 media-tv/kodi:airplay - enable AirPlay support
 media-tv/kodi:bluetooth - Enable JSON-RPC over BT for remote control connected via bluetooth
 media-tv/kodi:bluray - Enable playback of Blu-ray filesystems
