@@ -169,18 +169,9 @@ net-misc/connman:tools - Enable testing tools.
 net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
 net-misc/connman:wireguard - Enable WireGuard VPN support.
 net-misc/connman:wispr - Enable support for WISPr hotspot logins.
-net-wireless/bluez:btpclient - Enable BTP client
-net-wireless/bluez:deprecated - Build deprecated plugins
-net-wireless/bluez:experimental - Build experimental plugins
-net-wireless/bluez:extra-tools - Install tools that upstream doesn't install on purpose by default. All this tools shouldn't be used. Then, please notify upstream about you still need them to let them know the situation.
-net-wireless/bluez:mesh - Add support for Bluetooth Mesh control application and advertising bearer.
-net-wireless/bluez:midi - Enable MIDI support
-net-wireless/bluez:obex - Enable OBEX transfer support
-net-wireless/bluez:test-programs - Install tools for testing of various Bluetooth functions
 sys-apps/accountsservice:elogind - Use sys-auth/elogind for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
 sys-apps/policycoreutils:audit - Enable support for sys-process/audit and use the audit_* functions (like audit_getuid instead of getuid())
-sys-apps/tcp-wrappers:netgroups - Support matching NIS (host) netgroup names via the @netgroup syntax (if you don't know what this means, you most likely do not need it)
 sys-apps/watchdog:nfs - enable support for checking nfs mounts
 sys-block/partimage:nologin - Do not include login support when connecting partimaged
 sys-devel/gdb:cet - Enable Intel Control-flow Enforcement Technology.
