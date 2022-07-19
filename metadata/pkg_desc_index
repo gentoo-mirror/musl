@@ -10,7 +10,6 @@ dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
 dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 dev-util/valgrind 3.16.1 3.17.0 9999: An open-source memory debugger for GNU/Linux
-media-libs/mesa 21.3.7: OpenGL-like graphic library for Linux
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-tv/kodi 19.4-r2: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
@@ -43,6 +42,5 @@ sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 sys-libs/tevent 0.10.2: Samba tevent library
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
-x11-base/xorg-server 1.20.11: X.Org X servers
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-wm/fluxbox 1.3.7-r4: X11 window manager featuring tabs and an iconbar
