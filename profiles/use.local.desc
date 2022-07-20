@@ -68,26 +68,6 @@ app-emulation/qemu:vte - Enable terminal support (x11-libs/vte) in the GTK+ inte
 app-emulation/qemu:xattr - Add support for getting and setting POSIX extended attributes, through sys-apps/attr. Requisite for the virtfs backend.
 app-emulation/qemu:xen - Enables support for Xen backends
 app-emulation/qemu:xfs - Support xfsctl() notification and syncing for XFS backed virtual disks.
-dev-java/icedtea:cacao - Use the CACAO virtual machine rather than HotSpot.
-dev-java/icedtea:cups - Link against the CUPS library at compile time, rather than using it dynamically at runtime.
-dev-java/icedtea:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
-dev-java/icedtea:jamvm - Use the JamVM virtual machine rather than HotSpot.
-dev-java/icedtea:jbootstrap - If possible, recompile the final IcedTea executables with itself.
-dev-java/icedtea:kerberos - Link against Kerberos in order to obtain the cache location.
-dev-java/icedtea:pax_kernel - Apply patch needed for pax enabled kernels.
-dev-java/icedtea:pch - Build using pre-compiled headers.
-dev-java/icedtea:sctp - Build the SCTP NIO channel implementation against lksctp
-dev-java/icedtea:shenandoah - Include the Shenandoah ultra-low pause time garbage collector (-XX:+UseShenandoahGC) (arm64 and x86_64 only)
-dev-java/icedtea:smartcard - Build the PCSC driver against pcsc-lite
-dev-java/icedtea:system-lcms - Build against the system LCMS installation rather than the in-tree copy.
-dev-java/icedtea:zero - Enable Zero assembler port (usually for non-HotSpot architectures)
-dev-java/icedtea-bin:headless-awt - Don't install the X backend for AWT, needed by some GUIs (used to be X flag)
-dev-java/openjdk:gentoo-vm - Allow this JDK to be recognised by Gentoo (package manager, eselect, java-config, EXPERIMENTAL!)
-dev-java/openjdk:headless-awt - Don't install the X backend for AWT, needed by some GUIs
-dev-java/openjdk:javafx - Import OpenJFX modules at build time, via dev-java/openjfx
-dev-java/openjdk:jbootstrap - Build OpenJDK twice, the second time using the result of the first
-dev-java/openjdk:source - Install JVM sources
-dev-java/openjdk:systemtap - Enable SystemTAP/DTrace tracing
 dev-lang/rust:clippy - Install clippy, Rust code linter
 dev-lang/rust:dist - Install dist tarballs (used for bootstrapping)
 dev-lang/rust:miri - Install miri, an interpreter for Rust's mid-level intermediate representation (requires USE=nightly, sometimes is broken)
