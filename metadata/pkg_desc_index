@@ -32,6 +32,5 @@ sys-fs/lvm2 2.02.188-r3: User-land utilities for LVM2 (device-mapper) software
 sys-fs/reiserfsprogs 3.6.27: Reiserfs Utilities
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
-x11-apps/sessreg 1.1.2: manage utmp/wtmp entries for non-init clients
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-wm/fluxbox 1.3.7-r4: X11 window manager featuring tabs and an iconbar
