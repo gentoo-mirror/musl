@@ -1,5 +1,5 @@
-app-emulation/libvirt 6.8.0-r2 7.0.0-r1: C toolkit to manipulate virtual machines
-app-emulation/qemu 6.0.0-r54: QEMU + Kernel-based Virtual Machine userland tools
+app-emulation/libvirt 6.8.0-r3 7.0.0-r2: C toolkit to manipulate virtual machines
+app-emulation/qemu 6.0.0-r55: QEMU + Kernel-based Virtual Machine userland tools
 dev-lang/rust 1.58.1 1.59.0 1.60.0: Systems programming language from Mozilla
 dev-python/pypy3-exe 7.3.0: PyPy3 executable (build from source)
 dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
@@ -10,7 +10,7 @@ media-tv/kodi 19.4-r2: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
 net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
-net-fs/nfs-utils 2.5.3-r1: NFS client and server daemons
+net-fs/nfs-utils 2.5.3-r2: NFS client and server daemons
 net-fs/samba 4.15.7: Samba Suite Version 4
 net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
 net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
@@ -19,7 +19,7 @@ sys-apps/fakeroot 1.20.2-r1 1.22: A fake root environment by means of LD_PRELOAD
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
-sys-apps/policycoreutils 3.1-r1: SELinux core utilities
+sys-apps/policycoreutils 3.1-r2: SELinux core utilities
 sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xdg-dbus-proxy 0.1.2: Filtering proxy for D-Bus connections
 sys-auth/elogind 246.9.2 246.10: The systemd project's logind, extracted to a standalone package
