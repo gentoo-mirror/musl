@@ -121,14 +121,14 @@ PATCHES=(
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-mallinfo.patch
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-mojo-strncpy.patch
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-resolv-compat.patch
-	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-hacks.patch
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-backtrace-execinfo.patch
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-pvalloc-patch.patch
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-linux-stack_util-stackstart.patch
+	"${FILESDIR}"/${PN}-5.15.5_p20220618-remove-decls-usage.patch
+	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-hacks-ii.patch
 	## runtime
 	"${FILESDIR}"/${PN}-5.15.5_p20220618-musl-sandbox.patch
-	"${FILESDIR}"/${PN}-5.15.5_p20220618-sandbox-syscall-x86_64.patch
-	# "${FILESDIR}"/nasm.patch
+	"${FILESDIR}"/${PN}-5.15.5_p20220618-remove-cdefs-includes.patch
 )
 
 qtwebengine_check-reqs() {
