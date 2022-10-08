@@ -6,7 +6,7 @@ dev-qt/qtwebengine 5.15.5_p20220618: Library for rendering dynamic web content i
 dev-util/dwarves 1.17-r2: pahole (Poke-a-Hole) and other DWARF2 utilities
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
-media-tv/kodi 19.4-r2: A free and open source media-player and entertainment hub
+media-tv/kodi 19.4-r4: A free and open source media-player and entertainment hub
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
 net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
