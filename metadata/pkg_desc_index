@@ -24,7 +24,6 @@ sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
 sys-apps/xdg-dbus-proxy 0.1.2: Filtering proxy for D-Bus connections
 sys-auth/elogind 246.9.2 246.10: The systemd project's logind, extracted to a standalone package
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
-sys-block/partimage 0.6.9-r1: Console-based application to efficiently save raw partition data to image file
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/gdb 10.1: GNU debugger
