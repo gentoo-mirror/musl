@@ -27,7 +27,6 @@ sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin p
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-devel/gdb 10.1: GNU debugger
 sys-fs/lvm2 2.02.188-r3: User-land utilities for LVM2 (device-mapper) software
-sys-fs/reiserfsprogs 3.6.27: Reiserfs Utilities
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
 x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
