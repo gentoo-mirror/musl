@@ -1,4 +1,3 @@
-app-emulation/libvirt 6.8.0-r3 7.0.0-r2: C toolkit to manipulate virtual machines
 app-emulation/qemu 6.0.0-r55: QEMU + Kernel-based Virtual Machine userland tools
 dev-lang/rust 1.60.0 1.62.1: Systems programming language from Mozilla
 dev-qt/qtwebengine 5.15.5_p20220618: Library for rendering dynamic web content in Qt5 C++ and QML applications
@@ -23,7 +22,6 @@ sys-auth/elogind 246.9.2 246.10: The systemd project's logind, extracted to a st
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-block/thin-provisioning-tools 0.7.0 0.7.5 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
-sys-devel/gdb 10.1: GNU debugger
 sys-fs/lvm2 2.02.188-r3: User-land utilities for LVM2 (device-mapper) software
 sys-fs/reiserfsprogs 3.6.27-r1: Reiserfs Utilities
 sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
