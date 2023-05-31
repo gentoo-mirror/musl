@@ -56,19 +56,6 @@ net-fs/nfs-utils:nfsidmap - Enable support for newer nfsidmap helper
 net-fs/nfs-utils:nfsv4 - Enable support for NFSv4
 net-fs/nfs-utils:nfsv41 - Enable support for NFSv4.1
 net-fs/nfs-utils:uuid - Support UUID lookups in rpc.mountd
-net-misc/connman:ethernet - Enable ethernet support.
-net-misc/connman:iptables - Use net-firewall/iptables as firewall.
-net-misc/connman:iwd - Enable wifi support via net-wireless/iwd
-net-misc/connman:l2tp - Use net-dialup/xl2tpd for L2TP VPN support.
-net-misc/connman:nftables - Use net-firewall/nftables as firewall.
-net-misc/connman:ofono - Use net-misc/ofono for telephony support.
-net-misc/connman:openconnect - Use net-vpn/openconnect for VPN support.
-net-misc/connman:openvpn - Use net-vpn/openvpn for openvpn support.
-net-misc/connman:pptp - Use net-dialup/pptpclient for PPTP VPN support.
-net-misc/connman:tools - Enable testing tools.
-net-misc/connman:vpnc - Use net-vpn/vpnc for cisco VPN support.
-net-misc/connman:wireguard - Enable WireGuard VPN support.
-net-misc/connman:wispr - Enable support for WISPr hotspot logins.
 sys-apps/accountsservice:elogind - Use sys-auth/elogind for session tracking
 sys-apps/accountsservice:systemd - Use sys-apps/systemd for session tracking
 sys-apps/watchdog:nfs - enable support for checking nfs mounts

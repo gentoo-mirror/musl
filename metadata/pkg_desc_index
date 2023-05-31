@@ -7,20 +7,16 @@ media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and v
 net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 2.5.3-r2: NFS client and server daemons
-net-libs/libnfsidmap 0.27-r1: NFSv4 ID <-> name mapping library
-net-misc/connman 1.35-r1 1.38 9999: Provides a daemon for managing internet connections
 sys-apps/accountsservice 22.08.8: D-Bus interfaces for querying and manipulating user account information
-sys-apps/fakeroot 1.20.2-r1 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
+sys-apps/fakeroot 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
-sys-apps/watchdog 5.14 5.15: A software watchdog and /dev/watchdog daemon
-sys-auth/elogind 246.9.2 246.10: The systemd project's logind, extracted to a standalone package
+sys-apps/watchdog 5.15: A software watchdog and /dev/watchdog daemon
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
 sys-block/thin-provisioning-tools 0.7.6: A suite of tools for thin provisioning on Linux
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-fs/reiserfsprogs 3.6.27-r1: Reiserfs Utilities
-sys-libs/efivar 30 31 32 32-r1: Tools and library to manipulate EFI variables
+sys-libs/efivar 32-r1: Tools and library to manipulate EFI variables
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
-x11-libs/libva-vdpau-driver 0.7.4-r5: VDPAU Backend for Video Acceleration (VA) API
 x11-wm/fluxbox 1.3.7-r4: X11 window manager featuring tabs and an iconbar
