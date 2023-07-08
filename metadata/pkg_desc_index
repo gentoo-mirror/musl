@@ -1,5 +1,5 @@
 dev-lang/rust 1.60.0 1.62.1: Systems programming language from Mozilla
-dev-qt/qtwebengine 5.15.5_p20220618: Library for rendering dynamic web content in Qt5 C++ and QML applications
+dev-qt/qtwebengine 5.15.9_p20230505 5.15.10_p20230505 6.5.1: Library for rendering dynamic web content in Qt6 C++ and QML applications
 dev-util/kbuild 0.1.9998_pre20131130-r1: A makefile framework for writing simple makefiles for complex tasks
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-tv/kodi 19.5: A free and open source media-player and entertainment hub
