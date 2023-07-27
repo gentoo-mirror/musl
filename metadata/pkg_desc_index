@@ -7,7 +7,7 @@ media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and v
 net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 net-fs/cifs-utils 6.7: Tools for Managing Linux CIFS Client Filesystems
 net-fs/nfs-utils 2.5.3-r2: NFS client and server daemons
-sys-apps/accountsservice 22.08.8: D-Bus interfaces for querying and manipulating user account information
+sys-apps/accountsservice 22.08.8 23.13.9: D-Bus interfaces for querying and manipulating user account information
 sys-apps/fakeroot 1.22: A fake root environment by means of LD_PRELOAD and SysV IPC (or TCP) trickery
 sys-apps/intel-sa-00075-tools 1.0: Tools from Intel to detect and mitigate the AMT/MEI vulnerability
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
