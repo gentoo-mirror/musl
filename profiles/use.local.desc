@@ -42,10 +42,6 @@ media-tv/kodi:udf - Enable UDF support. Required for playing blurays.
 media-tv/kodi:upower - Use sys-power/upower to get battery level and active power source
 media-tv/kodi:webserver - Enable internal webserver
 media-tv/kodi:xslt - Enable metadata XSLT scrapers support with dev-libs/libxslt
-net-fs/cifs-utils:ads - Enable Active Directory support and create cifs.idmap binary - idmap support
-net-fs/cifs-utils:caps - libcap support
-net-fs/cifs-utils:caps-ng - libcap-ng support
-net-fs/cifs-utils:creds - cifs credentials support
 net-fs/nfs-utils:junction - Enable NFS junction support in nfsref
 net-fs/nfs-utils:ldap - Add ldap support
 net-fs/nfs-utils:libmount - Link mount.nfs with libmount
