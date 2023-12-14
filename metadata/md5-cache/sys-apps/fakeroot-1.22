@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://debian/pool/main/f/fakeroot/fakeroot_1.22.orig.tar.bz2
-_eclasses_=eqawarn	c9847c43b3253a276ae2eabddedab3d7	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	b97a0a7215b2f463a485ff0599ab30bb
+_eclasses_=eqawarn	c9847c43b3253a276ae2eabddedab3d7	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	c816c598969cbaf38cc02d2496ad2e98
 _md5_=83f430fe63fe6a53352656d2f0c8a249
