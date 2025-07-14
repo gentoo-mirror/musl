@@ -10,5 +10,5 @@ LICENSE=GPL-2
 RDEPEND=sys-fs/mtools dev-perl/Crypt-PasswdMD5 dev-perl/Digest-SHA1
 SLOT=0
 SRC_URI=https://www.kernel.org/pub/linux/utils/boot/syslinux/Testing/6.04/syslinux-6.04-pre1.tar.xz
-_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
 _md5_=c88e139535800c0483da1ff569bf5d2a
