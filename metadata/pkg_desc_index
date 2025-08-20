@@ -1,4 +1,3 @@
-dev-lang/rust 1.60.0 1.62.1: Systems programming language from Mozilla
 dev-qt/qtwebengine 5.15.9_p20230505 5.15.10_p20230505 6.5.1: Library for rendering dynamic web content in Qt6 C++ and QML applications
 media-libs/zvbi 0.2.35-r2: VBI Decoding Library for Zapping
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
