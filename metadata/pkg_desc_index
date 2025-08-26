@@ -1,6 +1,5 @@
 dev-qt/qtwebengine 5.15.9_p20230505 5.15.10_p20230505 6.5.1: Library for rendering dynamic web content in Qt6 C++ and QML applications
 media-video/guvcview 2.0.6-r1: Simple Qt5 or GTK+3 interface for capturing and viewing video from v4l2 devices
-net-dialup/linux-atm 2.5.2-r1: Tools for ATM
 sys-apps/isapnptools 1.27: Tools for configuring ISA PnP devices
 sys-apps/iucode_tool 2.3.1-r1: tool to manipulate Intel X86 and X86-64 processor microcode update collections
 sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the local hostname
