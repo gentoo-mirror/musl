@@ -33,7 +33,3 @@ x11-apps/igt-gpu-tools:runner - Build the test runner
 x11-apps/igt-gpu-tools:tests - Enable tests
 x11-apps/igt-gpu-tools:valgrind - Support valgrind annotations
 x11-apps/igt-gpu-tools:xv - Enable intel-gpu-overlay xv backend
-x11-wm/fluxbox:bidi - Enable bidirectional language support with dev-libs/fribidi
-x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
-x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
-x11-wm/fluxbox:toolbar - Enables the Fluxbox toolbar

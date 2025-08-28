@@ -6,4 +6,3 @@ sys-auth/nss-myhostname 0.3-r1: Name Service Switch module for resolving the loc
 sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 sys-fs/reiserfsprogs 3.6.27-r1: Reiserfs Utilities
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
-x11-wm/fluxbox 1.3.7-r4: X11 window manager featuring tabs and an iconbar
