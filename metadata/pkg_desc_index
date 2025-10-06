@@ -1,2 +1,1 @@
-sys-boot/syslinux 6.04_pre1-r2: SYSLINUX, PXELINUX, ISOLINUX, EXTLINUX and MEMDISK bootloaders
 x11-apps/igt-gpu-tools 1.25: Intel GPU userland tools
